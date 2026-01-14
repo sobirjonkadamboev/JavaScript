@@ -21,8 +21,8 @@ console.log('Trim End: ', trashPass.trimEnd());
 const number = 19.8;
 const width = '243.6px';
 
-console.log(Math.round(number));
-console.log(Math.floor(number));
+console.log(Math.round(number)); //sonni butun qilib beradi
+console.log(Math.floor(number)); //eng yaqin sonni oladi
 console.log(parseInt(width)); //from string to the integer number
 console.log(parseFloat(width)); //from string to the closest number
 
