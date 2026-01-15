@@ -37,5 +37,5 @@ const person = {
 };
 
 for(let key in person){
-
+	
 }
