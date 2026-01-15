@@ -1,5 +1,7 @@
 let numberOfSeries;
 
+startApp();
+
 const seriesDB = {
 	count: numberOfSeries,
 	series: {},
@@ -8,7 +10,7 @@ const seriesDB = {
 	private: false,
 };
 
-startApp();
+
 favouriteSeries();
 detectLevel();
 writeGenres();
@@ -16,10 +18,8 @@ showDB(seriesDB.private);
 
 function startApp(){
 	numberOfSeries = +prompt('How many series you have watched?', '');
-	while (
-		numberOfSeries == '' || numberOfSeries == null || isNaN(numberOfSeries)
-	) {
-		numberOfSeries = +prompt('Nechta serial ko’rdingiz?', '')
+	while (numberOfSeries == '' || numberOfSeries == null || isNaN(numberOfSeries)) {
+		numberOfSeries = +prompt('How many series you have watched?', '')
 	}
 }
 
