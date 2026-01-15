@@ -11,16 +11,31 @@ const firstLog = () => {
 }
 
 greet();
-firstLog(); */
+firstLog(); 
 
 function greet(callback) {
 	console.log('Hi, students');
 	callback();
 
-}
+};
 
 function callback (){
 	console.log('Are you ready today?');
-}
+};
 
-greet(callback)
+greet(callback);  */
+
+
+const person = {
+	name: 'Sobirjon',
+	year: 2006,
+	job: 'Student',
+	hobbies: {
+		sport: 'Running', 
+		other: 'coding, and travel'
+}
+};
+
+for(let key in person){
+
+}
