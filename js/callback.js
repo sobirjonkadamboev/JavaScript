@@ -23,7 +23,7 @@ function callback (){
 	console.log('Are you ready today?');
 };
 
-greet(callback);  */
+greet(callback);  
 
 
 const person = {
@@ -36,6 +36,8 @@ const person = {
 }
 };
 
+console.log(Object.keys(person).length); // to print the length of an object keys
+
 for(let key in person){
 	console.log(key);
 };
@@ -44,10 +46,30 @@ for(let key in person){
 	if(typeof person[key] === 'object'){
 		for(let i in person[key]){
 			console.log(`Property: ${i}, Value: ${person[key][i]}`);
-			
+		
 		}
 	}else {
 		console.log(`Property: ${key}, Value: ${person[key]}`);
 	}
 	
 };
+
+//for in - only for objects
+//for of - only for arrays
+
+*/
+
+const person = {
+	name: 'Sobirjon',
+	year: 2006,
+	job: 'Student',
+	hobbies: {
+		sport: 'Running', 
+		other: 'coding, and travel'
+	},
+	sayHello: function() {
+		console.log(`Hi, world and ${this.name}`);
+	}
+};
+console.log(person);
+person.sayHello();
