@@ -37,5 +37,17 @@ const person = {
 };
 
 for(let key in person){
+	console.log(key);
+};
+
+for(let key in person){
+	if(typeof person[key] === 'object'){
+		for(let i in person[key]){
+			console.log(`Property: ${i}, Value: ${person[key][i]}`);
+			
+		}
+	}else {
+		console.log(`Property: ${key}, Value: ${person[key]}`);
+	}
 	
-}
+};
