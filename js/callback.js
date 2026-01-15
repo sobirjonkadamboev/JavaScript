@@ -1,7 +1,9 @@
 // callback is a function passed as an argument to another function.
 
 const greet = () => {
-	console.log(1);
+	setTimeout(function (){
+		console.log(1);
+	}, 500)
 }
 
 const firstLog = () => {
