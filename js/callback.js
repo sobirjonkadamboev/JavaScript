@@ -12,3 +12,7 @@ const firstLog = () => {
 
 greet();
 firstLog(); */
+
+function greet(callback) {
+	
+}
