@@ -14,5 +14,11 @@ greet();
 firstLog(); */
 
 function greet(callback) {
+	console.log('Hi, students');
+	callback();
 	
 }
+
+greet(function (){
+	console.log('Are you ready today?');
+});
