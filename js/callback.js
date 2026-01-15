@@ -68,8 +68,14 @@ const person = {
 		other: 'coding, and travel'
 	},
 	sayHello: function() {
-		console.log(`Hi, world and ${this.name}`);
+		console.log(`Hi, world`);
 	}
 };
 console.log(person);
 person.sayHello();
+
+const { name, job, year, sayHello, hobbies } = person;
+console.log(job);
+console.log(hobbies);
+
+
