@@ -16,9 +16,11 @@ firstLog(); */
 function greet(callback) {
 	console.log('Hi, students');
 	callback();
-	
+
 }
 
-greet(function (){
+function callback (){
 	console.log('Are you ready today?');
-});
+}
+
+greet(callback)
