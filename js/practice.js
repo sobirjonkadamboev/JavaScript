@@ -1,13 +1,15 @@
-let numberOfSeries;
-
-startApp();
-
 const seriesDB = {
-	count: numberOfSeries,
+	count: 0,
 	series: {},
 	actors: {},
 	genres: [],
 	private: false,
+	start: function () {
+		seriesDB.numberOfSeries = +prompt('How many series you have watched?', '');
+		while (numberOfSeries == '' || numberOfSeries == null || isNaN(numberOfSeries)) {
+		numberOfSeries = +prompt('How many series you have watched?', '')
+	}
+	}
 };
 
 
@@ -17,10 +19,7 @@ writeGenres();
 showDB(seriesDB.private);
 
 function startApp(){
-	numberOfSeries = +prompt('How many series you have watched?', '');
-	while (numberOfSeries == '' || numberOfSeries == null || isNaN(numberOfSeries)) {
-		numberOfSeries = +prompt('How many series you have watched?', '')
-	}
+	
 }
 
 function favouriteSeries(){
@@ -61,6 +60,7 @@ function showDB(isPrivate){
 		console.log('Secret Data');
 	}
 }
+
 
 
 
