@@ -1,5 +1,7 @@
+let numberOfSeries;
+
 const seriesDB = {
-	count: 0,
+	count: numberOfSeries,
 	series: {},
 	actors: {},
 	genres: [],
