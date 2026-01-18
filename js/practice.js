@@ -1,15 +1,14 @@
-let numberOfSeries;
-
 const seriesDB = {
-	count: numberOfSeries,
+	count: 0,
 	series: {},
 	actors: {},
 	genres: [],
 	private: false,
 	start: function () {
-		seriesDB.numberOfSeries = +prompt('How many series you have watched?', '');
-		while (numberOfSeries == '' || numberOfSeries == null || isNaN(numberOfSeries)) {
-		numberOfSeries = +prompt('How many series you have watched?', '')
+		seriesDB.count = +prompt('How many series you have watched?', '');
+
+		while (seriesDB.count == '' || seriesDB.count == null || isNaN(seriesDB.count)) {
+		seriesDB.count = +prompt('How many series you have watched?', '')
 	}
 	},
 	favSeries: function () {
@@ -23,49 +22,45 @@ const seriesDB = {
 		i--
 	}
 }
-}
+},
+  detectLevel: function () {
+		if(seriesDB.count < 5){
+			console.log('You watched least series');
+		} else if(seriesDB.count >=5 && seriesDB.count < 10){
+			console.log('You are a classic fan');
+		} else if(seriesDB.count >= 10){
+			console.log('You are a famous fan now');
+		}
+	},
+	visibleDB: function () {
+		if(seriesDB.private){
+			seriesDB.private = false
+		} else{
+			seriesDB.private = true
+		}
+	},
+	showDB: function () {
+		if(!isPrivate){
+		console.log(seriesDB);
+	} else{
+		console.log('Secret Data');
+	}
+	},
+	writeGenres: function (){
+		for(let i = 0; i < 3; i++){
+		const genre = prompt(`What's your Favorite genre ${i + 1}?`, '');
+		if(genre === '' || genre === null){
+			i--
+		} else {
+			seriesDB.genres[i] = genre;
+		}
+		
+	}
+	}
 };
 
 seriesDB.start();
 seriesDB.favSeries();
-
-
-
-favouriteSeries();
-detectLevel();
-writeGenres();
-showDB(seriesDB.private);
-
-
-
-
-function detectLevel(){
-	if(seriesDB.count < 5){
-	console.log('You havent watched a lot');
-} else if(seriesDB.count >= 5 && seriesDB.count < 10){
-	console.log('You are a classic fan');
-} else if(seriesDB.count >= 10){
-	console.log('You are actually a FAN!');
-}
-}
-
-function writeGenres(){
-	for(let i = 0; i < 3; i++){
-		const genre = prompt(`Yaxshi korgan janringiz ${i + 1}?`, '');
-		seriesDB.genres[i] = genre;
-	}
-}
-
-function showDB(isPrivate){
-	if(!isPrivate){
-		console.log(seriesDB);
-	}
-	else{
-		console.log('Secret Data');
-	}
-}
-
-
 
 
 
