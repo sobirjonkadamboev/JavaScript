@@ -9,21 +9,9 @@ const seriesDB = {
 		while (numberOfSeries == '' || numberOfSeries == null || isNaN(numberOfSeries)) {
 		numberOfSeries = +prompt('How many series you have watched?', '')
 	}
-	}
-};
-
-
-favouriteSeries();
-detectLevel();
-writeGenres();
-showDB(seriesDB.private);
-
-function startApp(){
-	
-}
-
-function favouriteSeries(){
-	for(let i = 0; i < 2; i++){
+	},
+	favSeries: function () {
+		for(let i = 0; i < 2; i++){
 	const a = prompt('The last one you have watched?', '');
 	const b = +prompt('Can you rate', '');
 	if(a !== null && b !== null && a !== '' && b !== ''){
@@ -34,6 +22,20 @@ function favouriteSeries(){
 	}
 }
 }
+};
+
+seriesDB.start();
+seriesDB.favSeries();
+
+
+
+favouriteSeries();
+detectLevel();
+writeGenres();
+showDB(seriesDB.private);
+
+
+
 
 function detectLevel(){
 	if(seriesDB.count < 5){
