@@ -47,7 +47,7 @@ const seriesDB = {
 	}
 	},
 	writeGenres: function (){
-		for(let i = 0; i < 3; i++){
+		/* for(let i = 0; i < 3; i++){
 		const genre = prompt(`What's your Favorite genre ${i + 1}?`, '');
 		if(genre === '' || genre === null){
 			i--
@@ -55,8 +55,18 @@ const seriesDB = {
 			seriesDB.genres[i] = genre;
 		}
 		
+	} */
+		
+		
+		let genres = prompt('Write your favorite genre', '');
+		console.log(genres);
+		if(genres === '' || genres === null){
+			genres = prompt('Write your favorite genre', '');
+		}else {
+			seriesDB.genres = genres.split(', ');
+		}
 	}
-	}
+
 };
 
 seriesDB.start();
