@@ -40,29 +40,22 @@ const seriesDB = {
 		}
 	},
 	showDB: function () {
-		if(!isPrivate){
+		if(!seriesDB.private){
 		console.log(seriesDB);
 	} else{
 		console.log('Secret Data');
 	}
 	},
 	writeGenres: function (){
-		/* for(let i = 0; i < 3; i++){
-		const genre = prompt(`What's your Favorite genre ${i + 1}?`, '');
-		if(genre === '' || genre === null){
-			i--
-		} else {
-			seriesDB.genres[i] = genre;
-		}
-		
-	} */
-		
-		
 		let genres = prompt('Write your favorite genre', '');
-		console.log(genres);
+		console.log(genres.split(', '));
+
+		while (genres == '' || genres == null) {
+		seriesDB.count = +prompt('How many series you have watched?', '')
+	  }
 		if(genres === '' || genres === null){
 			genres = prompt('Write your favorite genre', '');
-		}else {
+		} else {
 			seriesDB.genres = genres.split(', ');
 		}
 	}
