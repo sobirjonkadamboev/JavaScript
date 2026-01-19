@@ -64,6 +64,9 @@ const seriesDB = {
 seriesDB.start();
 seriesDB.favSeries();
 
+const movie = Object.create(seriesDB);
+console.log(movie);
+
 
 
 
