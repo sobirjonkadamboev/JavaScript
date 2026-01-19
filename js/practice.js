@@ -51,12 +51,11 @@ const seriesDB = {
 		console.log(genres.split(', '));
 
 		while (genres == '' || genres == null) {
-		seriesDB.count = +prompt('How many series you have watched?', '')
-	  }
-		if(genres === '' || genres === null){
 			genres = prompt('Write your favorite genre', '');
-		} else {
+	  }
+		if(genres){
 			seriesDB.genres = genres.split(', ');
+			seriesDB.genres.sort();
 		}
 	}
 
