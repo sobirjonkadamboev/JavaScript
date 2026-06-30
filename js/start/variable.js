@@ -8,3 +8,7 @@ console.log(age)
 console.log(Age)
 
 const name = 'Sobirjon' //you can't change 'const' variable without objects
+
+//Old syntexix
+var mySurname = 'Kadamboev'
+console.log(mySurname)
