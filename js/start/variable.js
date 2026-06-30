@@ -1,12 +1,13 @@
 //comment in JS
 //let, const - types of variables
 
-let age = 19 //you can change 'let' variable
+let age1 = 19 //you can change 'let' variable
 let Age
 Age = 21
 age = 20
 console.log(age)
 console.log(Age)
+console.log(`You were ${age} before, now ${age}`)
 
 const name = 'Sobirjon' //you can't change 'const' variable without objects
 
