@@ -3,7 +3,8 @@
 
 let age1 = 19 //you can change 'let' variable
 let Age
-Age = 21
+Age = 22
+
 age = 20
 console.log(age)
 console.log(Age)
