@@ -7,4 +7,4 @@ age = 20
 console.log(age)
 console.log(Age)
 
-const name = 'Sobirjon' //you can't change 'const' variable without specific task
+const name = 'Sobirjon' //you can't change 'const' variable without objects
