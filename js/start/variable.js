@@ -4,4 +4,7 @@
 let age = 20
 console.log(age)
 
+age = 23
+console.log(age)
+
 const name = 'Sobirjon'
