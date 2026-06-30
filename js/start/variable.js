@@ -2,7 +2,8 @@
 //let, const - types of variables
 
 let age = 19 //you can change 'let' variable
-let Age = 21
+let Age
+
 age = 20
 console.log(age)
 console.log(Age)
