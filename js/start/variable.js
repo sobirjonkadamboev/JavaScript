@@ -3,4 +3,3 @@
 
 let age = 20
 const name = 'Sobirjon'
-s
