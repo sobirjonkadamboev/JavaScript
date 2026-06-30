@@ -7,7 +7,7 @@ Age = 21
 age = 20
 console.log(age)
 console.log(Age)
-console.log(`You were ${age1} before, now ${age}`)
+console.log(`You were ${age1} before, now ${age}, and you will be ${Age}`)
 
 const name = 'Sobirjon' //you can't change 'const' variable without objects
 
