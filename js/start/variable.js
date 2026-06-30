@@ -2,4 +2,6 @@
 //let, const - types of variables
 
 let age = 20
+console.log(age)
+
 const name = 'Sobirjon'
