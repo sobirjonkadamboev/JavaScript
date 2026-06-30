@@ -1,10 +1,10 @@
 //comment in JS
 //let, const - types of variables
 
-let age = 20
+let age = 19
 console.log(age)
 
-age = 23
+age = 20
 console.log(age)
 
 const name = 'Sobirjon'
