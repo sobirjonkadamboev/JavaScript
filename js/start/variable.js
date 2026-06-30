@@ -9,6 +9,6 @@ console.log(Age)
 
 const name = 'Sobirjon' //you can't change 'const' variable without objects
 
-//Old syntexix
+//Old syntax
 var mySurname = 'Kadamboev' //you can use console.log before var, global variable
 console.log(mySurname)
