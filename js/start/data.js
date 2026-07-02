@@ -34,4 +34,8 @@ console.log(next)
 
 //8.Object - Complex Data Type
 
+const sobirjon = {
+	name: 'Sobirjon',
+}
+
 //Array, Functions, Object, Errors...
