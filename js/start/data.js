@@ -7,7 +7,10 @@ let number = 21
 console.log(typeof age, typeof number)
 
 //2.String
+const string = '22'
+let letter = 'S'
 
+console.log(string)
 //3.Boolean
 
 //4.Null
