@@ -4,7 +4,7 @@
 const age = 20
 let number = 21
 
-console.log(typeof age, number)
+console.log(typeof age, typeof number)
 
 //2.String
 
