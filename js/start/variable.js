@@ -12,5 +12,5 @@ console.log(`You were ${age1} before, now ${age}, and you will be ${Age}`)
 const name = 'Sobirjon' //you can't change 'const' variable without objects
 
 //Old syntax
-var mySurname = 'Kadamboev' //you can use console.log before var, global variable
+var mySurname = 'Kadamboev' //you can use console.log before var, and it's a global variable
 console.log(mySurname)
