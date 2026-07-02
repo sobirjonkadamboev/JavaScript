@@ -38,6 +38,11 @@ const sobirjon = {
 	name: 'Sobirjon',
 	ageNow: 19,
 	level: 'advanced',
+	hobbies: {
+		one: 'Running',
+		two: 'Coding',
+		three: 'Sleep',
+	},
 }
 
 //Array, Functions, Object, Errors...
