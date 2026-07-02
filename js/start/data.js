@@ -24,6 +24,9 @@ console.log(typeof isMarried)
 console.log(null1)
 
 //5.Undefined
+let next
+
+console.log(next)
 
 //6.BigInt
 
