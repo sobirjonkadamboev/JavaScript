@@ -33,3 +33,5 @@ console.log(next)
 //7.Symbol
 
 //8.Object - Complex Data Type
+
+//Array, Functions, Object, Errors
