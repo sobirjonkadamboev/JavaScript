@@ -21,7 +21,7 @@ console.log(typeof isMarried)
 
 //4.Null
 
-console.log(typeof null1)
+console.log(null1)
 
 //5.Undefined
 
