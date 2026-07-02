@@ -45,6 +45,8 @@ const sobirjon = {
 	},
 }
 
+console.log(sobirjon.hobbies)
+
 //Array
 
 const movies = ['Shawshank Redemption', 'The Notebook', 'Forrest Gump']
