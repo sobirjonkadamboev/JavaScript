@@ -14,8 +14,10 @@ console.log(typeof string)
 
 //3.Boolean
 let isEnrolled = true
+const isMarried = false
 
 console.log(isEnrolled)
+console.log(typeof isMarried)
 
 //4.Null
 
