@@ -52,6 +52,6 @@ console.log(sobirjon.hobbies)
 const movies = ['Shawshank Redemption', 'The Notebook', 'Forrest Gump']
 let clubs = ['Real Madrid', 'Barcelona', 'Manchester City']
 console.log(typeof clubs)
-console.log(clubs)
+console.log(clubs[2])
 
 //Array, Functions, Object, Errors...
