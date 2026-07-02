@@ -21,6 +21,8 @@ console.log(typeof isMarried)
 
 //4.Null
 
+console.log(typeof null)
+
 //5.Undefined
 
 //6.BigInt
