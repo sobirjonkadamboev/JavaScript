@@ -36,6 +36,8 @@ console.log(next)
 
 const sobirjon = {
 	name: 'Sobirjon',
+	ageNow: 19,
+	level: 'advanced',
 }
 
 //Array, Functions, Object, Errors...
