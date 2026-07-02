@@ -48,5 +48,5 @@ const sobirjon = {
 //Array
 
 const movies = ['Shawshank Redemption', 'The Notebook', 'Forrest Gump']
-let clubs = ['Real Mad']
+let clubs = ['Real Madrid', 'Barcelona', 'Manchester City']
 //Array, Functions, Object, Errors...
