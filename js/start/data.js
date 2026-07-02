@@ -11,7 +11,11 @@ const string = '22'
 let letter = 'S'
 
 console.log(typeof string)
+
 //3.Boolean
+let isEnrolled = true
+
+console.log(isEnrolled)
 
 //4.Null
 
