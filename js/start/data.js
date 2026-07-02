@@ -45,4 +45,7 @@ const sobirjon = {
 	},
 }
 
+//Array
+
+const movies = ['Shawshank Redemption', 'The Notebook', 'Forrest Gump']
 //Array, Functions, Object, Errors...
