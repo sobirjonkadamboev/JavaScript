@@ -49,5 +49,6 @@ const sobirjon = {
 
 const movies = ['Shawshank Redemption', 'The Notebook', 'Forrest Gump']
 let clubs = ['Real Madrid', 'Barcelona', 'Manchester City']
+console.log(typeof clubs)
 
 //Array, Functions, Object, Errors...
