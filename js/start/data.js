@@ -10,7 +10,7 @@ console.log(typeof age, typeof number)
 const string = '22'
 let letter = 'S'
 
-console.log(string)
+console.log(typeof string)
 //3.Boolean
 
 //4.Null
