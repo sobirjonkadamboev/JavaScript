@@ -34,4 +34,4 @@ console.log(next)
 
 //8.Object - Complex Data Type
 
-//Array, Functions, Object, Errors
+//Array, Functions, Object, Errors...
