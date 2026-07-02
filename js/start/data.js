@@ -54,4 +54,4 @@ let clubs = ['Real Madrid', 'Barcelona', 'Manchester City']
 console.log(typeof clubs)
 console.log(clubs[2])
 
-//Array, Functions, Object, Errors...
+//Array, Functions, Object, Errors... - All Object Data Types
