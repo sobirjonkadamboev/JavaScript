@@ -15,4 +15,16 @@ const age = 19
 
 //My full name is fName, lName, and I'm age years old
 
-console.log(''M)
+console.log(
+	'My name is' +
+		' ' +
+		fName +
+		' ' +
+		lName +
+		' ,' +
+		'and I am' +
+		' ' +
+		age +
+		' ' +
+		'years old',
+)
