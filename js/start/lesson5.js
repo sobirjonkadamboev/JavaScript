@@ -7,7 +7,7 @@ const age = +prompt('Your Age?', '') //put + for number datatype //NaN - not a n
 console.log(typeof age)
 */
 
-//Interpolation in JS
+/* Interpolation in JS
 
 const fName = prompt('Your Name?')
 const lName = prompt('Your Surname?')
@@ -15,4 +15,11 @@ const mAge = +prompt('Your Age?')
 
 //My full name is fName, lName, and I'm age years old
 
-console.log(`My full name is ${fName} ${lName}, I'm ${mAge} years old`)
+console.log(`My full name is ${fName} ${lName}, I'm ${mAge} years old`) */
+
+//Operators
+
+const x = 5
+const y = 4
+
+console.log(x + y)
