@@ -20,7 +20,7 @@ console.log(
 		fName +
 		' ' +
 		lName +
-		' ,' +
+		',' +
 		'and I am' +
 		' ' +
 		mAge +
