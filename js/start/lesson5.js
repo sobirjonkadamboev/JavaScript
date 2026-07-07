@@ -8,9 +8,9 @@ console.log(typeof age)
 
 //Interpolation in JS
 
-const fName = 'Sobirjon'
-const lName = 'Kadamboev'
-const mAge = 19
+const fName = prompt('Your Name?')
+const lName = prompt('Your Surname?')
+const mAge = +prompt('Your Age?')
 
 //My full name is fName, lName, and I'm age years old
 
