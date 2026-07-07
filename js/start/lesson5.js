@@ -1,3 +1,3 @@
 //alert('Alert Message')
 
-confirm('Are you human?')
+const isAccess = confirm('Are you human?')
