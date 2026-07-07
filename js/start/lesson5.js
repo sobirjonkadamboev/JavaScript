@@ -50,7 +50,7 @@ console.log(d)
 
 //&& - and, || - or
 
-const isAccess = false
+const isAccess = true
 const isEnrolled = false
 
 console.log(isAccess && isEnrolled)
