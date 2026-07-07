@@ -24,7 +24,7 @@ console.log(
 		' ,' +
 		'and I am' +
 		' ' +
-		mAgeage +
+		mAge +
 		' ' +
 		'years old',
 )
