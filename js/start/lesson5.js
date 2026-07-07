@@ -19,8 +19,8 @@ console.log(`My full name is ${fName} ${lName}, I'm ${mAge} years old`) */
 
 //Operators
 
-const x = 5
-const y = 4
+const x = 10
+const y = 2
 
 console.log(x + y)
 console.log(x - y)
