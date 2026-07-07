@@ -21,6 +21,7 @@ console.log(
 		' ' +
 		lName +
 		',' +
+		' ' +
 		'and I am' +
 		' ' +
 		mAge +
