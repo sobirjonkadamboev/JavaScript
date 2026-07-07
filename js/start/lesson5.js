@@ -43,7 +43,7 @@ d--
 --d
 
 console.log(z++) //In postfix, you can't use to print +1, or -1
-console.log(d--)
+console.log(--d) //In prefix, you can use it to increment or decrement
 
 console.log(z)
 console.log(d)
