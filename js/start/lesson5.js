@@ -28,5 +28,15 @@ console.log(x * y)
 console.log(x / y)
 console.log(x % y) //qoldiq uchun
 
-//Increment: +
-//Decrement: -
+//Increment: ++
+//Decrement: --
+
+let z = 5
+let d = 6
+
+z++
+d--
+
+console.log(z)
+
+console.log(d)
