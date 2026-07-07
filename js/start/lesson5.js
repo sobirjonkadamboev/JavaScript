@@ -52,3 +52,5 @@ console.log(d)
 
 const isAccess = false
 const isEnrolled = false
+
+console.log(isAccess && isEnrolled)
