@@ -49,3 +49,5 @@ console.log(z)
 console.log(d)
 
 //&& - and, || - or
+
+const isAccess = false
