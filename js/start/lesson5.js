@@ -11,7 +11,7 @@ console.log(typeof age)
 
 const fName = 'Sobirjon'
 const lName = 'Kadamboev'
-const age = 19
+const mAge = 19
 
 //My full name is fName, lName, and I'm age years old
 
