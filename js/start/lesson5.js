@@ -47,3 +47,5 @@ console.log(--d) //In prefix, you can use the increment or decrement
 
 console.log(z)
 console.log(d)
+
+//&& - and, || - or
