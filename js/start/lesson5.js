@@ -15,4 +15,4 @@ const mAge = +prompt('Your Age?')
 
 //My full name is fName, lName, and I'm age years old
 
-console.log(`My full name is ${fName} ${lName}`)
+console.log(`My full name is ${fName} ${lName}, I'm ${mAge} years old`)
