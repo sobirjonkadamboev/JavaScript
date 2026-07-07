@@ -51,3 +51,4 @@ console.log(d)
 //&& - and, || - or
 
 const isAccess = false
+const isEnrolled = false
