@@ -38,5 +38,4 @@ z++
 d--
 
 console.log(z)
-
 console.log(d)
