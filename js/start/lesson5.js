@@ -34,8 +34,13 @@ console.log(x % y) //qoldiq uchun
 let z = 5
 let d = 6
 
+//Postfix
 z++
 d--
+
+//Prefix
+++z
+--d
 
 console.log(z)
 console.log(d)
