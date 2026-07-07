@@ -11,3 +11,4 @@ console.log(typeof age)
 
 const fName = 'Sobirjon'
 const lName = 'Kadamboev'
+const age = 19
