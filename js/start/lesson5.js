@@ -48,7 +48,8 @@ console.log(--d) //In prefix, you can use the increment or decrement
 console.log(z)
 console.log(d)
 
-//&& - and, || - or
+//&& - and, returns true when all are true
+// || - or, returns true when only one is true
 
 const isAccess = true
 const isEnrolled = false
