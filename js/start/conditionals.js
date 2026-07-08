@@ -1,6 +1,6 @@
 //if, else if, else
 
-const trafficLight = 'red'
+const trafficLight = 'green'
 
 if (trafficLight == 'red') {
 	console.log('Stop!')
