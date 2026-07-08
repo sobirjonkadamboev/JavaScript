@@ -1,5 +1,5 @@
 const numberOfSeries = +prompt('Nechta serial kordingiz?', ' ')
-let seriesDB = {
+const seriesDB = {
 	count: numberOfSeries,
 	series: {},
 	actors: {},
