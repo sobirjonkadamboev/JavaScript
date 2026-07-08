@@ -9,3 +9,5 @@ let seriesDB = {
 
 let a = prompt('Oxirgi korgan serialingiz')
 let b = +prompt('Nechi baxo berasiz?', ' ')
+
+seriesDB.series[a] = b
