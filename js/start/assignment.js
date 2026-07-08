@@ -1,4 +1,4 @@
-let numberOfSeries = +prompt('Nechta serial kordingiz?', ' ')
+const numberOfSeries = +prompt('Nechta serial kordingiz?', ' ')
 let seriesDB = {
 	count: numberOfSeries,
 	series: {},
