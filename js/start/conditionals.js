@@ -6,6 +6,6 @@ if (trafficLight == 'red') {
 	console.log('Stop!')
 } else if (trafficLight == 'yellow') {
 	console.log('Prepare!')
-} else {
+} else if{
 	console.log()
 }
