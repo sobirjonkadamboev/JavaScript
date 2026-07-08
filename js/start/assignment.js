@@ -14,5 +14,6 @@ const c = prompt('Oxirgi korgan serialingiz', '')
 const d = +prompt('Nechi baxo berasiz?', '')
 
 seriesDB.series[a] = b
+seriesDB.series[c] = d
 
 console.log(seriesDB)
