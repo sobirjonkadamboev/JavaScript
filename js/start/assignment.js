@@ -12,4 +12,4 @@ let b = +prompt('Nechi baxo berasiz?', ' ')
 
 seriesDB.series[a] = b
 
-console.log(seriesDB.series)
+console.log(seriesDB)
