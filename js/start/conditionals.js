@@ -11,3 +11,5 @@ if (trafficLight == 'red') {
 }
 
 const age = +prompt('Your Age?', '')
+if (age < 18) {
+}
