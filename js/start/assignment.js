@@ -6,3 +6,6 @@ let seriesDB = {
 	genres: [],
 	private: false,
 }
+
+let a = prompt('Oxirgi korgan serialingiz')
+let b = +prompt('Nechi baxo berasiz?')
