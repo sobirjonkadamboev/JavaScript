@@ -9,3 +9,5 @@ if (trafficLight == 'red') {
 } else if (trafficLight == 'green') {
 	console.log('Go!')
 }
+
+const age = +prompt('Your Age?', '')
