@@ -13,4 +13,5 @@ if (trafficLight == 'red') {
 const age = +prompt('Your Age?', '')
 if (age < 18) {
 	console.log('No Access!')
+} else {
 }
