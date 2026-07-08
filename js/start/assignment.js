@@ -7,8 +7,8 @@ const seriesDB = {
 	private: false,
 }
 
-let a = prompt('Oxirgi korgan serialingiz', '')
-let b = +prompt('Nechi baxo berasiz?', '')
+const a = prompt('Oxirgi korgan serialingiz', '')
+const b = +prompt('Nechi baxo berasiz?', '')
 
 seriesDB.series[a] = b
 
