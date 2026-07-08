@@ -3,5 +3,5 @@
 const trafficLight = 'red'
 
 if (trafficLight == 'red') {
-	console.log('')
+	console.log('Stop!')
 }
