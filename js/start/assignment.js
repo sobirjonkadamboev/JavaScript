@@ -3,4 +3,5 @@ let seriesDB = {
 	count: numberOfSeries,
 	series: {},
 	actors: {},
+	genres: [],
 }
