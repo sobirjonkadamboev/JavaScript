@@ -7,5 +7,5 @@ if (trafficLight == 'red') {
 } else if (trafficLight == 'yellow') {
 	console.log('Prepare!')
 } else {
-	console.log
+	console.log()
 }
