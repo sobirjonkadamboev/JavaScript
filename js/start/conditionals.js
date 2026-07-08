@@ -4,4 +4,6 @@ const trafficLight = 'red'
 
 if (trafficLight == 'red') {
 	console.log('Stop!')
+} else if (trafficLight == 'yellow') {
+	console.log('Prepare!')
 }
