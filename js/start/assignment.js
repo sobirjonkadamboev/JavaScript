@@ -4,4 +4,5 @@ let seriesDB = {
 	series: {},
 	actors: {},
 	genres: [],
+	private: false,
 }
