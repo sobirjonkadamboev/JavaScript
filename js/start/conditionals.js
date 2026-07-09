@@ -31,10 +31,8 @@ if (trafficLight == 'red') {
 	console.log('Go!')
 }
 
-
-switch(trafficLight){
+switch (trafficLight) {
 	case 'green':
-		console.log(Go!);
+		console.log('Go!')
 		break
-		
 }
