@@ -37,4 +37,7 @@ switch (trafficLight) {
 		break
 	case 'read':
 		console.log('Be prepared!')
+		break
+	case 'yellow':
+		console.log('Prepare!')
 }
