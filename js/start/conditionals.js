@@ -1,4 +1,4 @@
-//if, else if, else
+/* if, else if, else
 
 const trafficLight = 'green'
 
@@ -15,4 +15,8 @@ if (age <= 18) {
 	console.log('No Access!')
 } else {
 	console.log('Access')
-}
+} */
+
+const age = 20
+
+console.log(age == 18)
