@@ -20,3 +20,13 @@ if (age <= 18) {
 const age = 20
 
 console.log(age === '20') //qat'iy tekshiruv
+
+const trafficLight = 'green'
+
+if (trafficLight == 'red') {
+	console.log('Stop!')
+} else if (trafficLight == 'yellow') {
+	console.log('Prepare!')
+} else if (trafficLight == 'green') {
+	console.log('Go!')
+}
