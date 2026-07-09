@@ -30,3 +30,11 @@ if (trafficLight == 'red') {
 } else if (trafficLight == 'green') {
 	console.log('Go!')
 }
+
+
+switch(trafficLight){
+	case 'green':
+		console.log(Go!);
+		break
+		
+}
