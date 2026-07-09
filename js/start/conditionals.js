@@ -19,4 +19,4 @@ if (age <= 18) {
 
 const age = 20
 
-console.log(age == 18)
+console.log(age == 20)
