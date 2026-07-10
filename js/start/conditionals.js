@@ -57,3 +57,9 @@ do {
 	console.log(number)
 	number++
 } while (number < 5) */
+
+let number = 1
+
+for (number, number <= 5, number++) {
+	console.log(number)
+}
