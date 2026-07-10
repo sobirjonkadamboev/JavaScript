@@ -60,6 +60,6 @@ do {
 
 let number = 1
 
-for (number, number <= 5, number++) {
+for (number; number <= 5; number++) {
 	console.log(number)
 }
