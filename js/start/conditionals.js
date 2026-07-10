@@ -61,5 +61,8 @@ do {
 let number = 1
 
 for (number; number <= 5; number++) {
-	if(number === 2)
+	if (number === 2) {
+		break
+	}
+	console.log(number)
 }
