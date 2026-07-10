@@ -69,6 +69,6 @@ for (number; number <= 5; number++) {
 
 //Ternary Operators
 
-const age = 30
+const age1 = 30
 
 age < 30 ? console.log('No Access!') : console.log('Access')
