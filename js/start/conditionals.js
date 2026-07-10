@@ -47,4 +47,7 @@ switch (trafficLight) {
 
 //for, while, do while
 
-while (1 < 5) {}
+const number = 1
+while (number < 5) {
+	console.log(number)
+}
