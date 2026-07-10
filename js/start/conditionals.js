@@ -40,4 +40,7 @@ switch (trafficLight) {
 		break
 	case 'yellow':
 		console.log('Prepare!')
+		break
+	default:
+		console.log('Just run away!')
 }
