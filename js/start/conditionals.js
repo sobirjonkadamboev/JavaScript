@@ -71,4 +71,4 @@ for (number; number <= 5; number++) {
 
 const age = 30
 
-age < 30 ? console.log('No Access!')
+age < 30 ? console.log('No Access!') : console.log('Access')
