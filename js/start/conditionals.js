@@ -52,3 +52,9 @@ while (number <= 5) {
 	console.log(number)
 	number++
 }
+
+
+do{
+	console.log(number);
+	number++
+}
