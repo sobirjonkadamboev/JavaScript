@@ -44,3 +44,7 @@ switch (trafficLight) {
 	default:
 		console.log('Just run away!')
 }
+
+//for, while, do while
+
+while (1 < 5) {}
