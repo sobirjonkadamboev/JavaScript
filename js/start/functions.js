@@ -30,8 +30,8 @@ world()
 
 //Arrow Functions
 
-const callculate = () => {
-	console.log('Calculate')
+const callculate = (a, b) => {
+	console.log(a + b)
 }
 
 callculate(1, 33)
