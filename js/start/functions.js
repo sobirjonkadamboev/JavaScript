@@ -16,8 +16,8 @@ userGreet('Any Name Here')
 console.log(age)
 
 function calc(a, b) {
-	// console.log(a + b)
-	return a + b //after this, no code will run
+	console.log(a + b)
+	// return a + b //after this, no code will run
 }
 
 const firstCalc = calc(2, 5)
