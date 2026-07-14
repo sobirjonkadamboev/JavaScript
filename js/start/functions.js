@@ -23,4 +23,6 @@ console.log(firstCalc)
 
 //Function Expression
 
-const world = function () {}
+const world = function () {
+	console.log('Hello, Expression')
+}
