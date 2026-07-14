@@ -4,8 +4,8 @@ function showHello() {
 	console.log('Hello, World')
 }
 
-function userGreet() {
-	console.log('Hello, Sobirjon')
+function userGreet(name) {
+	console.log(`Hello, ${name}`)
 }
 
 showHello()
