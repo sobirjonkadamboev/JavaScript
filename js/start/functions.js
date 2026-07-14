@@ -16,7 +16,8 @@ userGreet('Any Name Here')
 console.log(age)
 
 function calc(a, b) {
-	console.log(a + b)
+	// console.log(a + b)
+	return a + b
 }
 
 calc(2, 5)
