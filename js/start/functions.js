@@ -28,7 +28,10 @@ const world = function () {
 }
 world()
 
-
 //Arrow Functions
 
-const callculate = () =>
+const callculate = () => {
+	console.log('Calculate')
+}
+
+callculate(1, 33)
