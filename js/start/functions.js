@@ -18,3 +18,5 @@ console.log(age)
 function calc(a, b) {
 	console.log(a + b)
 }
+
+calc(2, 5)
