@@ -3,3 +3,5 @@
 function showHello() {
 	console.log('Hello, World')
 }
+
+showHello()
