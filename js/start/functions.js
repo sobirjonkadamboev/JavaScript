@@ -20,3 +20,6 @@ function calc(a, b) {
 }
 const firstCalc = calc(2, 5)
 console.log(firstCalc)
+
+
+//Function Expression
