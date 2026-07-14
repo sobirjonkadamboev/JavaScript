@@ -20,4 +20,5 @@ function calc(a, b) {
 	return a + b
 }
 
-calc(2, 5)
+const firstCalc = calc(2, 5)
+console.log(firstCalc)
