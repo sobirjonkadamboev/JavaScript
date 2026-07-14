@@ -7,7 +7,7 @@ function showHello() {
 let age = 20 //global variable
 
 function userGreet(name) {
-	const age = 19 //local variable
+	age = 19 //local variable
 	console.log(`Hello, ${name}! He is ${age} years old`)
 }
 
