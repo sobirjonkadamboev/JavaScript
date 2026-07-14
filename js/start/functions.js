@@ -14,3 +14,7 @@ function userGreet(name) {
 showHello()
 userGreet('Any Name Here')
 console.log(age)
+
+function calc(a, b) {
+	console.log(a + b)
+}
