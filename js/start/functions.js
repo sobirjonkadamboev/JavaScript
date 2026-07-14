@@ -13,3 +13,4 @@ function userGreet(name) {
 
 showHello()
 userGreet('Any Name Here')
+console.log(age)
