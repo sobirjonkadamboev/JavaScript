@@ -9,4 +9,4 @@ function userGreet(name) {
 }
 
 showHello()
-userGreet()
+userGreet('Yusuf')
