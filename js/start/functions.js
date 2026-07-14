@@ -27,3 +27,8 @@ const world = function () {
 	console.log('Hello, Expression')
 }
 world()
+
+
+//Arrow Functions
+
+const callculate = () =>
