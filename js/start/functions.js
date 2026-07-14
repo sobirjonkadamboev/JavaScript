@@ -26,3 +26,4 @@ console.log(firstCalc)
 const world = function () {
 	console.log('Hello, Expression')
 }
+world()
