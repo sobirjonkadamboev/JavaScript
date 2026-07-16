@@ -11,7 +11,7 @@ function userGreet(name) {
 }
 
 showHello()
-userGreet('Any Name Here')
+userGreet('Sobirjon')
 console.log(age)
 
 function calc(a, b) {
