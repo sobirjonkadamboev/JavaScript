@@ -35,3 +35,13 @@ const callculate = (a, b) => {
 }
 
 callculate(1, 33)
+
+//Rest Parameter
+
+function sum(...args) {
+	let sume = 0
+	for (let arg of args) sum += arg
+	return sum
+}
+
+let x = sum(4, 5, 6, 1)
