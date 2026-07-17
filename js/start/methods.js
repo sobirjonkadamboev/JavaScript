@@ -16,7 +16,7 @@ console.log(password.trimEnd())
 //Number Methods
 
 let number = 18.8
-const width = 220px
+const width = '220px'
 
 console.log(number)
 console.log(Math.round(number)) //eng yaqin son
