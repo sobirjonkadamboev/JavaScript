@@ -5,3 +5,4 @@ const test = 'Hi, Artificial Intelligence'
 
 console.log(test.length)
 console.log(test.at(5))
+console.log(test[5])
