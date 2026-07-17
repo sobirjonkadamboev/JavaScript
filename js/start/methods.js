@@ -21,3 +21,4 @@ const width = '220px'
 console.log(number)
 console.log(Math.round(number)) //eng yaqin son
 console.log(Math.floor(number)) //sonni butun qilish uchun
+console.log(parseInt(width))
