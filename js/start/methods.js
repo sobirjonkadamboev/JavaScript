@@ -13,6 +13,7 @@ console.log(password.trim()) //removes space
 console.log(password.trimStart())
 console.log(password.trimEnd())
 console.log(test.indexOf('A')) //position
+console.log(test.repeat(2))
 
 //Number Methods
 
