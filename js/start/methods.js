@@ -12,7 +12,7 @@ console.log(test.substring(0, 7)) //can't use -7 here
 console.log(password.trim())
 console.log(password.trimStart())
 console.log(password.trimEnd())
-console.log(test.indexOf(A))
+console.log(test.indexOf('A'))
 
 //Number Methods
 
