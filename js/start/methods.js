@@ -16,5 +16,7 @@ console.log(password.trimEnd())
 //Number Methods
 
 let number = 18.8
+
 console.log(number)
 console.log(Math.round(number))
+console.log(Math.floor(number))
