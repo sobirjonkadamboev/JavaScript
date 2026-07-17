@@ -12,3 +12,8 @@ console.log(test.substring(0, 7)) //can't use -7 here
 console.log(password.trim())
 console.log(password.trimStart())
 console.log(password.trimEnd())
+
+//Number Methods
+
+let number = 18
+console.log(number)
