@@ -1,10 +1,9 @@
 ///String methods
 const test = 'Hi, Artificial Intelligence'
 
-//length
-
-console.log(test.length)
+console.log(test.length) //length
 console.log(test.at(5)) //same
 console.log(test[5]) //same
-console.log(test.toUpperCase())
-console.log(test.toLowerCase())
+console.log(test.toUpperCase()) //upperCase
+console.log(test.toLowerCase()) //lowerCase
+console.log(test.slice(0, 7))
