@@ -7,3 +7,4 @@ console.log(test.length)
 console.log(test.at(5)) //same
 console.log(test[5]) //same
 console.log(test.toUpperCase())
+console.log(test.toLowerCase())
