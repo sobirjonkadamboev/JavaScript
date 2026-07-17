@@ -1,6 +1,7 @@
 ///String methods
 let test = 'Hi, Artificial Intelligence'
 const password = '               space.  '
+
 console.log(test.length) //length
 console.log(test.at(5)) //same
 console.log(test[5]) //same
