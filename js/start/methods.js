@@ -11,3 +11,4 @@ console.log(test.slice(0, 7)) //to slice
 console.log(test.substring(0, 7)) //can't use -7 here
 console.log(password.trim())
 console.log(password.trimStart())
+console.log(password.trimEnd())
