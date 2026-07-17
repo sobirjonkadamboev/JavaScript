@@ -18,5 +18,5 @@ console.log(password.trimEnd())
 let number = 18.8
 
 console.log(number)
-console.log(Math.round(number))
-console.log(Math.floor(number))
+console.log(Math.round(number)) //eng yaqin son
+console.log(Math.floor(number)) //sonni butun qilish uchun
