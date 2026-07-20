@@ -41,5 +41,5 @@ const person = {
 }
 
 for (let key in person) {
-	console.log(key)
+	console.log(`Property: ${key}; Value: ${person[key]}`)
 }
