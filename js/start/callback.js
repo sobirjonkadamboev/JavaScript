@@ -7,3 +7,6 @@ const firstLog = () => {
 const nextLog = () => {
 	console.log(2)
 }
+
+firstLog()
+nextLog()
