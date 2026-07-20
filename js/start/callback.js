@@ -32,7 +32,11 @@ greetMe(callback)
 //Object and destructuring
 
 const person = {
-	name: 'Sobirjon'
+	name: 'Sobirjon',
 	birthDate: 2006,
-	
+	job: 'Student',
+	hobbies: {
+		sport: 'Running', 'Football',
+		
+	}
 }
