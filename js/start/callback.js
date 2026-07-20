@@ -45,6 +45,7 @@ for (let key in person) {
 		for (let i in person[key]) {
 			console.log(`Property: ${i}; Value: ${person[key][i]}`)
 		}
+	} else {
 	}
 	console.log(`Property: ${key}; Value: ${person[key]}`)
 }
