@@ -18,4 +18,6 @@ function greetMe(callback) {
 	callback()
 }
 
-greetMe(callback)
+greetMe(function () {
+	console.log('Are you ready today')
+})
