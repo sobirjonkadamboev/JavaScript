@@ -3,7 +3,7 @@
 const firstLog = () => {
 	setTimeout(function () {
 		console.log(1)
-	})
+	}, 1000)
 }
 
 const nextLog = () => {
