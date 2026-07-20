@@ -22,6 +22,8 @@ function callback() {
 	console.log('Are you ready today?')
 }
 
+greetMe(callback)
+
 /* greetMe(function () {
 	console.log('Are you ready today?')
 }) */
