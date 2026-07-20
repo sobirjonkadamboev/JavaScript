@@ -43,7 +43,7 @@ const person = {
 for (let key in person) {
 	if (typeof person[key] === 'object') {
 		for (let i in person[key]) {
-			console.log(`Property: ${i}; Value: ${person[key]}`)
+			console.log(`Property: ${i}; Value: ${person[key][i]}`)
 		}
 	}
 	console.log(`Property: ${key}; Value: ${person[key]}`)
