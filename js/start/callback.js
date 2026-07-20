@@ -28,7 +28,6 @@ greetMe(callback)
 	console.log('Are you ready today?')
 }) */
 
-
 //Object and destructuring
 
 const person = {
@@ -36,7 +35,11 @@ const person = {
 	birthDate: 2006,
 	job: 'Student',
 	hobbies: {
-		sport: 'Running', 'Football',
-		
-	}
+		sport: 'Running',
+		games: 'UFC',
+	},
+}
+
+for (let key in person) {
+	console.log(key)
 }
