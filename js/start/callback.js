@@ -46,6 +46,6 @@ for (let key in person) {
 			console.log(`Property: ${i}; Value: ${person[key][i]}`)
 		}
 	} else {
+		console.log(`Property: ${key}; Value: ${person[key]}`)
 	}
-	console.log(`Property: ${key}; Value: ${person[key]}`)
 }
