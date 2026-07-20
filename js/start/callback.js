@@ -19,5 +19,5 @@ function greetMe(callback) {
 }
 
 greetMe(function () {
-	console.log('Are you ready today')
+	console.log('Are you ready today?')
 })
