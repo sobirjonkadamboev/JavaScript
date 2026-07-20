@@ -17,3 +17,5 @@ function greetMe(callback) {
 	console.log('Hello, user')
 	callback()
 }
+
+greetMe(callback)
