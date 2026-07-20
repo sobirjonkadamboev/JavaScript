@@ -1,4 +1,4 @@
-//callback function is a function passed as an argument into another function.
+/* callback function is a function passed as an argument into another function.
 
 const firstLog = () => {
 	setTimeout(function () {
@@ -11,4 +11,4 @@ const nextLog = () => {
 }
 
 firstLog()
-nextLog()
+nextLog() */
