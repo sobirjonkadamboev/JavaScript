@@ -12,3 +12,8 @@ const nextLog = () => {
 
 firstLog()
 nextLog() */
+
+function greetMe(callback) {
+	console.log('Hello, user')
+	callback()
+}
