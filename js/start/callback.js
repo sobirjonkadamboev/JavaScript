@@ -43,6 +43,7 @@ const person = {
 	},
 }
 
+console.log(person)
 person.greet()
 
 console.log(Object.keys(person).length)
