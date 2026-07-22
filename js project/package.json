@@ -10,7 +10,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {
-		"bootstrap": "^5.3.8"
-	},
-	"devDependencies": {}
+		"bootstrap": "^5.3.8",
+		"jquery": "^4.0.0"
+	}
 }
