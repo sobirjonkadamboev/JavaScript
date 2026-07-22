@@ -40,7 +40,7 @@ const person = {
 	},
 }
 
-console.log(Object.keys(person))
+console.log(Object.keys(person).length)
 //for in -> only for objects
 //for of -> only for arrays
 for (let key in person) {
