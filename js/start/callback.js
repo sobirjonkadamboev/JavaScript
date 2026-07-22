@@ -43,6 +43,8 @@ const person = {
 	},
 }
 
+person.greet()
+
 console.log(Object.keys(person).length)
 //for in -> only for objects
 //for of -> only for arrays
