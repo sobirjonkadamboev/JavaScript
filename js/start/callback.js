@@ -38,6 +38,9 @@ const person = {
 		sport: 'Running',
 		games: 'UFC',
 	},
+	greet: function () {
+		console.log('Hi, user')
+	},
 }
 
 console.log(Object.keys(person).length)
