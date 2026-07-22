@@ -40,6 +40,8 @@ const person = {
 	},
 }
 
+//for in -> only for objects
+//for of -> only for arrays
 for (let key in person) {
 	if (typeof person[key] === 'object') {
 		for (let i in person[key]) {
