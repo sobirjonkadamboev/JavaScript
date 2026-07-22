@@ -55,7 +55,7 @@ const {
 } = person
 
 console.log(name)
-console.log(hobbies.sport)
+console.log(sport)
 
 console.log(Object.keys(person).length)
 //for in -> only for objects
