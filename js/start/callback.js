@@ -47,7 +47,12 @@ const person = {
 console.log(person)
 person.greet()
 
-const { birthDate, job, name, hobbies } = person
+const {
+	birthDate,
+	job,
+	name,
+	hobbies: { sport, games },
+} = person
 
 console.log(name)
 console.log(hobbies)
