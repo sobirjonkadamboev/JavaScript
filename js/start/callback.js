@@ -40,6 +40,7 @@ const person = {
 	},
 	greet: function () {
 		console.log('Hi, user')
+		console.log(this.job)
 	},
 }
 
