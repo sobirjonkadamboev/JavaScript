@@ -49,6 +49,8 @@ person.greet()
 
 const { birthDate, job, name } = person
 
+console.log(name)
+
 console.log(Object.keys(person).length)
 //for in -> only for objects
 //for of -> only for arrays
