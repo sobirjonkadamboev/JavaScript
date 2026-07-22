@@ -47,7 +47,7 @@ const person = {
 console.log(person)
 person.greet()
 
-const {} = person
+const { birthDate, job, name } = person
 
 console.log(Object.keys(person).length)
 //for in -> only for objects
