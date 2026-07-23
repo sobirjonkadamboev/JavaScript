@@ -7,5 +7,5 @@ console.log('Element Index:', colors[3])
 //Pop - removes the last element
 //Push -
 
-console.log('Removing Element:', colors.pop())
+console.log('Removing Element:', colors.pop)
 console.log(colors)
