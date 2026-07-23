@@ -21,7 +21,7 @@ console.log(colors)
 
 const carModels = ['Audi', 'BMW', 'Toyota', 'Ford', 'BYD']
 
-//Sort method
+//Sort method - by alphabet
 carModels.sort()
 console.log(carModels)
 //Array Iteration
