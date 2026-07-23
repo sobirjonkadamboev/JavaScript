@@ -25,6 +25,9 @@ const carModels = ['Audi', 'BMW', 'Toyota', 'Ford', 'BYD']
 carModels.sort()
 console.log(carModels)
 
+const d = [23, 34, 35, 22, 76, 9]
+d.sort()
+console.log(d)
 //Array Iteration
 
 for (let i = 0; i < carModels.length; i++) {
