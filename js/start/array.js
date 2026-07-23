@@ -9,4 +9,10 @@ console.log('Element Index:', colors[3])
 
 console.log('Removing Element:', colors.pop())
 console.log('Adding Element:', colors.push('brown'))
+
+//Shift and Unshift methods
+//Shift - removes the first element
+//Unshift -
+
+console.log('Removing First Element:', colors.shift())
 console.log(colors)
