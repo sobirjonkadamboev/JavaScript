@@ -24,6 +24,7 @@ const carModels = ['Audi', 'BMW', 'Toyota', 'Ford', 'BYD']
 //Sort method - by alphabet
 carModels.sort()
 console.log(carModels)
+
 //Array Iteration
 
 for (let i = 0; i < carModels.length; i++) {
