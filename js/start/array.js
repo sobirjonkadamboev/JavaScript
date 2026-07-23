@@ -26,6 +26,11 @@ for (let i = 0; i < carModels.length; i++) {
 	console.log(carModels[i])
 }
 
+//for of - use this for arrays
 for (let car of carModels) {
 	console.log(car)
 }
+
+colors.forEach((item, index, arr) => {
+	console.log(`${index}: ${item} in array ${arr}`)
+})
