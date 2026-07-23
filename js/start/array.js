@@ -20,3 +20,8 @@ console.log('Adding First Element:', colors.unshift('black'))
 console.log(colors)
 
 const carModels = ['Audi', 'BMW', 'Toyota', 'Ford', 'BYD']
+//Array Iteration
+
+for(let i = 0; i < carModels.length, i++){
+
+}
