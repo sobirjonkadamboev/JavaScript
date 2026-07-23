@@ -39,8 +39,9 @@ const numbers = [1, 2, 3, 4, 5, 6]
 //numbers[6] = 7 - never add like this
 console.log(numbers)
 
-//Split
+//Split - string to array
 
 const games = 'UFC, FIFA, PES'
 const arrGames = games.split(', ')
+const string = games.join('- ')
 console.log(arrGames)
