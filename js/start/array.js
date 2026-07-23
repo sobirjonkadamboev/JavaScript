@@ -26,7 +26,7 @@ carModels.sort()
 console.log(carModels)
 
 const d = [23, 34, 35, 22, 76, 9]
-d.sort() // we can't use for numbers
+d.sort(compareNum) // we can't use for numbers
 
 function compareNum(a, b) {
 	return a - b
