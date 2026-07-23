@@ -18,3 +18,5 @@ console.log('Removing First Element:', colors.shift())
 console.log('Adding First Element:', colors.unshift('black'))
 
 console.log(colors)
+
+const carModels = ['Audi', 'BMW', 'Toyota', 'Ford', 'BYD']
