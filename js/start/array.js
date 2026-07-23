@@ -34,3 +34,5 @@ for (let car of carModels) {
 colors.forEach((item, index, arr) => {
 	console.log(`${index}: ${item} in array ${arr}`)
 })
+
+const numbers = [1, 2, 3, 4, 5, 6]
