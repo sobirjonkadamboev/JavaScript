@@ -12,7 +12,9 @@ console.log('Adding Element:', colors.push('brown'))
 
 //Shift and Unshift methods
 //Shift - removes the first element
-//Unshift -
+//Unshift - adds element to the start
 
 console.log('Removing First Element:', colors.shift())
+console.log('Adding First Element:', colors.unshift('black'))
+
 console.log(colors)
