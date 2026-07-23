@@ -43,5 +43,6 @@ console.log(numbers)
 
 const games = 'UFC, FIFA, PES'
 const arrGames = games.split(', ')
-const string = games.join('- ')
+const string = games.join('-')
 console.log(arrGames)
+console.log(string)
