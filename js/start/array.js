@@ -23,5 +23,5 @@ const carModels = ['Audi', 'BMW', 'Toyota', 'Ford', 'BYD']
 //Array Iteration
 
 for (let i = 0; i < carModels.length; i++) {
-	console.log(carModels)
+	console.log(carModels[i])
 }
