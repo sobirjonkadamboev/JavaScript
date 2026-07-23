@@ -25,3 +25,7 @@ const carModels = ['Audi', 'BMW', 'Toyota', 'Ford', 'BYD']
 for (let i = 0; i < carModels.length; i++) {
 	console.log(carModels[i])
 }
+
+for (let car of carModels) {
+	console.log(car)
+}
