@@ -43,3 +43,4 @@ console.log(numbers)
 
 const games = 'UFC, FIFA, PES'
 const arrGames = games.split(', ')
+console.log(arrGames)
