@@ -32,6 +32,7 @@ function compareNum(a, b) {
 	return a - b
 }
 console.log(d)
+
 //Array Iteration
 
 for (let i = 0; i < carModels.length; i++) {
