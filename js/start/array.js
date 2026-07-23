@@ -41,4 +41,5 @@ console.log(numbers)
 
 //Split
 
-const games = ['UFC', 'FIFA', 'PES']
+const games = 'UFC, FIFA, PES'
+const arrGames = games.split(', ')
