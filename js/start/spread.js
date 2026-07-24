@@ -50,10 +50,14 @@ secPerson.age = 32
 console.log(obJect)
 console.log(secPerson)
 
-//Array clone
+//Array clone: slice method
 
 const models = ['BMW', 'Audi', 'Toyota', 'Suzuki']
 const clone = models.slice()
 clone.push('BYD')
 console.log(models)
 console.log(clone)
+
+//Array clone: spread
+
+const copy = [...models]
