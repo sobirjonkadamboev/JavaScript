@@ -35,7 +35,7 @@ secObj.age = 20
 console.log(obJect)
 console.log(secObj)
 
-//2.Object Assign: clone
+//2.Object Assign: shallow clone
 
 /* const secPerson = Object.assign({ isEnrolled: true }, obJect)
 secPerson.name = 'Salvatore'
@@ -43,7 +43,7 @@ secPerson.age = 32
 console.log(obJect)
 console.log(secPerson) */
 
-//3.Spread Operator: clone
+//3.Spread Operator: shallow clone
 const secPerson = { ...obJect }
 secPerson.name = 'Salvatore'
 secPerson.age = 32
