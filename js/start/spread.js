@@ -9,4 +9,8 @@ console.log(b)
 const obJect = {
 	name: 'Sobirjon',
 	age: 19,
+	hobbies: {
+		sport: 'Running'
+		games: 'FIFA27'
+	}
 }
