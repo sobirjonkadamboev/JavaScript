@@ -49,3 +49,9 @@ secPerson.name = 'Salvatore'
 secPerson.age = 32
 console.log(obJect)
 console.log(secPerson)
+
+//Array clone
+
+const models = ['BMW', 'Audi', 'Toyota', 'Suzuki']
+const clone = models.slice()
+clone.push('BYD')
