@@ -6,6 +6,7 @@ console.log(a)
 console.log(b)
 
 //Object clone: deep and shallow
+//Deep clone - fully copy everything
 const obJect = {
 	name: 'Sobirjon',
 	age: 19,
