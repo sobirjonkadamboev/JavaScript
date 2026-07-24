@@ -40,3 +40,5 @@ console.log(secObj)
 const secPerson = Object.assign({}, obJect)
 secPerson.name = 'Salvatore'
 secPerson.age = 32
+console.log(obJect)
+console.log(secPerson)
