@@ -55,3 +55,5 @@ console.log(secPerson)
 const models = ['BMW', 'Audi', 'Toyota', 'Suzuki']
 const clone = models.slice()
 clone.push('BYD')
+console.log(models)
+console.log(clone)
