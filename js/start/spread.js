@@ -37,9 +37,7 @@ console.log(secObj)
 
 //2.Object Assign: clone
 
-const secPerson = Object.assign({ isEnrolled: true 
-	
-}, obJect)
+const secPerson = Object.assign({ isEnrolled: true }, obJect)
 secPerson.name = 'Salvatore'
 secPerson.age = 32
 console.log(obJect)
