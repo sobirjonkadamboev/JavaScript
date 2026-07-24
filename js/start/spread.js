@@ -44,7 +44,8 @@ console.log(obJect)
 console.log(secPerson) */
 
 //3.Spread Operator: clone
-const secPerson = (secPerson.name = 'Salvatore')
+const secPerson = { ...obJect }
+secPerson.name = 'Salvatore'
 secPerson.age = 32
 console.log(obJect)
 console.log(secPerson)
