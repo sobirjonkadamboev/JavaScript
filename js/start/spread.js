@@ -38,3 +38,5 @@ console.log(secObj)
 //2.Object Assign: clone
 
 const secPerson = Object.assign({}, obJect)
+secPerson.name = 'Salvatore'
+secPerson.age = 32
