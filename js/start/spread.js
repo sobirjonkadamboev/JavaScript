@@ -4,3 +4,10 @@ let a = 19,
 b += 10
 console.log(a)
 console.log(b)
+
+const obJect = {
+	name: 'Sobirjon',
+	age: 19,
+}
+
+const sobJect = obJect
