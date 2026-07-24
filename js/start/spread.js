@@ -64,4 +64,4 @@ const copy = [...models]
 copy.push('Hyundai')
 
 console.log(models)
-console.log(clone)
+console.log(copy)
