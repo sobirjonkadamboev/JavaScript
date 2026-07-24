@@ -29,3 +29,5 @@ const copyObj = obj => {
 }
 
 const secObj = copyObj(obJect)
+secObj.name = 'Afruz'
+secObj.age = 20
