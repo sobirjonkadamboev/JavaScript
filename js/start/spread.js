@@ -68,9 +68,9 @@ console.log(copy) */
 
 //Spread
 function calcLog(a, b, c) {
-	console.log('First arg: ', a)
-	console.log('Second arg: ', b)
-	console.log('Third arg: ', c)
+	console.log('First arg:', a)
+	console.log('Second arg:', b)
+	console.log('Third arg:', c)
 }
 
 const arr = [3, 4, 5]
