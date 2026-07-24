@@ -43,7 +43,7 @@ secPerson.age = 32
 console.log(obJect)
 console.log(secPerson) */
 
-//3.Spread Operator: shallow clone
+/* 3.Spread Operator: shallow clone
 const secPerson = { ...obJect }
 secPerson.name = 'Salvatore'
 secPerson.age = 32
@@ -64,4 +64,7 @@ const copy = [...models]
 copy.push('Hyundai')
 
 console.log(models)
-console.log(copy)
+console.log(copy) */
+
+//Spread
+function calcLog(a, b, c) {}
