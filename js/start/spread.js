@@ -13,3 +13,5 @@ const obJect = {
 const sobJect = obJect
 sobJect.name = 'Afruz'
 sobJect.age = 20
+console.log(obJect)
+console.log(sobJect)
