@@ -61,3 +61,7 @@ console.log(clone)
 //Array clone: spread
 
 const copy = [...models]
+copy.push('Hyundai')
+
+console.log(models)
+console.log(clone)
