@@ -72,3 +72,6 @@ function calcLog(a, b, c) {
 	console.log('Second arg: ', b)
 	console.log('Third arg: ', c)
 }
+
+const arr = [3, 4, 5]
+log(...arr)
