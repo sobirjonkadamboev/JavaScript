@@ -16,7 +16,7 @@ const obJect = {
 	},
 }
 
-//1.Iteration
+//1.Iteration: shallow
 
 const copyObj = obj => {
 	const clone = {}
