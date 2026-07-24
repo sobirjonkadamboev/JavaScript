@@ -25,5 +25,5 @@ const copyObj = obj => {
 		clone[key] = obJect[key]
 	}
 
-	return console.log('first', first)
+	return clone
 }
