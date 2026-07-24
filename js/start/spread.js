@@ -15,3 +15,15 @@ const obJect = {
 		games: 'FIFA27',
 	},
 }
+
+//1.Iteration
+
+const copyObj = obj => {
+	const clone = {}
+	let key
+	for (let key in obj) {
+		clone[key] = obJect[key]
+	}
+
+	return console.log('first', first)
+}
