@@ -27,3 +27,5 @@ const copyObj = obj => {
 
 	return clone
 }
+
+const secObj = copyObj(obJect)
