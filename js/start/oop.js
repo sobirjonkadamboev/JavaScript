@@ -10,6 +10,8 @@ const nexia = {
 	weight: 900,
 }
 
-nexia.__proto__ = suvModels
+//nexia.__proto__ = suvModels //old syntax
+
+Object.setPrototypeOf(nexia, suvModels)
 
 console.log(nexia.speed())
