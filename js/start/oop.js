@@ -1,6 +1,9 @@
 const suvModels = {
 	weight: 2000,
 	length: 2,
+	speed: function () {
+		console.log('100km/h')
+	},
 }
 
 const nexia = {
