@@ -5,5 +5,4 @@ const suvModels = {
 
 const nexia = {
 	weight: 900,
-	length: 3,
 }
