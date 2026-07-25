@@ -12,4 +12,4 @@ const nexia = {
 
 nexia.__proto__ = suvModels
 
-console.log(nexia.length)
+console.log(nexia.speed)
