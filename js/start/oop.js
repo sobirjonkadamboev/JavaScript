@@ -6,3 +6,5 @@ const suvModels = {
 const nexia = {
 	weight: 900,
 }
+
+nexia.__proto__ = suvModels
