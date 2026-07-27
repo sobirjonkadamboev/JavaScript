@@ -11,3 +11,4 @@
 const box = document.querySelector('button') //for class - . for class # - for id
 const buttons = document.querySelectorAll('button')
 console.log(box)
+console.log(buttons)
