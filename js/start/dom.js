@@ -9,10 +9,10 @@
 //New syntax
 
 //const box = document.querySelector('button') //for class - . for class # - for id
-//const buttons = document.querySelectorAll('button')
+/*const buttons = document.querySelectorAll('button')
 
 const wrapper = document.querySelector('.wrapper')
 const hearts = wrapper.querySelectorAll('.heart')
-
+ 
 console.log(wrapper)
-console.log(hearts)
+console.log(hearts) */
