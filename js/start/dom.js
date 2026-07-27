@@ -21,4 +21,3 @@ const box = document.querySelector('#box'),
 	buttons = document.querySelectorAll('.button')
 
 console.dir(box)
-console.log(box)
