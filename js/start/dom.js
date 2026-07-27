@@ -8,5 +8,5 @@
 
 //New syntax
 
-const box = document.querySelector('#box')
+const box = document.querySelector('.box')
 console.log(box)
