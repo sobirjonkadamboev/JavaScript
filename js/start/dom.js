@@ -20,4 +20,4 @@ console.log(hearts) */
 const box = document.querySelector('#box'),
 	buttons = document.querySelectorAll('.button')
 
-box.style.backgroundColor = 'navy blue'
+box.style.backgroundColor = 'blue'
