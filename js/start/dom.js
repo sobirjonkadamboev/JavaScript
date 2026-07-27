@@ -8,5 +8,5 @@
 
 //New syntax
 
-const box = document.querySelector('button') //for class - . for class
+const box = document.querySelector('button') //for class - . for class # - for id
 console.log(box)
