@@ -22,3 +22,5 @@ const box = document.querySelector('#box'),
 
 box.style.backgroundColor = 'blue'
 box.style.width = '500px'
+
+buttons[2].style.width = '200px'
