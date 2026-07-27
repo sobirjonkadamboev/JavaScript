@@ -25,4 +25,4 @@ box.style.backgroundColor = 'blue'
 box.style.width = '500px'
 
 buttons[2].style.width = '200px'
-circles[1].style.borderRadius = '0'
+circles[1].style.borderRadius = '4'
