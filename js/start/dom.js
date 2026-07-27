@@ -3,3 +3,4 @@
 //Old syntax
 
 const box = document.getElementById('box')
+console.log(box)
