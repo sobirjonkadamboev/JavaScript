@@ -21,4 +21,3 @@ const box = document.querySelector('#box'),
 	buttons = document.querySelectorAll('.button')
 
 box.style.backgroundColor = 'blue'
-buttons.style.backgroundColor = 'yellow'
