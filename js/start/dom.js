@@ -8,7 +8,9 @@
 
 //New syntax
 
-const box = document.querySelector('button') //for class - . for class # - for id
-const buttons = document.querySelectorAll('button')
+//const box = document.querySelector('button') //for class - . for class # - for id
+//const buttons = document.querySelectorAll('button')
+
+const wrapper = document.querySelector('.wrapper')
 console.log(box)
 console.log(buttons)
