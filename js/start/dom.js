@@ -18,9 +18,11 @@ console.log(wrapper)
 console.log(hearts) */
 
 const box = document.querySelector('#box'),
-	buttons = document.querySelectorAll('button')
+	buttons = document.querySelectorAll('button'),
+	circles = document.querySelectorAll('.circle')
 
 box.style.backgroundColor = 'blue'
 box.style.width = '500px'
 
 buttons[2].style.width = '200px'
+circles[1].style.borderRadius = '2'
