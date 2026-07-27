@@ -12,4 +12,6 @@
 //const buttons = document.querySelectorAll('button')
 
 const wrapper = document.querySelector('.wrapper')
+const hearts = document.querySelectorAll('.heart')
 console.log(wrapper)
+console.log(hearts)
