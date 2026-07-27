@@ -12,5 +12,5 @@
 //const buttons = document.querySelectorAll('button')
 
 const wrapper = document.querySelector('.wrapper')
-console.log(box)
+console.log(wrapper)
 console.log(buttons)
