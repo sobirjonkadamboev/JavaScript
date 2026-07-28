@@ -48,3 +48,5 @@ div.style.backgroundColor = 'yellow'
 //document.body.append(div) //adds an element to the body
 
 wrapper.prepend(div)
+
+circles[0].remove()
