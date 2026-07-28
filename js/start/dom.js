@@ -52,4 +52,4 @@ wrapper.prepend(div)
 
 circles[0].remove()
 
-hearts[0].replaceWith(circles[1s])
+hearts[0].replaceWith(circles[1s]) 
