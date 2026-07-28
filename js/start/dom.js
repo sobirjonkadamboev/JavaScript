@@ -58,3 +58,5 @@ const div = document.createElement('div')
 div.style.width = '300px'
 div.style.width = '450px'
 div.style.backgroundColor = 'navy blue'
+
+document.querySelector('.app').append(div)
