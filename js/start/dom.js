@@ -41,4 +41,5 @@ buttons.forEach(item => {
 })
 
 const div = document.createElement('div')
+div.classList.add('heart')
 document.body.append(div) //adds an element to the body
