@@ -32,4 +32,6 @@ circles[0].style.cssText = 'background-color: green' */
 console.log(buttons)
 console.log(circles)
 
-for(let i = 0; i < circles.length; i++)
+for (let i = 0; i < circles.length; i++) {
+	circles[i].style.borderRadius = '0'
+}
