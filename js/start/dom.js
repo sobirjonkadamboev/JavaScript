@@ -26,3 +26,5 @@ box.style.width = '500px'
 
 buttons[3].style.width = '200px'
 circles[1].style.borderRadius = '0'
+
+circles[0].style.cssText = 'background-color: red'
