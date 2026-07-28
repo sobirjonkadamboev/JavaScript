@@ -51,3 +51,5 @@ div.style.backgroundColor = 'yellow'
 wrapper.prepend(div)
 
 circles[0].remove()
+
+hearts[0].replaceWith(circles[1s])
