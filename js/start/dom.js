@@ -35,3 +35,7 @@ console.log(circles)
 for (let i = 0; i < circles.length; i++) {
 	circles[i].style.borderRadius = '0'
 }
+
+buttons.forEach(function(item => ){
+
+})
