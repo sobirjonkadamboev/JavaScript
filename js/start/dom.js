@@ -36,6 +36,6 @@ for (let i = 0; i < circles.length; i++) {
 	circles[i].style.borderRadius = '0'
 }
 
-buttons.forEach(item => ){
+buttons.forEach(item => {
 	item.style.borderRadius = '100%'
-});
+})
