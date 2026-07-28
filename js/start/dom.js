@@ -20,7 +20,8 @@ console.log(hearts) */
 const box = document.querySelector('#box'),
 	buttons = document.querySelectorAll('button'),
 	circles = document.getElementsByClassName('circle'),
-	wrapper = document.querySelector('.wrapper')
+	wrapper = document.querySelector('.wrapper'),
+	hearts = wrapper.querySelectorAll('heart')
 
 /* box.style.backgroundColor = 'blue'
 box.style.width = '500px'
