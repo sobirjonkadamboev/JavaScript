@@ -47,3 +47,5 @@ div.style.backgroundColor = 'yellow'
 document.querySelector('.wrapper').append(div)
 
 //document.body.append(div) //adds an element to the body
+
+wrapper.prepend(div)
