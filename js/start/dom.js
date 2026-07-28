@@ -44,7 +44,6 @@ buttons.forEach(item => {
 const div = document.createElement('div')
 div.classList.add('heart')
 div.style.backgroundColor = 'yellow'
-document.querySelector('.wrapper').append(div)
 
 //document.body.append(div) //adds an element to the body
 
