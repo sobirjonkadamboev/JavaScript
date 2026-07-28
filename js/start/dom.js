@@ -21,10 +21,10 @@ const box = document.querySelector('#box'),
 	buttons = document.querySelectorAll('button'),
 	circles = document.querySelectorAll('.circle')
 
-box.style.backgroundColor = 'blue'
+/* box.style.backgroundColor = 'blue'
 box.style.width = '500px'
 
 buttons[3].style.width = '200px'
 circles[1].style.borderRadius = '0'
 
-circles[0].style.cssText = 'background-color: green'
+circles[0].style.cssText = 'background-color: green' */
