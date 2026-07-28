@@ -19,7 +19,7 @@ console.log(hearts) */
 
 const box = document.querySelector('#box'),
 	buttons = document.querySelectorAll('button'),
-	circles = document.getElementsByClassName('.circle')
+	circles = document.getElementsByClassName('circle')
 
 /* box.style.backgroundColor = 'blue'
 box.style.width = '500px'
