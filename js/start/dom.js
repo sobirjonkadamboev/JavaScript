@@ -29,7 +29,7 @@ box.style.width = '500px'
 buttons[3].style.width = '200px'
 circles[1].style.borderRadius = '0'
 
-circles[0].style.cssText = 'background-color: green' */
+circles[0].style.cssText = 'background-color: green' 
 
 console.log(buttons)
 console.log(circles)
@@ -45,8 +45,8 @@ buttons.forEach(item => {
 const div = document.createElement('div')
 div.classList.add('heart')
 div.style.backgroundColor = 'yellow'
-
-//document.body.append(div) //adds an element to the body
+*/
+document.body.append(div) //adds an element to the body
 
 wrapper.prepend(div)
 
