@@ -38,4 +38,4 @@ for (let i = 0; i < circles.length; i++) {
 
 buttons.forEach(item => ){
 	item.style.borderRadius = '100%'
-})
+});
