@@ -60,5 +60,3 @@ div.style.height = '450px'
 div.style.backgroundColor = 'navy blue'
 
 document.querySelector('.app').append(div)
-
-div
