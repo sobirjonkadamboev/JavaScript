@@ -60,3 +60,5 @@ div.style.height = '450px'
 div.style.backgroundColor = 'yellow'
 
 document.querySelector('.app').append(div)
+
+div.innerHTML = 'Hi, AI'
