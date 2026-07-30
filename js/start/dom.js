@@ -45,14 +45,14 @@ buttons.forEach(item => {
 const div = document.createElement('div')
 div.classList.add('heart')
 div.style.backgroundColor = 'yellow'
-*/
+
 document.body.append(div) //adds an element to the end of body
 
 wrapper.prepend(div) //start of body
 
 circles[0].remove()
 
-hearts[0].replaceWith(circles[1])
+hearts[0].replaceWith(circles[1]) */
 
 const div = document.createElement('div')
 div.style.width = '300px'
