@@ -64,4 +64,4 @@ document.querySelector('.app').append(div)
 //div.innerHTML = '<h1>Hi, AI</h1>' //works with any html elements
 //div.textContent = 'hi,text' //works with only string
 
-div.insertAdjacentHTML('afterbegin', '<h1>Hi, AI</h1>')
+div.insertAdjacentHTML('afterend', '<h1>Hi, AI</h1>')
