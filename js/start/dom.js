@@ -63,4 +63,4 @@ document.querySelector('.app').append(div)
 
 //div.innerHTML = '<h1>Hi, AI</h1>' //works with any html elements
 
-div.textContent = 'hi,text'
+div.textContent = 'hi,text' //works with only string
