@@ -46,9 +46,9 @@ const div = document.createElement('div')
 div.classList.add('heart')
 div.style.backgroundColor = 'yellow'
 */
-document.body.append(div) //adds an element to the body
+document.body.append(div) //adds an element to the end of body
 
-wrapper.prepend(div)
+wrapper.prepend(div) //start of body
 
 circles[0].remove()
 
