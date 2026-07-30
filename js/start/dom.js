@@ -61,4 +61,4 @@ div.style.backgroundColor = 'yellow'
 
 document.querySelector('.app').append(div)
 
-div.innerHTML = 'Hi, AI'
+div.innerHTML = '<h1>Hi, AI</h1>'
