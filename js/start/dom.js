@@ -57,6 +57,6 @@ hearts[0].replaceWith(circles[1]) */
 const div = document.createElement('div')
 div.style.width = '500px'
 div.style.height = '450px'
-div.style.backgroundColor = 'blue'
+div.style.backgroundColor = 'yellow'
 
 document.querySelector('.app').append(div)
