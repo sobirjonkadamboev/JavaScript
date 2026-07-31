@@ -1,5 +1,11 @@
 const buttons = document.querySelectorAll('button')
 
+buttons.forEach(item, idx) => {
+	item.addEventListener('click', () =>{
+		conso 
+	})
+})
+
 /* const link = document.querySelector('a')
 
 link.addEventListener('click', event => {
