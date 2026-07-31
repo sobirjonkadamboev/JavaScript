@@ -2,8 +2,8 @@ const btn1 = document.querySelector('button'),
 	overlay = document.querySelector('.lay')
 
 const callback = event => {
-	console.log(event.target)
-	console.log(event.type)
+	console.log(event.target) //element name
+	console.log(event.type) //type
 }
 
 overlay.addEventListener('click', callback)
