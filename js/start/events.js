@@ -1,5 +1,5 @@
 const btn1 = document.querySelector('button'),
-	overlay
+	overlay = document.querySelector('lay')
 /* btn1.onclick = function () {
 	alert('1')
 } 
