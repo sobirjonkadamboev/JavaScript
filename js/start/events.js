@@ -4,7 +4,7 @@ buttons.forEach((item, idx) => {
 	item.addEventListener('click', () => {
 		console.log(idx + 1)
 	})
-})
+}) //showing item index with forEach method
 
 /* const link = document.querySelector('a')
 
