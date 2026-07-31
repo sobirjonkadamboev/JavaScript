@@ -3,7 +3,7 @@ const data = document.querySelector('[data-item="brown"]')
 console.log(data)
 console.log(data.nextSibling)
 
-const body = document.body
+const body = document.body.childNodes
 
 console.log(body)
 
