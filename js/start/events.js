@@ -12,6 +12,6 @@ btn1.addEventListener('click', () => {
 	console.log('first click')
 })
 
-btn1.addEventListener('click', () => {
+/* btn1.addEventListener('click', () => {
 	console.log('second click')
-})
+}) */
