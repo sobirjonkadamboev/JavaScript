@@ -3,6 +3,7 @@ const btn1 = document.querySelector('button'),
 
 const callback = event => {
 	console.log(event.target)
+	console.log(event.type)
 }
 
 overlay.addEventListener('click', callback)
