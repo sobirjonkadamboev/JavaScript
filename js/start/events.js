@@ -1,4 +1,8 @@
-const buttons = document.querySelectorAll('button')
+const data = document.querySelector('[data-item="brown"]')
+
+console.log(data)
+
+/* const buttons = document.querySelectorAll('button')
 
 buttons.forEach((item, idx) => {
 	item.addEventListener(
@@ -10,7 +14,7 @@ buttons.forEach((item, idx) => {
 	)
 }) //showing item index with forEach method
 
-/* const link = document.querySelector('a')
+const link = document.querySelector('a')
 
 link.addEventListener('click', event => {
 	console.log('click')
