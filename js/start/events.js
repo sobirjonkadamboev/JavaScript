@@ -8,7 +8,7 @@ btn1.onmousedown = function () {
 	alert('mouse')
 } */
 
-btn1.addEventListener('click', () => {
+btn1.addEventListener('click', event => {
 	console.log('first click')
 })
 
