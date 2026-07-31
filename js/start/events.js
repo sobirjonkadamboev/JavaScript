@@ -1,6 +1,7 @@
 const data = document.querySelector('[data-item="brown"]')
 
 console.log(data)
+console.log(data.nextSibling)
 
 /* const buttons = document.querySelectorAll('button')
 
