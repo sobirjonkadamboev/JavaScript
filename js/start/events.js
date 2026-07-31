@@ -1,10 +1,12 @@
-const link = document.querySelector('a')
+const buttons = document.querySelectorAll('button')
+
+/* const link = document.querySelector('a')
 
 link.addEventListener('click', event => {
 	console.log('click')
 })
 
-/* const btn1 = document.querySelector('button'),
+const btn1 = document.querySelector('button'),
 	overlay = document.querySelector('.lay')
 
 const callback = event => {
