@@ -11,6 +11,7 @@ btn1.onmousedown = function () {
 btn1.addEventListener('click', event => {
 	console.log(event.target) //pointer events
 	event.target.textContent = 'Text'
+	event.target.style.backgroundColor = 'red'
 	console.log('first click')
 })
 
