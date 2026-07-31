@@ -1,5 +1,9 @@
 const link = document.querySelector('a')
 
+link.addEventListener('click', event => {
+	console.log('click')
+})
+
 /* const btn1 = document.querySelector('button'),
 	overlay = document.querySelector('.lay')
 
