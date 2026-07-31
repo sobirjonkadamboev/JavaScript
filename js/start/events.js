@@ -1,4 +1,6 @@
-const btn1 = document.querySelector('button'),
+const link = document.querySelector('a')
+
+/* const btn1 = document.querySelector('button'),
 	overlay = document.querySelector('.lay')
 
 const callback = event => {
@@ -9,7 +11,7 @@ const callback = event => {
 overlay.addEventListener('click', callback)
 
 btn1.addEventListener('click', callback)
-/* btn1.onclick = function () {
+btn1.onclick = function () {
 	alert('1')
 } 
 
