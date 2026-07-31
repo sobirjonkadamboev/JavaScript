@@ -1,5 +1,9 @@
 const btn1 = document.querySelector('button'),
 	overlay = document.querySelector('lay')
+
+overlay.addEventListener('click', event => {
+	console.log(event)
+})
 /* btn1.onclick = function () {
 	alert('1')
 } 
