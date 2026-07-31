@@ -1,5 +1,5 @@
-const btn1 = document.querySelector('button')
-
+const btn1 = document.querySelector('button'),
+	overlay
 /* btn1.onclick = function () {
 	alert('1')
 } 
