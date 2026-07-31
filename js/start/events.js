@@ -15,7 +15,7 @@ const callback = function () {
 	console.log('first click')
 }
 
-btn1.addEventListener('click', callback())
+btn1.addEventListener('click', callback)
 
 /* btn1.addEventListener('click', () => {
 	console.log('second click')
