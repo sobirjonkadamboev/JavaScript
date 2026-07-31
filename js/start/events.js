@@ -11,3 +11,7 @@ btn1.onmousedown = function () {
 btn1.addEventListener('click', () => {
 	console.log('first click')
 })
+
+btn1.addEventListener('click', () => {
+	console.log('second click')
+})
