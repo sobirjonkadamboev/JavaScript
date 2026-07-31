@@ -4,4 +4,6 @@ const btn1 = document.querySelector('button')
 	alert('1')
 } */
 
-btn1.onmousedown = function () {}
+btn1.onmousedown = function () {
+	alert('mouse')
+}
