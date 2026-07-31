@@ -7,9 +7,7 @@ const callback = event => {
 
 overlay.addEventListener('click', callback)
 
-btn1.addEventListener('click', event => {
-	console.log(event.target)
-})
+btn1.addEventListener('click', callback)
 /* btn1.onclick = function () {
 	alert('1')
 } 
