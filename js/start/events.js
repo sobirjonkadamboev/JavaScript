@@ -1,9 +1,11 @@
 const btn1 = document.querySelector('button'),
 	overlay = document.querySelector('.lay')
 
-overlay.addEventListener('click', event => {
+const callback = event => {
 	console.log(event.target)
-})
+}
+
+overlay.addEventListener('click', callback)
 
 btn1.addEventListener('click', event => {
 	console.log(event.target)
