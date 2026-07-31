@@ -6,7 +6,7 @@ const btn1 = document.querySelector('button'),
 
 btn1.onmousedown = function () {
 	alert('mouse')
-} */
+} 
 
 const callback = function () {
 	console.log(event.target) //pointer events
