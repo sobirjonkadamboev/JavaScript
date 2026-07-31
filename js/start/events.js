@@ -4,6 +4,10 @@ const btn1 = document.querySelector('button'),
 overlay.addEventListener('click', event => {
 	console.log(event.target)
 })
+
+btn1.addEventListener('click', event => {
+	console.log(event.target)
+})
 /* btn1.onclick = function () {
 	alert('1')
 } 
