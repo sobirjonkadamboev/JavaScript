@@ -3,6 +3,9 @@ const buttons = document.querySelectorAll('button')
 buttons.forEach((item, idx) => {
 	item.addEventListener('click', () => {
 		console.log(idx + 1)
+		{
+			once: true
+		}
 	})
 }) //showing item index with forEach method
 
