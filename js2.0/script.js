@@ -17,6 +17,6 @@ buttons[0].addEventListener('click', () => {
 	if (buttons[0].classList.contains('red')) {
 		console.log('contain red class')
 	} else {
-		console.log('not red class')
+		console.log('not found')
 	}
 })
