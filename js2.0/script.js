@@ -1,3 +1,3 @@
 const buttons = document.querySelectorAll('button')
 
-console.log(buttons[0].classList)
+console.log(buttons[0].classList.item(0))
