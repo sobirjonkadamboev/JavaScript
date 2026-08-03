@@ -20,5 +20,5 @@ buttons[0].addEventListener('click', () => {
 		console.log('not found')
 	} */
 
-	buttons[1].classList.toggle('red')
+	buttons[1].classList.toggle('red') //ikkinchi raqamli elementga red class qo'had
 })
