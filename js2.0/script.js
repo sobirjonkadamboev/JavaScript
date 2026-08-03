@@ -19,4 +19,6 @@ buttons[0].addEventListener('click', () => {
 	} else {
 		console.log('not found')
 	} */
+
+	buttons[1].classList.toggle('red')
 })
