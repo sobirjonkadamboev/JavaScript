@@ -12,15 +12,13 @@ if (buttons[0].classList.contains('red')) {
 } //shu element class ichida borligini aniqlaydi
 
 
-
-buttons[0].addEventListener('click', () => {
+ buttons[0].addEventListener('click', () => {
 	/* if (buttons[0].classList.contains('red')) {
 		console.log('contain red class')
 	} else {
 		console.log('not found')
-	} */
-
+	} 
 	buttons[1].classList.toggle('red') //ikkinchi raqamli elementga red class qo'shadi
-}) 
 
-*/
+	
+}) */
