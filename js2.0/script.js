@@ -15,6 +15,7 @@ wrapper.addEventListener('click', event => {
 })
 
 const newButton = document.createElement('button')
+newButton.classList.add('blue')
 wrapper.append(newButton)
 /* console.log(buttons[0].classList.value) //hamma class valuelarni chiqaradi
 console.log(buttons[0].classList.item(1)) //class listdagi itemlar bilan ishlash
