@@ -1,6 +1,12 @@
 const buttons = document.querySelectorAll('button'),
 	wrapper = document.querySelector('.wrapper')
 
+buttons.forEach(item => {
+	item.addEventListener('click', () => {
+		console.log('CLICKED')
+	})
+})
+
 wrapper.addEventListener('click', event => {
 	if (event.target && event.target.tagName === 'BUTTON') {
 		console.log('CLICK')
