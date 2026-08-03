@@ -2,6 +2,9 @@ const buttons = document.querySelectorAll('button'),
 	wrapper = document.querySelector('.wrapper')
 
 wrapper.addEventListener('click', event => {
+	if (event.target && event.target.tagName === 'BUTTON') {
+		console.log('CLICK')
+	}
 	console.log(event.target)
 })
 
