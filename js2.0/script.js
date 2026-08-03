@@ -2,7 +2,7 @@ const buttons = document.querySelectorAll('button'),
 	wrapper = document.querySelector('.wrapper')
 
 wrapper.addEventListener('click', event => {
-	console.log(event)
+	console.log(event.target)
 })
 
 /* console.log(buttons[0].classList.value) //hamma class valuelarni chiqaradi
