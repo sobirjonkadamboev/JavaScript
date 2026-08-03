@@ -1,7 +1,9 @@
 const buttons = document.querySelectorAll('button'),
 	wrapper = document.querySelector('.wrapper')
 
-wrapper.addEventListener('click', event => {})
+wrapper.addEventListener('click', event => {
+	console.log(event)
+})
 
 /* console.log(buttons[0].classList.value) //hamma class valuelarni chiqaradi
 console.log(buttons[0].classList.item(1)) //class listdagi itemlar bilan ishlash
