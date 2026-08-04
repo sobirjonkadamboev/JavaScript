@@ -28,7 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			tabs.forEach((tab, index) => {
 				if (target === tab) {
 					hideTabContents()
-					showTabContent()
+					showTabContent(index)
 				}
 			})
 		}
