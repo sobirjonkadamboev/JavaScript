@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	function hideTabContents() {
 		tabContent.forEach(tabContent => {
-			tabContent.style.display = 'none'
+			tabContent.classList.add('.hide')
 		})
 
 		tabs.forEach(tab => {
