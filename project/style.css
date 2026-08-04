@@ -878,6 +878,10 @@ form button {
 	}
 }
 
+.fade {
+	animation-name: fade;
+}
+
 @keyframes fade {
 	from {
 		opacity: 0.1;
