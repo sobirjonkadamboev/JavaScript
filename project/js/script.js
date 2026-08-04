@@ -13,11 +13,11 @@ window.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
-	function showTabContent(index) {
+	function showTabContent(index = 0) {
 		tabContent[index].style.display = 'block'
 		tabs[index].classList.add('tabheader__item_active')
 	}
 
 	hideTabContents()
-	showTabContent(0)
+	showTabContent()
 })
