@@ -15,6 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	function showTabContent(index) {
 		tabContent[index].style.display = 'block'
+		tabs[index].classList.add('tabheader__item_active')
 	}
 
 	hideTabContents()
