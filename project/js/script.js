@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		const target = event.target
 
 		if (target && target.classList.contains('tabheader__item')) {
-			tabs.forEach((tab, index) => 
+			tabs.forEach((tab, index) => {
 				if (target === tab) {
 					hideTabContents()
 					showTabContent(index)
