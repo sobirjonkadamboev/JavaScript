@@ -8,7 +8,9 @@ window.addEventListener('DOMContentLoaded', () => {
 			tabContent.style.display = 'none'
 		})
 
-		tabs.forEach
+		tabs.forEach(tab => {
+			tab.classList.remove('tabheader__item_active')
+		})
 	}
 
 	hideTabContents()
