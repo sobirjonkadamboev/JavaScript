@@ -13,5 +13,9 @@ window.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
+	function showTabContent(index) {
+		tabContent[index].style.display = 'block'
+	}
+
 	hideTabContents()
 })
