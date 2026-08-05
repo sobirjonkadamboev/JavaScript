@@ -6,4 +6,6 @@ const log = () => {
 	console.log('Timeout 2s')
 }
 
-setTimeout(log, 2000)
+setTimeout(log, 2000) //2-usul
+
+
