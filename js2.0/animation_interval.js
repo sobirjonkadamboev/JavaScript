@@ -6,4 +6,4 @@ function log() {
 	console.log('Timeout 2s')
 }
 
-setTimeout(log, 2000) //2-usul
+const newID = setTimeout(log, 2000) //2-usul
