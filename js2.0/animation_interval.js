@@ -8,7 +8,7 @@ let theTimerID,
 	index = 0
 
 btn.addEventListener('click', () => {
-	theTimerID = setInterval(log, 1000) //2-usul
+	theTimerID = setTimeout(log, 1000) //2-usul
 })
 
 function log() {
