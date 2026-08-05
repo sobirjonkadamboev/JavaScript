@@ -21,3 +21,7 @@ function log() {
 	console.log('Timeout 2s')
 	index++
 }
+
+let timeoutID = setTimeout(function log() {
+	console.log('Timeout for 1s')
+}, 1000)
