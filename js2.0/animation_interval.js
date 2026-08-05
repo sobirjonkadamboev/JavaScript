@@ -6,6 +6,15 @@ const btn = document.querySelector('#btn')
 
 const move = () => {
 	const car = document.querySelector('.car')
+	let position = 0
+
+	function go() {
+		if (position === 1000) {
+			clearInterval()
+		} else {
+			position++
+		}
+	}
 }
 
 /*
