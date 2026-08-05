@@ -6,9 +6,9 @@ const btn = document.querySelector('#btn')
 
 const move = () => {
 	const car = document.querySelector('.car')
-	let position = 
-	
-const animation = setInterval(go, 10)
+	let position = 0
+
+	const animation = setInterval(go, 10)
 
 	function go() {
 		if (position === 1000) {
