@@ -8,8 +8,8 @@ btn.addEventListener('click', () => {
 	const newID = setTimeout(log, 2000) //2-usul
 })
 
+clearInterval(newID)
+
 function log() {
 	console.log('Timeout 2s')
 }
-
-clearInterval(newID)
