@@ -7,6 +7,9 @@ const btn = document.querySelector('#btn')
 let theTimerID,
 	index = 0
 
+//Set Time Out - bu bir function qanchadir vaqtdan keyin bir marotaba ishlaydi
+//Set Interval - bitta function har nechidir sekundda ishga tushadi
+
 btn.addEventListener('click', () => {
 	theTimerID = setInterval(log, 1000) //2-usul
 })
