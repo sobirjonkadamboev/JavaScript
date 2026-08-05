@@ -2,8 +2,13 @@
 	console.log('Hi, this is timeout')
 }, 3000).  1-usuli */
 
-/* const btn = document.querySelector('#btn')
+const btn = document.querySelector('#btn')
 
+const move = () => {
+	const car = document.querySelector('.car')
+}
+
+/*
 let theTimerID,
 	index = 0
 
