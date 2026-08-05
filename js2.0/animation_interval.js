@@ -13,6 +13,7 @@ const move = () => {
 			clearInterval()
 		} else {
 			position++
+			car.style.left = position + 'px'
 		}
 	}
 }
