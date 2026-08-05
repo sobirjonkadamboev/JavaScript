@@ -12,5 +12,9 @@ btn.addEventListener('click', () => {
 })
 
 function log() {
+	if (index === 5) {
+		clearInterval(theTimerID)
+	}
 	console.log('Timeout 2s')
+	index++
 }
