@@ -7,3 +7,5 @@ function log() {
 }
 
 const newID = setTimeout(log, 2000) //2-usul
+
+clearInterval(newID)
