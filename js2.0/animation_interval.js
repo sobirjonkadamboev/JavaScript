@@ -20,7 +20,7 @@ const move = () => {
 	}
 }
 
-btn.addEventListener('click')
+btn.addEventListener('click', move())
 
 /*
 let theTimerID,
