@@ -6,11 +6,13 @@ const btn = document.querySelector('#btn')
 
 const move = () => {
 	const car = document.querySelector('.car')
-	let position = 0
+	let position = 
+	
+const animation = setInterval(go, 1000)
 
 	function go() {
 		if (position === 1000) {
-			clearInterval()
+			clearInterval(animation)
 		} else {
 			position++
 			car.style.left = position + 'px'
