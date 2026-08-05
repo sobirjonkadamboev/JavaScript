@@ -5,7 +5,7 @@
 const btn = document.querySelector('#btn')
 
 btn.addEventListener('click', () => {
-	const newID = setTimeout(log, 2000) //2-usul
+	const newID = setTimeout(log, 1000) //2-usul
 })
 
 function log() {
