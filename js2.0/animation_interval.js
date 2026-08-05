@@ -2,7 +2,7 @@
 	console.log('Hi, this is timeout')
 }, 3000).  1-usuli */
 
-const btn = document.querySelector('#btn')
+/* const btn = document.querySelector('#btn')
 
 let theTimerID,
 	index = 0
@@ -22,7 +22,7 @@ function log() {
 	index++
 }
 
-/* let timeoutID = setTimeout(function log() {
+let timeoutID = setTimeout(function log() {
 	console.log('Timeout for 1s')
 	timeoutID = setTimeout(log, 1000)
 }, 1000) */
