@@ -40,4 +40,8 @@ window.addEventListener('DOMContentLoaded', () => {
 	//Loader
 
 	const wrapperLoader = document.querySelector('.loader-wrapper')
+
+	setTimeout(() => {
+		wrapperLoader.style.display = 'none'
+	}, 1000)
 })
