@@ -11,3 +11,7 @@ console.log(now.getFullYear())
 
  now.setHours(12)
 console.log(now) */
+
+const now = new Date('2006-11-15')
+console.log(now)
+console.log(new Date.parse('2006-11-15'))
