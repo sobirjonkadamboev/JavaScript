@@ -46,5 +46,9 @@ window.addEventListener('DOMContentLoaded', () => {
 	}, 2000)
 
 	//Timer
-	const deadline
+	const deadline = '2026-06-06'
+
+	function remainingTime((endtime) => {
+
+	})
 })
