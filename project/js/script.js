@@ -49,6 +49,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	const deadline = '2026-06-06'
 
 	function remainingTime(endtime) {
-		const time = Date.parse(endtime) - Date.parse(new Date())
+		const time = Date.parse(endtime) - Date.parse(new Date()),
+		days = 
 	}
 })
