@@ -44,4 +44,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	setTimeout(() => {
 		wrapperLoader.style.display = 'none'
 	}, 2000)
+
+	//Timer
+	const deadline
 })
