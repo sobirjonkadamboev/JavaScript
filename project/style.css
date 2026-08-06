@@ -911,6 +911,7 @@ form button {
 	left: 0;
 	bottom: 0;
 	z-index: inherit;
+	background-color: yellow;
 }
 .loader {
 	--color-1: #fff;
