@@ -1,4 +1,4 @@
-const nowDate = new Date()
+/* const nowDate = new Date()
 console.log(nowDate)
 
 const nowDate2 = new Date('2006-11-15')
@@ -9,5 +9,5 @@ console.log(now.getHours())
 console.log(now.getUTCHours())
 console.log(now.getFullYear())
 
-/* now.setHours(12)
+ now.setHours(12)
 console.log(now) */
