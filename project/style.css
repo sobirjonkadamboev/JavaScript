@@ -905,6 +905,7 @@ form button {
 	height: 100vh;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 .loader {
 	--color-1: #fff;
