@@ -23,3 +23,7 @@ let startDate = new Date()
 for (let i = 0; i < 100000; i++) {
 	let number = i ** 3
 }
+
+let endDate = new Date()
+
+console.log(`Loop worked ${endDate - startDate} milliseconds`)
