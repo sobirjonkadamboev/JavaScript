@@ -10,3 +10,4 @@ console.log(now.getUTCHours())
 console.log(now.getFullYear())
 
 now.setHours(12)
+console.log(now)
