@@ -19,3 +19,7 @@ console.log(now)
 console.log(parse) */
 
 let startDate = new Date()
+
+for (let i = 0; i < 100000; i++) {
+	let number = i ** 3
+}
