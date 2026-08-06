@@ -43,5 +43,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	setTimeout(() => {
 		wrapperLoader.style.display = 'none'
-	}, 1000)
+	}, 2000)
 })
