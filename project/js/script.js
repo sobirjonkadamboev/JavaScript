@@ -36,4 +36,6 @@ window.addEventListener('DOMContentLoaded', () => {
 			})
 		}
 	})
+
+	//Loader
 })
