@@ -38,4 +38,6 @@ window.addEventListener('DOMContentLoaded', () => {
 	})
 
 	//Loader
+
+	const wrapperLoader = document.querySelector('.loader-wrapper')
 })
