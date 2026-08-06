@@ -50,6 +50,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	function remainingTime(endtime) {
 		const time = Date.parse(endtime) - Date.parse(new Date()),
-			days = Math.floor(time / (1000 * 60 * 60 * 24))
+			days = Math.floor(time / (1000 * 60 * 60 * 24)),
+			hours = Math.floor((time / (1000 * 60 * 60)) % 24)
 	}
 })
