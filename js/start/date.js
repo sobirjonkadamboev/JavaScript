@@ -16,3 +16,4 @@ const now = new Date('2006-11-15')
 
 const parse = Date.parse('2006-11-15')
 console.log(now)
+console.log(parse)
