@@ -64,7 +64,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		}
 	}
 
-	function clock(selector, ){
+	function clock(selector, endtime){
 
 	}
 })
