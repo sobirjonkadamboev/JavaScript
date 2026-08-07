@@ -69,7 +69,9 @@ window.addEventListener('DOMContentLoaded', () => {
 		days = timer.querySelector('#days'),
 		hours = timer.querySelector('#hours'),
 		minutes = timer.querySelector('#minutes'),
-		seconds = timer.querySelector('#seconds')
+		seconds = timer.querySelector('#seconds'),
+		timeInterval = setInterval
+		
 	}
 
 	function updateClock(){
