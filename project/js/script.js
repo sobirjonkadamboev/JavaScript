@@ -81,6 +81,10 @@ window.addEventListener('DOMContentLoaded', () => {
 		hours.innerHTML = time.hours
 		minutes.innerHTML = time.minutes
 		seconds.innerHTML = time.seconds
+
+		if(time.totalTime <= 0){
+			clearInterval(timeInterval)
+		}
 	}
 	
 })
