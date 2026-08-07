@@ -57,10 +57,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		return {
 			totalTime: time,
-			days: days,
-			hours: hours,
-			minutes: minutes,
-			seconds: seconds
+			days, //instead of days: days,
+			hours,
+			minutes,
+			seconds
 		}
 	}
 })
