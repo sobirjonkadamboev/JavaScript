@@ -64,12 +64,16 @@ window.addEventListener('DOMContentLoaded', () => {
 		}
 	}
 
-	function clock(selector, endtime){
+	function setClock(selector, endtime){
 		const timer = document.querySelector(selector),
 		days = timer.querySelector('#days'),
 		hours = timer.querySelector('#hours'),
 		minutes = timer.querySelector('#minutes'),
 		seconds = timer.querySelector('#seconds')
+	}
+
+	function updateClock(){
+		const time = remainingTime(endtime)
 	}
 	
 })
