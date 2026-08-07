@@ -77,10 +77,10 @@ window.addEventListener('DOMContentLoaded', () => {
 	function updateClock(){
 		const time = remainingTime(endtime)
 
-		days.innerHTML = time.days
-		hours.innerHTML = time.hours
-		minutes.innerHTML = time.minutes
-		seconds.innerHTML = time.seconds
+		days.textContent = time.days
+		hours.textContent = time.hours
+		minutes.textContent = time.minutes
+		seconds.textContent = time.seconds
 
 		if(time.totalTime <= 0){
 			clearInterval(timeInterval)
