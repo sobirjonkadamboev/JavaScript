@@ -36,15 +36,6 @@ window.addEventListener('DOMContentLoaded', () => {
 			})
 		}
 	})
-
-	/* Loader
-
-	const wrapperLoader = document.querySelector('.loader-wrapper')
-
-	setTimeout(() => {
-		wrapperLoader.style.display = 'none'
-	}, 2000) */
-
 	//Timer
 	const deadline = '2026-11-15'
 
