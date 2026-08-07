@@ -40,8 +40,8 @@ window.addEventListener('DOMContentLoaded', () => {
 	//Timer
 	const deadline = '2026-11-15'
 
-	function remainingTime(endtime) {
-		const time = Date.parse(endtime) - Date.parse(new Date()),
+	function remainingTime(endTime) {
+		const time = Date.parse(endTime) - Date.parse(new Date()),
 			days = Math.floor(time / (1000 * 60 * 60 * 24)),
 			hours = Math.floor((time / (1000 * 60 * 60)) % 24),
 			minutes = Math.floor((time / (1000 * 60)) % 60),
@@ -56,7 +56,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		}
 	}
 
-	function setClock(selector, endtime) {
+	function setClock(selector, endTime) {
 		const timer = document.querySelector(selector),
 			days = timer.querySelector('#days'),
 			hours = timer.querySelector('#hours'),
@@ -66,7 +66,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 
 	function updateClock() {
-		const time = remainingTime(endtime)
+		const time = remainingTime(endTime)
 
 		days.textContent = time.days
 		hours.textContent = time.hours
