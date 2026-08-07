@@ -86,5 +86,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			clearInterval(timeInterval)
 		}
 	}
+
+	setClock('.timer', deadline)
 	
 })
