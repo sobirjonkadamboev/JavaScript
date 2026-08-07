@@ -68,7 +68,8 @@ window.addEventListener('DOMContentLoaded', () => {
 		const timer = document.querySelector(selector),
 		days = timer.querySelector('#days'),
 		hours = timer.querySelector('#hours'),
-		minutes = timer.querySelector('#minutes')
+		minutes = timer.querySelector('#minutes'),
+		seconds = timer.querySelector('#seconds')
 		
 	}
 	
