@@ -78,5 +78,5 @@ window.addEventListener('DOMContentLoaded', () => {
 		}
 	}
 
-	setClock('.timer', deadline)
+	setClock('.timer', deadline.endTime)
 })
