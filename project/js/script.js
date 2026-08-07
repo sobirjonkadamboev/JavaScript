@@ -66,7 +66,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	function clock(selector, endtime){
 		const timer = document.querySelector(selector),
-		days
+		days = timer.querySelector('#days')
 	}
 	
 })
