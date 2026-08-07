@@ -65,7 +65,8 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 
 	function clock(selector, endtime){
-		const timer = document.querySelector(selector)
+		const timer = document.querySelector(selector),
+		days
 	}
 	
 })
