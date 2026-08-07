@@ -36,7 +36,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			})
 		}
 	})
-	
+
 	//Timer
 	const deadline = '2026-11-15'
 
@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			days, //instead of days: days,
 			hours,
 			minutes,
-			seconds
+			seconds,
 		}
 	}
 
