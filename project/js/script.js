@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			days = Math.floor(time / (1000 * 60 * 60 * 24)),
 			hours = Math.floor((time / (1000 * 60 * 60)) % 24),
 			minutes = Math.floor((time / (1000 * 60)) % 60),
-			seconds = Math.floor((time / 1000) % 60),
+			seconds = Math.floor((time / 1000) % 60)
 
 		return {
 			totalTime: time,
@@ -56,17 +56,16 @@ window.addEventListener('DOMContentLoaded', () => {
 		}
 	}
 
-	function setClock(selector, endtime){
+	function setClock(selector, endtime) {
 		const timer = document.querySelector(selector),
-		days = timer.querySelector('#days'),
-		hours = timer.querySelector('#hours'),
-		minutes = timer.querySelector('#minutes'),
-		seconds = timer.querySelector('#seconds'),
-		timeInterval = setInterval(updateClock, 1000)
-		
+			days = timer.querySelector('#days'),
+			hours = timer.querySelector('#hours'),
+			minutes = timer.querySelector('#minutes'),
+			seconds = timer.querySelector('#seconds'),
+			timeInterval = setInterval(updateClock, 1000)
 	}
 
-	function updateClock(){
+	function updateClock() {
 		const time = remainingTime(endtime)
 
 		days.textContent = time.days
@@ -74,11 +73,10 @@ window.addEventListener('DOMContentLoaded', () => {
 		minutes.textContent = time.minutes
 		seconds.textContent = time.seconds
 
-		if(time.totalTime <= 0){
+		if (time.totalTime <= 0) {
 			clearInterval(timeInterval)
 		}
 	}
 
 	setClock('.timer', deadline)
-	
 })
