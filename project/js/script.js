@@ -70,7 +70,6 @@ window.addEventListener('DOMContentLoaded', () => {
 		hours = timer.querySelector('#hours'),
 		minutes = timer.querySelector('#minutes'),
 		seconds = timer.querySelector('#seconds')
-		
 	}
 	
 })
