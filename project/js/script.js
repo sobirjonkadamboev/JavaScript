@@ -36,6 +36,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			})
 		}
 	})
+	
 	//Timer
 	const deadline = '2026-11-15'
 
