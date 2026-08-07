@@ -74,6 +74,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	function updateClock(){
 		const time = remainingTime(endtime)
+
+		days.innerHTML = time.days
+		hours.innerHTML = time.hours
+		minutes.innerHTML = time.minutes
+		seconds.innerHTML = time.seconds
 	}
 	
 })
