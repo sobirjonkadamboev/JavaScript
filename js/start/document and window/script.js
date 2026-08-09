@@ -1,4 +1,5 @@
-const box = document.querySelector('.box')
+const box = document.querySelector('.box'),
+	button = document.querySelector('button')
 
 //const width = box.clientWidth
 //const height = box.clientHeight -> bu foydalanuvchi ko'radigan eni va bo'y qismi
