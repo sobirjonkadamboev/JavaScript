@@ -2,7 +2,8 @@ const box = document.querySelector('.box'),
 	button = document.querySelector('button')
 
 button.addEventListener('click', () => {
-	console.log(box.scrollTop)
+	box.style.height = box.scrollHeight + 'px'
+	//console.log(box.scrollTop)
 })
 
 //const width = box.clientWidth
