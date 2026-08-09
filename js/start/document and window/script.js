@@ -1,7 +1,7 @@
 const box = document.querySelector('.box'),
 	button = document.querySelector('button')
 
-console.log(box.getBoundingClientRect())
+console.log(box.getBoundingClientRect()) //height, width'larni chiqarib beradi
 
 /* button.addEventListener('click', () => {
 	box.style.height = box.scrollHeight + 'px'
