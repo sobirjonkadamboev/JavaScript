@@ -6,5 +6,8 @@ const box = document.querySelector('.box')
 /* const width = box.offsetWidth
 const height = box.offsetHeight  -> bu faqat contentni width bn height*/
 
+const width = box.scrollWidth
+const height = box.scrollHeight
+
 console.log(width)
 console.log(height)
