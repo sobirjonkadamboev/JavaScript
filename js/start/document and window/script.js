@@ -1,7 +1,7 @@
 const box = document.querySelector('.box'),
 	button = document.querySelector('button')
 
-button.addEventListener('click', () => {
+/* button.addEventListener('click', () => {
 	box.style.height = box.scrollHeight + 'px'
 	//console.log(box.scrollTop)
 })
@@ -9,7 +9,7 @@ button.addEventListener('click', () => {
 //const width = box.clientWidth
 //const height = box.clientHeight -> bu foydalanuvchi ko'radigan eni va bo'y qismi
 
-/* const width = box.offsetWidth
+ const width = box.offsetWidth
 const height = box.offsetHeight  -> bu faqat contentni width bn height
 
 const width = box.scrollWidth
