@@ -8,3 +8,10 @@ function functionConstructor(lastName, firstName) {
 	this.lastName = lastName
 	this.firstName = firstName
 } //this is constructor function
+
+function Car(model, name, year, color) {
+	;((this.model = model),
+		(this.name = name),
+		(this.year = year),
+		(this.color = color))
+}
