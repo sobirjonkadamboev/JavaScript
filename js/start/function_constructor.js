@@ -7,6 +7,9 @@ function FunctionConstructor(lastName, firstName) {
 	//katta harf bilan boshlanadi function constructorlar
 	this.lastName = lastName
 	this.firstName = firstName
+	this.greet = function () {
+		console.log(`Hi, your name is ${this.lastName} ${this.firstName}`)
+	}
 } //this is constructor function
 
 const firstPerson = new FunctionConstructor('Kadamboev', 'Sobirjon')
