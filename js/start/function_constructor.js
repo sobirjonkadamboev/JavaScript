@@ -17,3 +17,4 @@ function Car(model, name, year, color) {
 }
 
 const car1 = new Car('AUDI RS-3', 'v8', '2009', 'gray')
+const car2 = new Car('BMW i8', '2.0.0', '2024', 'white')
