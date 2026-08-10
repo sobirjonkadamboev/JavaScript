@@ -3,6 +3,6 @@
 /* const name = new Function('7')
 console.log(name) */
 
-function functionConstructor() {
+function functionConstructor(lastName, firstName) {
 	//katta harf bilan boshlanadi function constructorlar
 }
