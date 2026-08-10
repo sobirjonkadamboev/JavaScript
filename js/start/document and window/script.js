@@ -9,6 +9,8 @@ console.log(window.getComputedStyle(box)) //qanaqa style'lar borligini ko'rsatad
 	//console.log(box.scrollTop)
 })
 
+
+
 //const width = box.clientWidth
 //const height = box.clientHeight -> bu foydalanuvchi ko'radigan eni va bo'y qismi
 
