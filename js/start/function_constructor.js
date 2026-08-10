@@ -12,6 +12,9 @@ function FunctionConstructor(lastName, firstName) {
 const firstPerson = new FunctionConstructor('Kadamboev', 'Sobirjon')
 const secondPerson = new FunctionConstructor('Ali', 'Jumayev')
 
+console.log(firstPerson)
+console.log(secondPerson)
+
 function Car(model, name, year, color) {
 	;((this.model = model),
 		(this.name = name),
