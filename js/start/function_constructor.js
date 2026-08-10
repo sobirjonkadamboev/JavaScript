@@ -15,6 +15,9 @@ function FunctionConstructor(lastName, firstName) {
 const firstPerson = new FunctionConstructor('Kadamboev', 'Sobirjon')
 const secondPerson = new FunctionConstructor('Ali', 'Jumayev')
 
+firstPerson.greet()
+secondPerson.greet()
+
 console.log(firstPerson)
 console.log(secondPerson)
 
