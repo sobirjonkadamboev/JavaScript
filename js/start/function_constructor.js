@@ -15,3 +15,5 @@ function Car(model, name, year, color) {
 		(this.year = year),
 		(this.color = color))
 }
+
+const car1 = new Car('AUDI RS-3', 'v8', '2009', 'gray')
