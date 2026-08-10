@@ -12,14 +12,15 @@ function FunctionConstructor(lastName, firstName) {
 	}
 } //this is constructor function
 
-FunctionConstructor.prototype.ageConvert = function () {
-	console.log(`${this.firstName} age is: `)
+FunctionConstructor.prototype.ageConvert = function (age) {
+	console.log(`${this.firstName} age is: ${age}`)
 }
 
 const firstPerson = new FunctionConstructor('Kadamboev', 'Sobirjon')
 const secondPerson = new FunctionConstructor('Ali', 'Jumayev')
 
 firstPerson.ageConvert()
+secondPerson.ageConvert()
 
 firstPerson.greet()
 secondPerson.greet()
