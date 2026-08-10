@@ -3,11 +3,14 @@
 /* const name = new Function('7')
 console.log(name) */
 
-function functionConstructor(lastName, firstName) {
+function FunctionConstructor(lastName, firstName) {
 	//katta harf bilan boshlanadi function constructorlar
 	this.lastName = lastName
 	this.firstName = firstName
 } //this is constructor function
+
+const firstPerson = new FunctionConstructor('Kadamboev', 'Sobirjon')
+const secondPerson = new FunctionConstructor('Ali', 'Jumayev')
 
 function Car(model, name, year, color) {
 	;((this.model = model),
