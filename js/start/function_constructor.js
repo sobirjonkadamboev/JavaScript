@@ -5,4 +5,6 @@ console.log(name) */
 
 function functionConstructor(lastName, firstName) {
 	//katta harf bilan boshlanadi function constructorlar
+	this.lastName = lastName
+	this.firstName = firstName
 }
