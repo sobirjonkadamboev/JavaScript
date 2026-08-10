@@ -19,7 +19,7 @@ FunctionConstructor.prototype.ageConvert = function () {
 const firstPerson = new FunctionConstructor('Kadamboev', 'Sobirjon')
 const secondPerson = new FunctionConstructor('Ali', 'Jumayev')
 
-firstPerson.ageConvert(20)
+firstPerson.ageConvert('20')
 
 firstPerson.greet()
 secondPerson.greet()
