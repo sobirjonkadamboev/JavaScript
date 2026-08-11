@@ -12,6 +12,10 @@ const person = {
 	fName: 'Sobirjon',
 	lName: 'Kadamboev',
 	greeting: function () {
+		const showThis = () => {
+			console.log(this)
+		}
+		showThis()
 		console.log(this)
 	},
 }
