@@ -55,3 +55,4 @@ function calc(number) {
 }
 
 const double = calc.bind(2)
+const triple = calc.bind(3)
