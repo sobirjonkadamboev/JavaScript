@@ -60,7 +60,7 @@ const triple = calc.bind(3)
 console.log(double(10))
 console.log(triple(3))
 
-const btn = document.querySelector('.button')
+const btn = document.querySelector('button')
 
 btn.addEventListener('click', () => {
 	console.log(this)
