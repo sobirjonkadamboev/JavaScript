@@ -1,4 +1,4 @@
-//Context <<this>>
+/* Context <<this>>
 
 function logThis() {
 	console.log(this)
@@ -21,4 +21,4 @@ const person = {
 	},
 }
 
-person.greeting()
+person.greeting() */
