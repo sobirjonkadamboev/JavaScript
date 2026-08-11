@@ -33,5 +33,4 @@ function Person(fName, lName, age) {
 }
 
 const fPerson = new Person('Sobirjon', 'Kadamboev', 20)
-console.log(fPerson)
 console.log(fPerson.greeting())
