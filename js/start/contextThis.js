@@ -49,3 +49,7 @@ const person = {
 
 salomlashuv.call(person)
 salomlashuv.apply(person)
+
+function calc(number) {
+	return this * number
+}
