@@ -56,3 +56,6 @@ function calc(number) {
 
 const double = calc.bind(2)
 const triple = calc.bind(3)
+
+console.log(double(10))
+console.log(triple(3))
