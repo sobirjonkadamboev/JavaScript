@@ -22,3 +22,12 @@ const person = {
 }
 
 person.greeting() */
+
+function Person(fName, lName, age) {
+	;((this.fName = fName),
+		(this.lName = lName),
+		(this.age = age),
+		(this.greeting = function () {
+			console.log(this)
+		}))
+}
