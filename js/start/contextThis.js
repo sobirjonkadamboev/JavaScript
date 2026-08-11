@@ -5,3 +5,5 @@ function logThis() {
 }
 
 logThis()
+
+//function dagi context this window objectga boradi
