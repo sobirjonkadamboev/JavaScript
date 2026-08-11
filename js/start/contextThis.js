@@ -37,7 +37,7 @@ const fPerson = new Person('Sobirjon', 'Kadamboev', 20)
 console.log(fPerson.greeting())
 
 function salomlashuv() {
-	console.log(this)
+	console.log(this.name)
 }
 
 const person = {
