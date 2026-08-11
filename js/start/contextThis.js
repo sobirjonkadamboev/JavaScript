@@ -13,6 +13,7 @@ const person = {
 	lName: 'Kadamboev',
 	greeting: function () {
 		const showThis = () => {
+			//arrow functionlarda context this yuqorisidagi contextga teng bo'ladi
 			console.log(this)
 		}
 		showThis()
