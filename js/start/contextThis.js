@@ -7,7 +7,7 @@ function logThis() {
 logThis()
 
 //#1. function dagi context this window objectga boradi, "use strict" modeda undefined bo'ladi
-//#2. context this objectlarda objectlar bilan teng bo'ladi
+//#2. context this objectlarda objectlar methodi bilan teng bo'ladi
 const person = {
 	fName: 'Sobirjon',
 	lName: 'Kadamboev',
