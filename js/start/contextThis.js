@@ -31,3 +31,7 @@ function Person(fName, lName, age) {
 			console.log(this)
 		}))
 }
+
+const fPerson = new Person('Sobirjon', 'Kadamboev', 20)
+console.log(fPerson)
+console.log(fPerson.greeting())
