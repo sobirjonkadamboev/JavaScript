@@ -63,5 +63,5 @@ console.log(triple(3))
 const btn = document.querySelector('button')
 
 btn.addEventListener('click', () => {
-	console.log(this)
+	this.style.background = 'red'
 })
