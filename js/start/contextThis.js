@@ -35,3 +35,14 @@ function Person(fName, lName, age) {
 
 const fPerson = new Person('Sobirjon', 'Kadamboev', 20)
 console.log(fPerson.greeting())
+
+function salomlashuv() {
+	console.log(this)
+}
+
+const person = {
+	name: 'Sobirjon Kadamboev',
+}
+
+salomlashuv.call(person)
+salomlashuv.apply(person)
