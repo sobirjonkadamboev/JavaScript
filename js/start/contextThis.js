@@ -10,6 +10,8 @@ logThis()
 //#2. context this objectlarda objectlar methodi bilan teng bo'ladi
 //#3. context this function constructor ichida yangi obyektni misollari
 //#4. call va apply methodlar bu functionga contextni bog'lash uchun ishlatiladi
+
+
 const person = {
 	fName: 'Sobirjon',
 	lName: 'Kadamboev',
