@@ -53,3 +53,5 @@ salomlashuv.apply(person)
 function calc(number) {
 	return this * number
 }
+
+const double = calc.bind(2)
