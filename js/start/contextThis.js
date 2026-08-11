@@ -6,8 +6,8 @@ function logThis() {
 
 logThis()
 
-//function dagi context this window objectga boradi, "use strict" modeda undefined bo'ladi
-
+//#1. function dagi context this window objectga boradi, "use strict" modeda undefined bo'ladi
+//#2. context this objectlarda shular bilan teng bo'ladi
 const person = {
 	fName: 'Sobirjon',
 	lName: 'Kadamboev',
