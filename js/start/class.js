@@ -10,5 +10,6 @@ class Person {
 }
 
 const firstPerson = new Person('Sobirjon', 'Kadamboev')
+const nextPerson = new Person('Akmal', 'Kadirov')
 
 console.log(firstPerson.greeting())
