@@ -9,6 +9,13 @@ class Person {
 	}
 }
 
+class PersonStatus extends Person {
+	//extends -> o'zidan oldingi classni copy qiladi
+	constructor() {
+		super()
+	}
+}
+
 const firstPerson = new Person('Sobirjon', 'Kadamboev')
 const nextPerson = new Person('Akmal', 'Kadirov')
 
