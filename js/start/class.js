@@ -17,7 +17,7 @@ class PersonStatus extends Person {
 	}
 
 	get() {
-		return
+		return `Full name: ${this.firstName} ${this.lastName}`
 	}
 }
 
