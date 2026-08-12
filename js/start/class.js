@@ -32,6 +32,7 @@ const lastPerson = new PersonStatus('Lola', 'Azimova', true)
 console.log(lastPerson.get())
 
 function calc(a, b, ...rest) {
+	//you can use to copy the rest data
 	console.log(a)
 	console.log(b)
 	console.log(rest)
