@@ -35,3 +35,5 @@ function calc(a, b) {
 	console.log(a)
 	console.log(b)
 }
+
+calc(10, 12)
