@@ -10,3 +10,5 @@ class New {
 }
 
 const firstPerson = new Person('Sobirjon', 'Kadamboev')
+
+console.log(firstPerson)
