@@ -36,4 +36,4 @@ function calc(a, b) {
 	console.log(b)
 }
 
-console.log(calc)
+console.log(calc())
