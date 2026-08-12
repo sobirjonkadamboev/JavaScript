@@ -30,3 +30,5 @@ console.log(nextPerson.greeting())
 const lastPerson = new PersonStatus('Lola', 'Azimova', true)
 
 console.log(lastPerson.get())
+
+function calc(a, b) {}
