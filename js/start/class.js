@@ -31,8 +31,9 @@ const lastPerson = new PersonStatus('Lola', 'Azimova', true)
 
 console.log(lastPerson.get())
 
-
-function calc(a, b){
+function calc(a, b) {
 	console.log(a)
 	console.log(b)
 }
+
+console.log(calc)
