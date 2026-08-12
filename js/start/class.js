@@ -1,4 +1,4 @@
-class New {
+class Person {
 	constructor(firstName, lastName) {
 		this.firstName = firstName
 		this.lastName = lastName
@@ -9,6 +9,6 @@ class New {
 	}
 }
 
-const firstPerson = new New('Sobirjon', 'Kadamboev')
+const firstPerson = new Person('Sobirjon', 'Kadamboev')
 
 console.log(firstPerson)
