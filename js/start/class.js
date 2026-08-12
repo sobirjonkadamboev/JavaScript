@@ -9,4 +9,4 @@ class New {
 	}
 }
 
-const firstPerson = new Person('Sobirjon', '<Kadamboev></Kadamboev>')
+const firstPerson = new Person('Sobirjon', 'Kadamboev')
