@@ -26,3 +26,5 @@ const nextPerson = new Person('Akmal', 'Kadirov')
 
 console.log(firstPerson.greeting())
 console.log(nextPerson.greeting())
+
+const lastPerson = new PersonStatus('Lola', 'Azimova', true)
