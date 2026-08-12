@@ -8,3 +8,5 @@ class New {
 		return `Full name: ${this.firstName} ${this.lastName}`
 	}
 }
+
+const firstPerson = new Person('Sobirjon', '<Kadamboev></Kadamboev>')
