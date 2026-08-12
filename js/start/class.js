@@ -1,3 +1,3 @@
 class New {
-	constructor() {}
+	constructor(firstName, lastName) {}
 }
