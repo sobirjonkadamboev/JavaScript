@@ -9,6 +9,6 @@ class New {
 	}
 }
 
-const firstPerson = new Person('Sobirjon', 'Kadamboev')
+const firstPerson = new New('Sobirjon', 'Kadamboev')
 
 console.log(firstPerson)
