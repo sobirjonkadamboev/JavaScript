@@ -37,4 +37,4 @@ function calc(a, b, ...rest) {
 	console.log(rest)
 }
 
-calc(10, 12)
+calc(10, 12, 1, 2, 3, 4, 5, 6, 7, 8, 9)
