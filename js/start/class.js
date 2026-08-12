@@ -11,7 +11,7 @@ class Person {
 
 class PersonStatus extends Person {
 	//extends -> o'zidan oldingi classni copy qiladi
-	constructor(isMarried) {
+	constructor(isMarried, firstName, lastName) {
 		super() //super -> this context va boshqalarni copy qiladi ichidagi
 		this.isMarried = isMarried
 	}
