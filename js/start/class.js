@@ -17,7 +17,7 @@ class PersonStatus extends Person {
 	}
 
 	get() {
-		return `Full name: ${this.firstName} ${this.lastName}`
+		return `Full name: ${this.firstName} ${this.lastName}. Married: ${this.isMarried}`
 	}
 }
 
