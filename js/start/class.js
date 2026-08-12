@@ -11,4 +11,4 @@ class Person {
 
 const firstPerson = new Person('Sobirjon', 'Kadamboev')
 
-console.log(firstPerson)
+console.log(firstPerson.greeting())
