@@ -20,7 +20,7 @@ const jsonObj = JSON.parse(objJson) //object formatga qaytarish
 const sum = document.querySelector('#sum'),
 	won = document.querySelector('#won')
 
-sumVal.addEventListener('input', () => {
+sum.addEventListener('input', () => {
 	const request = new XMLHttpRequest()
 
 	request.open('GET', './current.json') //json ma'lumotni olish uchun
