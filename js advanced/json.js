@@ -6,3 +6,5 @@ const person = {
 		games: 'FIFA',
 	},
 }
+
+//JSON, xml - serverga ma'lumot yuborishda ishlatiladi
