@@ -31,6 +31,8 @@ sum.addEventListener('input', () => {
 		if (request.status === 200) {
 			const data = JSON.parse(request.response) //object sifatida olish uchun
 			won.value = (+sum.value / data.current.won).toFixed(3)
+		} else {
+			won.value = 'Something went wrong'
 		}
 	}) //hammasi successfull bo'lganda yoziladi
 })
