@@ -23,7 +23,7 @@ const sum = document.querySelector('#sum'),
 sum.addEventListener('input', () => {
 	const request = new XMLHttpRequest()
 
-	request.open('GET', './current1.json') //json ma'lumotni olish uchun
+	request.open('GET', './current.json') //json ma'lumotni olish uchun
 	request.setRequestHeader('Content-Type', 'application/json') //type'larni aniqlab ko'rsatishga
 	request.send()
 
