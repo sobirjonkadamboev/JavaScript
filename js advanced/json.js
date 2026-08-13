@@ -7,4 +7,5 @@ const person = {
 	},
 }
 
+console.log(JSON.stringify(person))
 //JSON, xml - serverga ma'lumot yuborishda ishlatiladi
