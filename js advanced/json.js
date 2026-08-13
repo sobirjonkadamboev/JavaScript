@@ -29,7 +29,7 @@ sumVal.addEventListener('input', () => {
 
 	request.addEventListener('load', () => {
 		if (request.status === 200) {
-			const data = JSON.parse(request.response)
+			const data = JSON.parse(request.response) //object sifatida olish uchun
 			console.log(data)
 		}
 	}) //hammasi successfull bo'lganda yoziladi
