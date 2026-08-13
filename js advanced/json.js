@@ -10,6 +10,7 @@ const person = {
 const deepClone = JSON.parse(JSON.stringify(person)) //deep clone
 deepClone.hobbies.sport = 'Running'
 console.log(deepClone)
+console.log(person)
 
 const objJson = JSON.stringify(person)
 const jsonObj = JSON.parse(objJson)
