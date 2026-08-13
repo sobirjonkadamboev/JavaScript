@@ -7,7 +7,8 @@ const person = {
 	},
 }
 
-const deepClone = JSON.parse(JSON.stringify(person))
+const deepClone = JSON.parse(JSON.stringify(person)) //deep clone
+console.log(deepClone)
 
 const objJson = JSON.stringify(person)
 const jsonObj = JSON.parse(objJson)
