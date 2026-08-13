@@ -21,5 +21,7 @@ const sumVal = document.querySelector('#sum'),
 	wonVal = document.querySelector('#won')
 
 sumVal.addEventListener('input', () => {
-	console.log('Input')
+	const request = new XMLHttpRequest()
+
+	request.open('GET', './current.json')
 })
