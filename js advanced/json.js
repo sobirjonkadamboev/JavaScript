@@ -27,5 +27,9 @@ sumVal.addEventListener('input', () => {
 	request.setRequestHeader('Content-Type', 'application/json') //type'larni aniqlab ko'rsatishga
 	request.send()
 
-	request.addEventListener('load') //hammasi successfull bo'lganda yoziladi
+	request.addEventListener('load', () => {
+		if (request.status === 200) {
+			console.log(request.response)
+		}
+	}) //hammasi successfull bo'lganda yoziladi
 })
