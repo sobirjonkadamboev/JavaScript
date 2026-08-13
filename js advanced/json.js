@@ -17,8 +17,8 @@ const jsonObj = JSON.parse(objJson) //object formatga qaytarish
 //JSON, xml - serverga ma'lumot yuborishda ishlatiladi va ma'lumot JSON formatda bo'lishi shart
 */
 
-const sumVal = document.querySelector('#sum'),
-	wonVal = document.querySelector('#won')
+const sum = document.querySelector('#sum'),
+	won = document.querySelector('#won')
 
 sumVal.addEventListener('input', () => {
 	const request = new XMLHttpRequest()
