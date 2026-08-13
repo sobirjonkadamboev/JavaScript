@@ -7,5 +7,5 @@ const person = {
 	},
 }
 
-const obj = JSON.stringify(person)
+const objJson = JSON.stringify(person)
 //JSON, xml - serverga ma'lumot yuborishda ishlatiladi va ma'lumot JSON formatda bo'lishi shart
