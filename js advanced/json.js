@@ -8,4 +8,4 @@ const person = {
 }
 
 console.log(JSON.stringify(person))
-//JSON, xml - serverga ma'lumot yuborishda ishlatiladi
+//JSON, xml - serverga ma'lumot yuborishda ishlatiladi va ma'lumot JSON formatda bo'lishi shart
