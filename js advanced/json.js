@@ -13,5 +13,5 @@ console.log(deepClone)
 console.log(person)
 
 const objJson = JSON.stringify(person) //json formatga o'tkazish
-const jsonObj = JSON.parse(objJson)
+const jsonObj = JSON.parse(objJson) //object formatga qaytarish
 //JSON, xml - serverga ma'lumot yuborishda ishlatiladi va ma'lumot JSON formatda bo'lishi shart
