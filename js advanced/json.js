@@ -30,6 +30,7 @@ sumVal.addEventListener('input', () => {
 	request.addEventListener('load', () => {
 		if (request.status === 200) {
 			const data = JSON.parse(request.response)
+			console.log(data)
 		}
 	}) //hammasi successfull bo'lganda yoziladi
 })
