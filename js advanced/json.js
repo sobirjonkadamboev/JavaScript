@@ -30,7 +30,7 @@ sumVal.addEventListener('input', () => {
 	request.addEventListener('load', () => {
 		if (request.status === 200) {
 			const data = JSON.parse(request.response) //object sifatida olish uchun
-			wonVal.value = +sumVal.value / data.current.won
+			won.value = +sum.value / data.current.won
 		}
 	}) //hammasi successfull bo'lganda yoziladi
 })
