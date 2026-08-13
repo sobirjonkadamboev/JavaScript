@@ -23,6 +23,9 @@ const sumVal = document.querySelector('#sum'),
 sumVal.addEventListener('input', () => {
 	const request = new XMLHttpRequest()
 
-	request.open('GET', './current.json')
-	request.setRequestHeader('Content-Type', 'application/json')
+	request.open('GET', './current.json') //json ma'lumotni olish uchun
+	request.setRequestHeader('Content-Type', 'application/json') //type'larni aniqlab ko'rsatishga
+	request.send()
+
+	request.addEventListener('load') //hammasi successfull bo'lganda yoziladi
 })
