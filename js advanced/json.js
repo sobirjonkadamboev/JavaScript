@@ -12,6 +12,6 @@ deepClone.hobbies.sport = 'Boxing'
 console.log(deepClone)
 console.log(person)
 
-const objJson = JSON.stringify(person)
+const objJson = JSON.stringify(person) //json formatga o'tkazish
 const jsonObj = JSON.parse(objJson)
 //JSON, xml - serverga ma'lumot yuborishda ishlatiladi va ma'lumot JSON formatda bo'lishi shart
