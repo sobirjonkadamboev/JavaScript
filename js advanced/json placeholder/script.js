@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
 	fetch('https://jsonplaceholder.typicode.com/posts', {
-		//fetch - bu serverdan ma;lumot olganda ishlatiladi
+		//fetch - bu serverdan ma'lumot olganda ishlatiladi
 		method: 'GET',
 		headers: {
 			'Content-type': 'application/json',
