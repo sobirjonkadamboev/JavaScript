@@ -1,6 +1,8 @@
 window.addEventListener('DOMContentLoaded', () => {
 	const postWrapper = document.querySelector('.posts')
 
+
+
 	fetch('https://jsonplaceholder.typicode.com/posts', {
 		//fetch - bu serverdan ma'lumot olganda ishlatiladi
 		method: 'GET',
@@ -10,6 +12,12 @@ window.addEventListener('DOMContentLoaded', () => {
 	})
 		.then(response => response.json()) //.json formatda userga ko'rsatish(oson)
 		.then(data => {
+			const post = document.createElement('div')
+			post.classList.add('post')
+			data.forEach((item, index) => {
+				post.innerHTML += 
+			})
+			
 			console.log(data)
 		})
 		.catch(err => {
