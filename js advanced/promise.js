@@ -15,3 +15,6 @@ request
 	.then(() => {
 		console.log('Finished again')
 	})
+	.catch(() => {
+		console.log('Not successful')
+	})
