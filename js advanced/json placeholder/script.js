@@ -16,9 +16,8 @@ window.addEventListener('DOMContentLoaded', () => {
 				post.innerHTML += `<h4> <b>#1.
 				${index + 1}</b> ${item.title}</h4>
 			<p>${item.body}</p>`
+				postWrapper.append(post)
 			})
-
-			console.log(data)
 		})
 		.catch(err => {
 			console.log(err)
