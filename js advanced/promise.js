@@ -39,3 +39,5 @@ const logger = time => {
 }
 
 logger(1000).then(() => console.log(1000ms))
+
+logger(1000).then(() => console.log(1000ms))
