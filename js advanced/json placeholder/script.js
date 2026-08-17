@@ -14,13 +14,13 @@ window.addEventListener('DOMContentLoaded', () => {
 			post.classList.add('post')
 			data.forEach((item, index) => {
 				post.innerHTML += `<h4> <b>#1.
-				${index + 1}</b> ${item.title}</h4>
+				${index + 1}. </b> ${item.title}</h4>
 			<p>${item.body}</p>`
 				postWrapper.append(post)
 			})
 		})
 		.catch(err => {
-			console.log(err)
+			const err = document.createElement('div')
 		})
 		.finally(() => {
 			//oxirida chiqarish uchun success or not success bo'lsayam
