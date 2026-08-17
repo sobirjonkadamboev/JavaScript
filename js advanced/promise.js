@@ -7,3 +7,11 @@ const request = new Promise((resolve, reject) => {
 		reject()
 	}
 })
+
+request
+	.then(() => {
+		console.log('Successful')
+	})
+	.then(() => {
+		console.log('Finished again')
+	})
