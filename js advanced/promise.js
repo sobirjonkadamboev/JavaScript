@@ -1,7 +1,7 @@
 //const friendStatus = 'failure'
 
 const friend = {
-	status: 'success',
+	status: 'failure',
 }
 
 const request = new Promise((resolve, reject) => {
