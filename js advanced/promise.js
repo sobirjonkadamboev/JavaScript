@@ -7,7 +7,7 @@ const friend = {
 const request = new Promise((resolve, reject) => {
 	if (friendStatus === 'success') {
 		friend.time = '10:00'
-		resolve()
+		resolve(friend)
 	} else {
 		reject()
 	}
