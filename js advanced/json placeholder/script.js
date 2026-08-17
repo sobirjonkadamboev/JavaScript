@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-	fetch('https://jsonplaceholder.typicode.com/posts', {
+	fetch('https://jsonplaceholder.typicode1.com/posts', {
 		method: 'GET',
 		headers: {
 			'Content-type': 'application/json',
