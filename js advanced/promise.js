@@ -14,7 +14,7 @@ const request = new Promise((resolve, reject) => {
 })
 
 request
-	.then(() => {
+	.then(data => {
 		console.log('Successful')
 	})
 	.then(() => {
