@@ -4,7 +4,11 @@ window.addEventListener('DOMContentLoaded', () => {
 		headers: {
 			'Content-type': 'application/json',
 		},
-	}).then(response => {
-		console.log(response)
 	})
+		.then(response => {
+			return response.json()
+		})
+		.then(data => {
+			console.log(data)
+		})
 })
