@@ -13,9 +13,9 @@ window.addEventListener('DOMContentLoaded', () => {
 			const post = document.createElement('div')
 			post.classList.add('post')
 			data.forEach((item, index) => {
-				post.innerHTML += `<h4> <b>#1.</b> sunt aut facere repellat provident occaecati excepturi optio reprehenderit</h4>
-			<p>quia et suscipitnsuscipit recusandae consequuntur expedita et cumnreprehenderit molestiae ut ut quas
-				totamnnostrum rerum est autem sunt rem eveniet architecto</p>`
+				post.innerHTML += `<h4> <b>#1.
+				${index + 1}</b> ${item.title}</h4>
+			<p>${item.body}</p>`
 			})
 
 			console.log(data)
