@@ -10,9 +10,9 @@ window.addEventListener('DOMContentLoaded', () => {
 	})
 		.then(response => response.json()) //.json formatda userga ko'rsatish(oson)
 		.then(data => {
-			const post = document.createElement('div')
-			post.classList.add('post')
 			data.forEach((item, index) => {
+				const postEl = document.createElement('div')
+				postEl.classList.add('post')
 				post.innerHTML += `<h4> <b>#1.
 				${index + 1}. </b> ${item.title}</h4>
 			<p>${item.body}</p>`
@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			})
 		})
 		.catch(err => {
-			const err = document.createElement('div')
+			const errorEl = document.createElement('div')
 		})
 		.finally(() => {
 			//oxirida chiqarish uchun success or not success bo'lsayam
