@@ -5,9 +5,8 @@ window.addEventListener('DOMContentLoaded', () => {
 			'Content-type': 'application/json',
 		},
 	})
-		.then(response => {
-			return response.json()
-		})
+		.then(response => response.json()
+
 		.then(data => {
 			console.log(data)
 		})
