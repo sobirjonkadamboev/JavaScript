@@ -22,6 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		.catch(err => {
 			const errorEl = document.createElement('div')
 			errorEl.classList.add('error')
+			errorEl.textContent = 'Something went wrong'
 			postWrapper.append(errorEl)
 		})
 		.finally(() => {
