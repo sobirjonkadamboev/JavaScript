@@ -38,6 +38,8 @@ const logger = time => {
 	})
 }
 
+Promise.all([logger(1000), logger(2000)])
+
 /*logger(1000).then(
 	() => console.log('1000ms'),
 
