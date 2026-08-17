@@ -1,4 +1,4 @@
-const friendStatus = 'success'
+const friendStatus = 'failure'
 
 const request = new Promise((resolve, reject) => {
 	if (friendStatus === 'success') {
