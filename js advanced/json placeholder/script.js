@@ -1,6 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
 	const postWrapper = document.querySelector('.posts')
 
+	//GET methodi:
 	fetch('https://jsonplaceholder.typicode.com1/posts', {
 		//fetch - bu serverdan ma'lumot olganda ishlatiladi, ya'ni serverga so'rov yuboriladi
 		method: 'GET',
@@ -29,4 +30,8 @@ window.addEventListener('DOMContentLoaded', () => {
 			//oxirida chiqarish uchun success or not success bo'lsayam
 			console.log('Finally done!')
 		})
+
+	//POST method:
+
+	const form = document.querySelector('form')
 })
