@@ -1,5 +1,8 @@
-const friendStatus = 'failure'
+//const friendStatus = 'failure'
 
+const friend = {
+	status: 'success',
+}
 const request = new Promise((resolve, reject) => {
 	if (friendStatus === 'success') {
 		resolve()
