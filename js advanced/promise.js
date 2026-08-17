@@ -13,8 +13,8 @@ request
 		console.log('Successful')
 	})
 	.then(() => {
-		console.log('Finished again')
+		console.log('Finished again') //for success
 	})
 	.catch(() => {
-		console.log('Not successful')
+		console.log('Not successful') //unsuccessful
 	})
