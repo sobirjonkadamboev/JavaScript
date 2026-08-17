@@ -32,6 +32,8 @@ request
 
 const logger = time => {
 	return new Promise(resolve => {
-		setTimeout(() => {}, time)
+		setTimeout(() => {
+			resolve()
+		}, time)
 	})
 }
