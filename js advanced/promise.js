@@ -18,3 +18,6 @@ request
 	.catch(() => {
 		console.log('Not successful') //unsuccessful
 	})
+	.finally(() => {
+		console.log('not success or success')
+	})
