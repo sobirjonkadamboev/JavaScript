@@ -42,6 +42,10 @@ Promise.all([logger(1000), logger(2000)]).then(() => {
 	console.log('All promises resolved')
 })
 
+Promise.race([logger(1000), logger(2000)]).then(() => {
+	console.log('All promises resolved')
+})
+
 /*logger(1000).then(
 	() => console.log('1000ms'),
 
