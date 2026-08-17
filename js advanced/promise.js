@@ -9,7 +9,7 @@ const request = new Promise((resolve, reject) => {
 		friend.time = '10:00'
 		resolve(friend)
 	} else {
-		reject('didnt know)
+		reject('didnt know')
 	}
 })
 
