@@ -22,9 +22,6 @@ request
 		data.food = 'LA'
 		console.log(data) //for success
 	})
-	.then(() => {
-		console.log(data)
-	})
 	.catch(() => {
 		console.log('Not successful') //unsuccessful
 	})
