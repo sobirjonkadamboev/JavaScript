@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	const postWrapper = document.querySelector('.posts')
 
 	//GET methodi:
-	fetch('https://jsonplaceholder.typicode.com1/posts', {
+	fetch('https://jsonplaceholder.typicode.com/posts', {
 		//fetch - bu serverdan ma'lumot olganda ishlatiladi, ya'ni serverga so'rov yuboriladi
 		method: 'GET',
 		headers: {
