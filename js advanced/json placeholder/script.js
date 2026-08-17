@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
 				postEl.innerHTML += `<h4> <b>#1.
 				${index + 1}. </b> ${item.title}</h4>
 			<p>${item.body}</p>`
-				postWrapper.append(post)
+				postWrapper.append(postEl)
 			})
 		})
 		.catch(err => {
