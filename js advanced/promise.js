@@ -19,6 +19,7 @@ request
 		return data
 	})
 	.then(data => {
+		data.food = 'LA'
 		console.log(data) //for success
 	})
 	.then(() => {
