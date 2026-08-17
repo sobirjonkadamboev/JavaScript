@@ -3,8 +3,10 @@
 const friend = {
 	status: 'success',
 }
+
 const request = new Promise((resolve, reject) => {
 	if (friendStatus === 'success') {
+		friend.time = '10:00'
 		resolve()
 	} else {
 		reject()
