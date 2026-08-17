@@ -15,6 +15,7 @@ const request = new Promise((resolve, reject) => {
 
 request
 	.then(data => {
+		data.place = 'cinema'
 		console.log(data)
 	})
 	.then(() => {
