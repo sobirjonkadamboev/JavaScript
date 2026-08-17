@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			data.forEach((item, index) => {
 				const postEl = document.createElement('div')
 				postEl.classList.add('post')
-				post.innerHTML += `<h4> <b>#1.
+				postEl.innerHTML += `<h4> <b>#1.
 				${index + 1}. </b> ${item.title}</h4>
 			<p>${item.body}</p>`
 				postWrapper.append(post)
