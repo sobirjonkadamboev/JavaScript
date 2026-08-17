@@ -23,7 +23,7 @@ request
 		console.log(data) //for success
 	})
 	.catch(error => {
-		console.log('Not successful') //unsuccessful
+		console.log(error)
 	})
 	.finally(() => {
 		console.log('not success or success')
