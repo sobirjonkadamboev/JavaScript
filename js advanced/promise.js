@@ -18,7 +18,7 @@ request
 		data.place = 'cinema'
 		return data
 	})
-	.then(() => {
+	.then(data => {
 		console.log('Finished again') //for success
 	})
 	.then(() => {
