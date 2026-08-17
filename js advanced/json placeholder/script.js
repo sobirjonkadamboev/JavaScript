@@ -21,6 +21,8 @@ window.addEventListener('DOMContentLoaded', () => {
 		})
 		.catch(err => {
 			const errorEl = document.createElement('div')
+			errorEl.classList.add('error')
+			postWrapper.append(errorEl)
 		})
 		.finally(() => {
 			//oxirida chiqarish uchun success or not success bo'lsayam
