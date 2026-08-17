@@ -38,6 +38,9 @@ window.addEventListener('DOMContentLoaded', () => {
 	form.addEventListener('submit', event => {
 		event.preventDefault()
 		const formData = new FormData(form)
-		console.log(formData)
+		const object = {}
+		formData.forEach((value, key) => {
+			object[key] = value
+		})
 	})
 })
