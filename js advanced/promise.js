@@ -15,7 +15,7 @@ const request = new Promise((resolve, reject) => {
 
 request
 	.then(data => {
-		console.log('Successful')
+		console.log(data)
 	})
 	.then(() => {
 		console.log('Finished again') //for success
