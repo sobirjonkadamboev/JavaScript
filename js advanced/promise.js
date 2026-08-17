@@ -16,7 +16,7 @@ const request = new Promise((resolve, reject) => {
 request
 	.then(data => {
 		data.place = 'cinema'
-		console.log(data)
+		return data
 	})
 	.then(() => {
 		console.log('Finished again') //for success
