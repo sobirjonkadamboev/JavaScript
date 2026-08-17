@@ -19,7 +19,7 @@ request
 		return data
 	})
 	.then(data => {
-		console.log('Finished again') //for success
+		console.log(data) //for success
 	})
 	.then(() => {
 		console.log(data)
