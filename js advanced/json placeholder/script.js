@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
 				postWrapper.append(postEl)
 			})
 		})
-		.catch(err => {
+		.catch(() => {
 			const errorEl = document.createElement('div')
 			errorEl.classList.add('error')
 			errorEl.textContent = 'Something went wrong'
