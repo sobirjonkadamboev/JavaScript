@@ -42,5 +42,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		formData.forEach((value, key) => {
 			object[key] = value
 		})
+
+		console.log(object)
 	})
 })
