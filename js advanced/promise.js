@@ -29,3 +29,9 @@ request
 	.finally(() => {
 		console.log('not success or success')
 	})
+
+const logger = time => {
+	return new Promise(resolve => {
+		setTimeout(() => {}, time)
+	})
+}
