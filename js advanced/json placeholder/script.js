@@ -14,6 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			console.log(err)
 		})
 		.finally(() => {
+			//oxirida chiqarish uchun success or not success bo'lsayam
 			console.log('Finally done!')
 		})
 })
