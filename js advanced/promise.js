@@ -10,7 +10,7 @@ const request = new Promise((resolve, reject) => {
 		resolve(friend)
 	} else {
 		friend.cancel = 'no news'
-		reject('didnt know')
+		reject(friend)
 	}
 })
 
