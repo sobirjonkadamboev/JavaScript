@@ -50,10 +50,9 @@ window.addEventListener('DOMContentLoaded', () => {
 		})
 			.then(res => res.json())
 			.then(data => {
-				
-					const postEl = document.createElement('div')
-					postEl.classList.add('post')
-					postEl.innerHTML += `<h4> <b>#1.
+				const postEl = document.createElement('div')
+				postEl.classList.add('post')
+				postEl.innerHTML += `<h4> <b>#1.
 				${data.id}. </b> ${data.title}</h4>
 			<p>${data.body}</p>`
 					postWrapper.append(postEl)
