@@ -26,10 +26,6 @@ window.addEventListener('DOMContentLoaded', () => {
 			errorEl.textContent = 'Something went wrong'
 			postWrapper.append(errorEl)
 		})
-		.finally(() => {
-			//oxirida chiqarish uchun success or not success bo'lsayam
-			console.log('Finally done!')
-		})
 
 	//POST method:
 
