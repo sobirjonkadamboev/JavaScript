@@ -50,7 +50,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		})
 			.then(res => res.json())
 			.then(data => {
-				data.forEach((item, index) => {
+				
 					const postEl = document.createElement('div')
 					postEl.classList.add('post')
 					postEl.innerHTML += `<h4> <b>#1.
