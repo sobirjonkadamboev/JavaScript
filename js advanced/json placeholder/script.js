@@ -40,6 +40,6 @@ window.addEventListener('DOMContentLoaded', () => {
 		})
 
 		const json = JSON.stringify(object)
-		console.log()
+		console.log(json)
 	})
 })
