@@ -55,7 +55,7 @@ window.addEventListener('DOMContentLoaded', () => {
 					postEl.classList.add('post')
 					postEl.innerHTML += `<h4> <b>#1.
 				${data.id}. </b> ${data.title}</h4>
-			<p>${item.body}</p>`
+			<p>${data.body}</p>`
 					postWrapper.append(postEl)
 				})
 			})
