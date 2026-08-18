@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	const URL = 'https://jsonplaceholder.typicode.com/posts'
 
 	//GET methodi:
-	fetch('https://jsonplaceholder.typicode.com/posts', {
+	fetch(URL, {
 		//fetch - bu serverdan ma'lumot olganda ishlatiladi, ya'ni serverga so'rov yuboriladi
 		method: 'GET',
 		headers: {
