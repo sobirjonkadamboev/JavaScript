@@ -33,31 +33,31 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	const form = document.querySelector('form')
 
-	form
-		.addEventListener('submit', event => {
-			event.preventDefault()
-			const formData = new FormData(form)
-			const object = {}
-			formData.forEach((value, key) => {
-				object[key] = value
-			})
+	form.addEventListener('submit', event => {
+		event.preventDefault()
+		const formData = new FormData(form)
+		const object = {}
+		formData.forEach((value, key) => {
+			object[key] = value
+		})
 
-			const json = JSON.stringify(object)
+		const json = JSON.stringify(object)
 
-			fetch(URL, {
-				method: 'POST',
-				headers: { 'Content-type': 'application/json' },
-				body: json,
-			})
-				.then(res => res.json())
-				.then(data => {
-					const postEl = document.createElement('div')
-					postEl.classList.add('post')
-					postEl.innerHTML += `<h4> <b>#1.
+		fetch(URL, {
+			method: 'POST',
+			headers: { 'Content-type': 'application/json' },
+			body: json,
+		})
+			.then(res => res.json())
+			.then(data => {
+				const postEl = document.createElement('div')
+				postEl.classList.add('post')
+				postEl.innerHTML += `<h4> <b>#1.
 				${data.id}. </b> ${data.title}</h4>
 			<p>${data.body}</p>`
-					postWrapper.append(postEl)
-				})
-		})
-		.catch(err => console.log(err))
+				postWrapper.append(postEl)
+			})
+
+			.catch(err => console.log(err))
+	})
 })
