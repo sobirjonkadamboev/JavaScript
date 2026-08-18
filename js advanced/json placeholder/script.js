@@ -39,6 +39,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			object[key] = value
 		})
 
-		console.log(object)
+		const json = JSON.stringify(object)
+		console.log()
 	})
 })
