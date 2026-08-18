@@ -57,7 +57,6 @@ window.addEventListener('DOMContentLoaded', () => {
 			<p>${data.body}</p>`
 				postWrapper.append(postEl)
 			})
-
 			.catch(err => console.log(err))
 	})
 })
