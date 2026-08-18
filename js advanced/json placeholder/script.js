@@ -42,6 +42,10 @@ window.addEventListener('DOMContentLoaded', () => {
 		})
 
 		const json = JSON.stringify(object)
-		console.log(json)
+
+		fetch(URL, {
+			method: 'POST',
+			headers: { 'Content-type': 'application/json' },
+		})
 	})
 })
