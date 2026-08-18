@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', () => {
 					const postEl = document.createElement('div')
 					postEl.classList.add('post')
 					postEl.innerHTML += `<h4> <b>#1.
-				${data.id + 1}. </b> ${item.title}</h4>
+				${data.id}. </b> ${data.title}</h4>
 			<p>${item.body}</p>`
 					postWrapper.append(postEl)
 				})
