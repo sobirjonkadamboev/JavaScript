@@ -46,6 +46,9 @@ window.addEventListener('DOMContentLoaded', () => {
 		fetch(URL, {
 			method: 'POST',
 			headers: { 'Content-type': 'application/json' },
+			body: json,
 		})
+			.then(res => res.json())
+			.then(data => console.log(data))
 	})
 })
