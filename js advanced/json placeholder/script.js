@@ -49,7 +49,16 @@ window.addEventListener('DOMContentLoaded', () => {
 			body: json,
 		})
 			.then(res => res.json())
-			.then(data => console.log(data))
+			.then(data => {
+			data.forEach((item, index) => {
+				const postEl = document.createElement('div')
+				postEl.classList.add('post')
+				postEl.innerHTML += `<h4> <b>#1.
+				${index + 1}. </b> ${item.title}</h4>
+			<p>${item.body}</p>`
+				postWrapper.append(postEl)
+			})
+		}))
 			.catch(err => console.log(err))
 	})
 })
