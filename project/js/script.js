@@ -270,12 +270,9 @@ window.addEventListener('DOMContentLoaded', () => {
 			.then(() => {
 				showStatusMessage(message.success)
 			})
-			.catch(() => (statusMessage.textContent = message.failure)) //promise'lar bilan ishlash
-			.finally(() => {
-				setTimeout(() => {
-					statusMessage.remove()
-				}, 2000)
-			})
+			.catch(() => {
+				showStatusMessage(message.failure)
+			}) //promise'lar bilan ishlash
 	})
 
 	function showStatusMessage(message) {
