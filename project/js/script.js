@@ -275,4 +275,8 @@ window.addEventListener('DOMContentLoaded', () => {
 				}, 2000)
 			})
 	})
+
+	function showStatusMessage() {
+		const modalDialog = document.querySelector('.modal__dialog')
+	}
 })
