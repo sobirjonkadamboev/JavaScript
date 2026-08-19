@@ -293,6 +293,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		setTimeout(() => {
 			statusModal.remove()
+			modalDialog.classList.add('show')
 		}, 4000)
 	}
 })
