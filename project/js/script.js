@@ -284,5 +284,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		const statusModal = document.createElement('div')
 		statusModal.classList.add('modal__dialog')
+		statusModal.innerHTML = `<div class="modal__content"></div>`
 	}
 })
