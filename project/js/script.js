@@ -278,5 +278,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	function showStatusMessage() {
 		const modalDialog = document.querySelector('.modal__dialog')
+
+		modalDialog.classList.add('hide')
 	}
 })
