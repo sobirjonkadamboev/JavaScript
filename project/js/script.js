@@ -294,6 +294,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		setTimeout(() => {
 			statusModal.remove()
 			modalDialog.classList.add('show')
+			modalDialog.classList.remove('hide')
 		}, 4000)
 	}
 })
