@@ -276,7 +276,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			})
 	})
 
-	function showStatusMessage() {
+	function showStatusMessage(message) {
 		const modalDialog = document.querySelector('.modal__dialog')
 
 		modalDialog.classList.add('hide')
@@ -286,9 +286,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		statusModal.classList.add('modal__dialog')
 		statusModal.innerHTML = `<div class="modal__content">
 		<div data-modal-close class="modal__close">&times;</div>
-      <div class="modal__title">
-            Contact Us!
-      </div>
+      <div class="modal__title">${message}</div>
 		</div>`
 	}
 })
