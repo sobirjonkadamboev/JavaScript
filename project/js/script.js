@@ -241,5 +241,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	form.addEventListener('submit', event => {
 		event.preventDefault()
+
+		const formData = new FormData(form)
 	})
 })
