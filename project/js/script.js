@@ -283,5 +283,6 @@ window.addEventListener('DOMContentLoaded', () => {
 		openModal()
 
 		const statusModal = document.createElement('div')
+		statusModal.classList.add('modal__dialog')
 	}
 })
