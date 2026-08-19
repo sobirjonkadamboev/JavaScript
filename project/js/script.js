@@ -248,6 +248,8 @@ window.addEventListener('DOMContentLoaded', () => {
 	form.addEventListener('submit', event => {
 		event.preventDefault()
 
+		const statusMessage = document.createElement('div')
+		statusMessage.textContent = message.loading
 		const formData = new FormData(form)
 
 		const object = {}
