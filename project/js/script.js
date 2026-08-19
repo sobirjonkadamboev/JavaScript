@@ -239,6 +239,12 @@ window.addEventListener('DOMContentLoaded', () => {
 		telegramToken = '8561410381:AAEhPLh9tSzcR_-PH9Z69I4JQom0uTIMjcE',
 		chatID = '7810041356'
 
+	const message = {
+		loading: 'Loading....',
+		success: 'Thanks for contacting with us!',
+		failure: 'Something went wrong',
+	}
+
 	form.addEventListener('submit', event => {
 		event.preventDefault()
 
