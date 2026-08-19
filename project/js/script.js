@@ -254,9 +254,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			headers: { 'Content-type': 'application/json' },
 			body: JSON.stringify({
 				chat_id: chatID,
-				text: `
-					Name: ${object.name}, Phone: ${object.phone}				
-				`,
+				text: `Name: ${object.name}, Phone: ${object.phone}`,
 			}),
 		})
 	})
