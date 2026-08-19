@@ -267,7 +267,9 @@ window.addEventListener('DOMContentLoaded', () => {
 				text: `Name: ${object.name}. Phone: ${object.phone}`,
 			}),
 		})
-			.then(() => (statusMessage.textContent = message.success))
+			.then(() => {
+				showStatusMessage(message.success)
+			})
 			.catch(() => (statusMessage.textContent = message.failure)) //promise'lar bilan ishlash
 			.finally(() => {
 				setTimeout(() => {
