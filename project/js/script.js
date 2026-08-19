@@ -251,6 +251,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		const json = JSON.stringify(object)
 
-		fetch(`https://api.telegram.org/bot${telegramToken}`)
+		fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`)
 	})
 })
