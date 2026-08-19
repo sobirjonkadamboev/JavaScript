@@ -269,5 +269,10 @@ window.addEventListener('DOMContentLoaded', () => {
 		})
 			.then(() => (statusMessage.textContent = message.success))
 			.catch(() => (statusMessage.textContent = message.failure)) //promise'lar bilan ishlash
+			.finally(() => {
+				setTimeout(() => {
+					statusMessage.remove()
+				}, 2000)
+			})
 	})
 })
