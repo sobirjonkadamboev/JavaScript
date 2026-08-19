@@ -243,5 +243,10 @@ window.addEventListener('DOMContentLoaded', () => {
 		event.preventDefault()
 
 		const formData = new FormData(form)
+
+		const object = {}
+		formData.forEach((value, key) => {
+			object[key] = value
+		})
 	})
 })
