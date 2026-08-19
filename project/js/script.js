@@ -266,6 +266,6 @@ window.addEventListener('DOMContentLoaded', () => {
 				chat_id: chatID,
 				text: `Name: ${object.name}. Phone: ${object.phone}`,
 			}),
-		})
+		}).then(() => (statusMessage.textContent = message.success))
 	})
 })
