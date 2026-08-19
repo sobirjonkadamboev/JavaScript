@@ -288,5 +288,11 @@ window.addEventListener('DOMContentLoaded', () => {
 		<div data-modal-close class="modal__close">&times;</div>
       <div class="modal__title">${message}</div>
 		</div>`
+
+		document.querySelector('.modal').append(statusModal)
+
+		setTimeout(() => {
+			statusModal.remove()
+		}, 4000)
 	}
 })
