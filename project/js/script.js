@@ -281,5 +281,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		modalDialog.classList.add('hide')
 		openModal()
+
+		const statusModal = document.createElement('div')
 	}
 })
