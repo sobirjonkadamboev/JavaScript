@@ -250,6 +250,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		const statusMessage = document.createElement('div')
 		statusMessage.textContent = message.loading
+
+		form.append(statusMessage)
 		const formData = new FormData(form)
 
 		const object = {}
