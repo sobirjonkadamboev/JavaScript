@@ -249,11 +249,10 @@ window.addEventListener('DOMContentLoaded', () => {
 			object[key] = value
 		})
 
-		const json = JSON.stringify(object)
-
 		fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
 			method: 'POST',
 			headers: { 'Content-type': 'application/json' },
+			body: JSON.stringify(object),
 		})
 	})
 })
