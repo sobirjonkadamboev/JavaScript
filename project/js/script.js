@@ -236,7 +236,8 @@ window.addEventListener('DOMContentLoaded', () => {
 	//FORM
 
 	const form = document.querySelector('form'),
-		telegramToken = '8561410381:AAEhPLh9tSzcR_-PH9Z69I4JQom0uTIMjcE'
+		telegramToken = '8561410381:AAEhPLh9tSzcR_-PH9Z69I4JQom0uTIMjcE',
+		chatID = '7810041356'
 
 	form.addEventListener('submit', event => {
 		event.preventDefault()
