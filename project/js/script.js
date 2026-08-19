@@ -252,7 +252,12 @@ window.addEventListener('DOMContentLoaded', () => {
 		fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
 			method: 'POST',
 			headers: { 'Content-type': 'application/json' },
-			body: JSON.stringify(object),
+			body: JSON.stringify({
+				chat_id: chatID,
+				text: `
+					Name: ${object.name}, Phone: ${object.phone}				
+				`,
+			}),
 		})
 	})
 })
