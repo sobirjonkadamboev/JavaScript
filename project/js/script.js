@@ -232,5 +232,4 @@ window.addEventListener('DOMContentLoaded', () => {
 			'.offers-items',
 		).render()
 	})
-
-	
+})
