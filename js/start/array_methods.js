@@ -41,4 +41,4 @@ console.log(some1)
 console.log(every1) */
 
 //Reduce
-const arr = [8, 23, 45, 2, 3, 1]
+const arr = [8, 13, 5, 2, 3, 1]
