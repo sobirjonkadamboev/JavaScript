@@ -248,8 +248,9 @@ window.addEventListener('DOMContentLoaded', () => {
 	form.addEventListener('submit', event => {
 		event.preventDefault()
 
-		const statusMessage = document.createElement('div')
-		statusMessage.textContent = message.loading
+		const loader = document.createElement('div')
+		loader.classList.add('loader')
+		loader.append
 
 		form.append(statusMessage)
 		const formData = new FormData(form)
@@ -273,6 +274,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			.catch(() => {
 				showStatusMessage(message.failure)
 			}) //promise'lar bilan ishlash
+			.loader.remove()
 	})
 
 	function showStatusMessage(message) {
