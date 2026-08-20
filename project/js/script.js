@@ -250,6 +250,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		const loader = document.createElement('div')
 		loader.classList.add('loader')
+		loader.classList.add()
 		loader.append
 
 		form.append(statusMessage)
