@@ -274,6 +274,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		})
 			.then(() => {
 				showStatusMessage(message.success)
+				form.reset()
 			})
 			.catch(() => {
 				showStatusMessage(message.failure)
