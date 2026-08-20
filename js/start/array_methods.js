@@ -26,3 +26,6 @@ const arr = [
 		model: 2018,
 	},
 ]
+
+const result = arr.filter(item => item.model > 2019)
+console.log(result)
