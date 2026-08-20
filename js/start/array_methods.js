@@ -23,6 +23,6 @@ const arr = [
 	},
 	{
 		name: 'BYD',
-		model: 2020,
+		model: 2018,
 	},
 ]
