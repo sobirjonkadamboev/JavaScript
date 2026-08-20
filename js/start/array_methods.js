@@ -28,7 +28,7 @@ const arr = [
 ]
 
 const result = arr.filter(item => item.model > 2019)
-console.log(result) */
+console.log(result) 
 
 //Every/Some
 // Some - massivni ichida bitta ham son bo'lsa true qaytaradi
@@ -36,6 +36,6 @@ console.log(result) */
 
 const arr = [2024, 'November', 'December']
 const some1 = arr.some(item => typeof item === 'number')
-const every1 = arr.every(item => typeof item === 'number')
+const every1 = arr.every(item => typeof item === 'string')
 console.log(some1)
-console.log(every1)
+console.log(every1) */
