@@ -20,5 +20,5 @@ const arr = [{
 {
 	name: 'SUZUKI',
 	model: 2023,
-},
+}
 ]
