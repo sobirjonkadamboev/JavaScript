@@ -15,10 +15,14 @@ const arr = [
 	},
 	{
 		name: 'TOYOTA',
-		model: 2023,
+		model: 2021,
 	},
 	{
 		name: 'SUZUKI',
-		model: 2023,
+		model: 2020,
+	},
+	{
+		name: 'SUZUKI',
+		model: 2020,
 	},
 ]
