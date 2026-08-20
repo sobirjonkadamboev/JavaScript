@@ -39,3 +39,6 @@ const some1 = arr.some(item => typeof item === 'number')
 const every1 = arr.every(item => typeof item === 'string')
 console.log(some1)
 console.log(every1) */
+
+//Reduce
+const arr = [8, 23, 45, 2, 3, 1]
