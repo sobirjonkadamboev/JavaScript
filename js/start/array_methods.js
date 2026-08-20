@@ -4,5 +4,5 @@
 //Map
 
 const arr = ['BMW', 'LAMBORGHINI', 'HONDA', 'LEXUS']
-
 const result = arr.map(item => item.toLowerCase())
+console.log(result)
