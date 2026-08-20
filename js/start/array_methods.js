@@ -31,3 +31,5 @@ const result = arr.filter(item => item.model > 2019)
 console.log(result) */
 
 //Every/Some
+
+const arr = [2024, 'November', 'December']
