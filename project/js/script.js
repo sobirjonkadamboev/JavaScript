@@ -249,7 +249,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		event.preventDefault()
 
 		const loaderWrapper = document.createElement('div')
-		loaderWrapper.classList.add('loaderWrapper')
+		loaderWrapper.classList.add('loader', 'loader_center')
 		loaderWrapper.classList.add()
 		loaderWrapper.append
 
