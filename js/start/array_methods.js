@@ -5,7 +5,7 @@
 
 const arr = ['BMW', 'LAMBORGHINI', 'HONDA', 'LEXUS']
 const result = arr.map(item => item.toLowerCase()) //arrayni olib uni yangi arrayga o'zgartira oladi
-console.log(result) */
+console.log(result) 
 
 //filter - filterlab yangi natija chiqarish uchun
 const arr = [
@@ -28,4 +28,6 @@ const arr = [
 ]
 
 const result = arr.filter(item => item.model > 2019)
-console.log(result)
+console.log(result) */
+
+//Every/Some
