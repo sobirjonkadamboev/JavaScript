@@ -34,3 +34,4 @@ console.log(result) */
 
 const arr = [2024, 'November', 'December']
 const some1 = arr.some(item => typeof item === 'number')
+console.log(some1)
