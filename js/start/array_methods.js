@@ -44,3 +44,4 @@ console.log(every1) */
 const arr = [8, 13, 5, 2, 3, 1]
 //prev - 0, current = 8
 const result = arr.reduce((prev, current) => prev + current)
+console.log(result)
