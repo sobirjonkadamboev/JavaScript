@@ -274,7 +274,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			.catch(() => {
 				showStatusMessage(message.failure)
 			}) //promise'lar bilan ishlash
-			.loader.remove()
+			.finally(() => {})
 	})
 
 	function showStatusMessage(message) {
