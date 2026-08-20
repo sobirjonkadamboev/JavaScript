@@ -37,3 +37,4 @@ const arr = [2024, 'November', 'December']
 const some1 = arr.some(item => typeof item === 'number')
 const every1 = arr.every(item => typeof item === 'number')
 console.log(some1)
+console.log(every1)
