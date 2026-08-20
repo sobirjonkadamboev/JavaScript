@@ -32,6 +32,7 @@ console.log(result) */
 
 //Every/Some
 // Some - massivni ichida bitta ham son bo'lsa true qaytaradi
+// Every - massivda hammasi son bo'lmaguncha false qaytaradi
 
 const arr = [2024, 'November', 'December']
 const some1 = arr.some(item => typeof item === 'number')
