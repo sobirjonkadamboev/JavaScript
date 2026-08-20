@@ -928,3 +928,9 @@ form button {
 		transform: rotate(360deg);
 	}
 }
+
+.loader-center {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
