@@ -22,7 +22,7 @@ const arr = [
 		model: 2020,
 	},
 	{
-		name: 'SUZUKI',
+		name: 'BYD',
 		model: 2020,
 	},
 ]
