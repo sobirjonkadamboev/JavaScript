@@ -7,19 +7,18 @@ const arr = ['BMW', 'LAMBORGHINI', 'HONDA', 'LEXUS']
 const result = arr.map(item => item.toLowerCase()) //arrayni olib uni yangi arrayga o'zgartira oladi
 console.log(result) */
 
-
 //filter
 const arr = [
-{
-	name: 'BMW',
-	model: 2023,	
-},
-{
-	name: 'TOYOTA',
-	model: 2023,
-}
-{
-	name: 'SUZUKI',
-	model: 2023,
-}
+	{
+		name: 'BMW',
+		model: 2023,
+	},
+	{
+		name: 'TOYOTA',
+		model: 2023,
+	},
+	{
+		name: 'SUZUKI',
+		model: 2023,
+	},
 ]
