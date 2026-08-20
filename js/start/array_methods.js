@@ -9,7 +9,8 @@ console.log(result) */
 
 
 //filter
-const arr = [{
+const arr = [
+{
 	name: 'BMW',
 	model: 2023,	
 },
