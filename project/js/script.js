@@ -248,10 +248,10 @@ window.addEventListener('DOMContentLoaded', () => {
 	form.addEventListener('submit', event => {
 		event.preventDefault()
 
-		const loader = document.createElement('div')
-		loader.classList.add('loader')
-		loader.classList.add()
-		loader.append
+		const loaderWrapper = document.createElement('div')
+		loaderWrapper.classList.add('loaderWrapper')
+		loaderWrapper.classList.add()
+		loaderWrapper.append
 
 		form.append(statusMessage)
 		const formData = new FormData(form)
