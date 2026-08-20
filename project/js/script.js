@@ -253,7 +253,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		loaderWrapper.classList.add()
 		loaderWrapper.append
 
-		form.append(statusMessage)
+		form.append(loaderWrapper)
 		const formData = new FormData(form)
 
 		const object = {}
