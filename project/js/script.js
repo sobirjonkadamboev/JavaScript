@@ -251,7 +251,9 @@ window.addEventListener('DOMContentLoaded', () => {
 		const loaderWrapper = document.createElement('div')
 		loaderWrapper.classList.add('loader', 'loader_center')
 		loaderWrapper.classList.add()
-		loaderWrapper.style.width: '20px'
+		loaderWrapper.style.width = '20px'
+		loaderWrapper.style.height = '20px'
+		loaderWrapper.style.marginTop = '20px'
 		loaderWrapper.append
 
 		form.append(loaderWrapper)
