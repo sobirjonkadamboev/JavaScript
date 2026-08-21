@@ -11,7 +11,7 @@
 		"url": "git+https://github.com/sobirjonkadamboev/JavaScript.git"
 	},
 	"license": "ISC",
-	"author": "",
+	"author": "Sobirjon Kadamboev",
 	"type": "commonjs",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
