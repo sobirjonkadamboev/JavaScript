@@ -309,8 +309,8 @@ window.addEventListener('DOMContentLoaded', () => {
 	//Slider
 
 	const slides = document.querySelectorAll('.offer__slide'),
-		prevButton = document.querySelector('.offer_slider-prev')
-	nextButton = document.querySelector('.offer_slider-next')
+		prevButton = document.querySelector('.offer_slider-prev'),
+		nextButton = document.querySelector('.offer_slider-next')
 })
 
 //NPM - node package manager
