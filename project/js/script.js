@@ -305,6 +305,8 @@ window.addEventListener('DOMContentLoaded', () => {
 			closeModal()
 		}, 4000)
 	}
+
+	//Slider
 })
 
 //NPM - node package manager
