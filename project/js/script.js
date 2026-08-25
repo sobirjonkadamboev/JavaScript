@@ -325,7 +325,14 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		slides.forEach(slide => (slide.style.display = 'none'))
 		slides[slideIndex - 1].style.display = 'block'
+
+		function moveSlides(index) {
+			showSlide((slideIndex += index))
+		}
 	}
+	prevButton.addEventListener('click', () => {
+		moveSlides(-1)
+	})
 })
 
 //NPM - node package manager
