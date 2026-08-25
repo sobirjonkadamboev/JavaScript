@@ -318,6 +318,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	showSlide(slideIndex)
 
+	if (slides.length < 10) {
+		total.textContent = `0${slides.length}`
+	}
+
 	function showSlide(index) {
 		if (index > slides.length) {
 			slideIndex = 1
