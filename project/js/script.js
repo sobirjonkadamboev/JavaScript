@@ -314,6 +314,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	let slideIndex = 1
 
+	showSlide(slideIndex)
+
 	function showSlide(index) {
 		if (index > slides.length) {
 			slideIndex = 1
