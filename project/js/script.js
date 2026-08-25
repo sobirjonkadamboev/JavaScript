@@ -319,7 +319,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	showSlide(slideIndex)
 
 	if (slides.length < 10) {
-		total.textContent = `0${slides.length}`
+		total.textContent = `0${slides.length}/`
 	} else {
 		total.textContent = slides.length
 	}
@@ -337,7 +337,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		slides[slideIndex - 1].style.display = 'block'
 
 		if (slides.length < 10) {
-			current.textContent = `0${slideIndex}`
+			current.textContent = `0${slideIndex}/`
 		} else {
 			current.textContent = slideIndex
 		}
