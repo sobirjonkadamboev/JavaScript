@@ -310,7 +310,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	const slides = document.querySelectorAll('.offer__slide'),
 		prevButton = document.querySelector('.offer__slider-prev'),
-		nextButton = document.querySelector('.offer_slider-next')
+		nextButton = document.querySelector('.offer__slider-next')
 
 	let slideIndex = 1
 
