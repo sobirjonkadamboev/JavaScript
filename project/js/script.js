@@ -333,6 +333,9 @@ window.addEventListener('DOMContentLoaded', () => {
 	prevButton.addEventListener('click', () => {
 		moveSlides(-1)
 	})
+	nextButton.addEventListener('click', () => {
+		moveSlides(1)
+	})
 })
 
 //NPM - node package manager
