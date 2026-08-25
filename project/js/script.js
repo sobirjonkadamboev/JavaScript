@@ -313,6 +313,12 @@ window.addEventListener('DOMContentLoaded', () => {
 		nextButton = document.querySelector('.offer_slider-next')
 
 	let slideIndex = 1
+
+	function showSlide(index) {
+		if (index > slides.length) {
+			slideIndex = 1
+		}
+	}
 })
 
 //NPM - node package manager
