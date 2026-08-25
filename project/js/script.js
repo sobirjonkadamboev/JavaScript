@@ -307,6 +307,8 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 
 	//Slider
+
+	const slides = document.querySelectorAll('.offer__slide')
 })
 
 //NPM - node package manager
