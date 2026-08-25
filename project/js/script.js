@@ -311,6 +311,8 @@ window.addEventListener('DOMContentLoaded', () => {
 	const slides = document.querySelectorAll('.offer__slide'),
 		prevButton = document.querySelector('.offer_slider-prev'),
 		nextButton = document.querySelector('.offer_slider-next')
+
+	let slideIndex = 1
 })
 
 //NPM - node package manager
