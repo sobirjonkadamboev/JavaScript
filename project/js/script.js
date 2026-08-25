@@ -324,6 +324,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		}
 
 		slides.forEach(slide => (slide.style.display = 'none'))
+		slides[slideIndex - 1].style.display = 'block'
 	}
 })
 
