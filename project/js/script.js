@@ -335,6 +335,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		slides.forEach(slide => (slide.style.display = 'none'))
 		slides[slideIndex - 1].style.display = 'block'
+
+		if (slides.length < 10) {
+			current.textContent = `0${slideIndex}`
+		}
 	}
 	function moveSlides(index) {
 		showSlide((slideIndex += index))
