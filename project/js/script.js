@@ -318,6 +318,12 @@ window.addEventListener('DOMContentLoaded', () => {
 		if (index > slides.length) {
 			slideIndex = 1
 		}
+
+		if (index < 1) {
+			slideIndex = slides.length
+		}
+
+		slides.forEach(slide => (slide.style.display = 'none'))
 	}
 })
 
