@@ -4,3 +4,7 @@ localStorage.setItem('sobirjon-theme', 'navy blue')
 
 const theme = localStorage.getItem('sobirjon-theme')
 console.log(theme)
+
+if (theme === 'navy blue') {
+	document.body.style = '#fff'
+}
