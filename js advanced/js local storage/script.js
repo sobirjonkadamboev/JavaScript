@@ -40,7 +40,7 @@ function getPosts() {
 	posts.forEach((item, index) => {
 		const postEl = document.createElement('div')
 		postEl.classList.add('post')
-		postEl.innerHTML = `<h4>heading 4</h4>`
+		postEl.innerHTML = `${index + 1}<h4>heading 4</h4>`
 	})
 }
 // localStorage.clear() - hammasini o'chiradi
