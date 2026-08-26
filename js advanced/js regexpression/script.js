@@ -6,6 +6,25 @@
 //g - global flag
 //m - ko'p qatorli flag
 
+*/
+const sobirjon = 'Sobirjon'
+const regExP = /a/ig
+
+console.log();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const firstName = 'Sobirjon'
 
 const regEx = /b/ig
