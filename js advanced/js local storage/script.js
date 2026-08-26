@@ -12,6 +12,8 @@ if (theme === 'light') {
 }
 
 const form = document.querySelector('form')
+const postParent = document.querySelector('posts')
+
 form.addEventListener('submit', event => {
 	event.preventDefault()
 
@@ -35,6 +37,7 @@ form.addEventListener('submit', event => {
 
 function getPosts() {
 	const posts = JSON.parse(localStorage.getItem('posts'))
+	posts.forEach(item => {})
 }
 // localStorage.clear() - hammasini o'chiradi
 //localStorage.removeItem('item name')
