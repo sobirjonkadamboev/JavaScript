@@ -26,7 +26,7 @@ form.addEventListener('submit', event => {
 	const posts = []
 	posts.push(object)
 
-	localStorage.setItem('posts')
+	localStorage.setItem('posts', posts)
 })
 // localStorage.clear() - hammasini o'chiradi
 //localStorage.removeItem('item name')
