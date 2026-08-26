@@ -4,7 +4,7 @@
 
 const firstName = 'Sobirjon'
 
-const regEx = /b/i
+const regEx = /b/ig
 
 //i - register flag
 //g - global flag
