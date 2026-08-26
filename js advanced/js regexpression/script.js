@@ -6,4 +6,6 @@ const firstName = 'Sobirjon'
 
 const regEx = /b/
 
+//i - register flag
+
 console.log(firstName.search(regEx)) //search - birinchi to'g'ri bo'lgan qiymatni aniqlaydi
