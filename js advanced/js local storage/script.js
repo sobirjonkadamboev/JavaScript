@@ -37,7 +37,7 @@ form.addEventListener('submit', event => {
 
 function getPosts() {
 	const posts = JSON.parse(localStorage.getItem('posts'))
-	posts.forEach(item => {
+	posts.forEach((item, index) => {
 		const postEl = document.createElement('div')
 		postEl.classList.add('post')
 		postEl.innerHTML = `<h4>heading 4</h4>`
