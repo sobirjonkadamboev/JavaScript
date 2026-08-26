@@ -16,6 +16,12 @@ form.addEventListener('submit', event => {
 	event.preventDefault()
 
 	const formData = new FormData(form)
+
+	const object = {
+		formData.forEach((value, key) => {
+			
+		})
+	}
 })
 // localStorage.clear() - hammasini o'chiradi
 //localStorage.removeItem('item name')
