@@ -22,11 +22,14 @@ form.addEventListener('submit', event => {
 		object[key] = value
 	})
 
+	const posts = []
+	posts.push(object)
+
 	const db = JSON.parse(localStorage.getItem('posts'))
 	if (db) {
-		localStorage.setItem('posts', JSON.stringify([...db, object]))
+		localStorage.setItem('posts', JSON.stringify([...db, ...posts]))
 	} else {
-		localStorage.setItem('posts', [object])
+		localStorage.setItem('posts', JSON.stringify('posts'))
 	}
 })
 // localStorage.clear() - hammasini o'chiradi
