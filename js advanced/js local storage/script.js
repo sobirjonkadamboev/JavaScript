@@ -31,7 +31,6 @@ form.addEventListener('submit', event => {
 	} else {
 		localStorage.setItem('posts', JSON.stringify([object]))
 	}
-	getPosts()
 })
 
 getPosts()
