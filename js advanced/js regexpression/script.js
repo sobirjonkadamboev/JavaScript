@@ -4,6 +4,6 @@
 
 const firstName = 'Sobirjon'
 
-const regEx = /o/
+const regEx = /s/
 
 console.log(firstName.search(regEx))
