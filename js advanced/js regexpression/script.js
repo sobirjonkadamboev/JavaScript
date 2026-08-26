@@ -7,7 +7,7 @@
 //m - ko'p qatorli flag
 
 */
-const sobirjon = 'Sobirjon'
+const email = 'sobirjonkadamboev@gmail.com'
 const regExP = '/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/'
 
 console.log(regExP.test(sobirjon));
