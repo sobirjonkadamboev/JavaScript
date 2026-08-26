@@ -10,3 +10,6 @@ if (theme === 'light') {
 } else if (theme === 'navy blue') {
 	document.body.style.backgroundColor = '#003568'
 }
+
+// localStorage.clear() - hammasini o'chiradi
+//localStorage.removeItem('item name')
