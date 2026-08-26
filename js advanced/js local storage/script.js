@@ -17,11 +17,10 @@ form.addEventListener('submit', event => {
 
 	const formData = new FormData(form)
 
-	const object = {
-		formData.forEach((value, key) => {
-			
-		})
-	}
+	const object = {}
+	formData.forEach((value, key) => {
+		object[key] = value
+	})
 })
 // localStorage.clear() - hammasini o'chiradi
 //localStorage.removeItem('item name')
