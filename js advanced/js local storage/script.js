@@ -21,6 +21,7 @@ form.addEventListener('submit', event => {
 	formData.forEach((value, key) => {
 		object[key] = value
 	})
+	console.log(object)
 })
 // localStorage.clear() - hammasini o'chiradi
 //localStorage.removeItem('item name')
