@@ -11,5 +11,7 @@ if (theme === 'light') {
 	document.body.style.backgroundColor = '#003568'
 }
 
+const form = document.querySelector
+
 // localStorage.clear() - hammasini o'chiradi
 //localStorage.removeItem('item name')
