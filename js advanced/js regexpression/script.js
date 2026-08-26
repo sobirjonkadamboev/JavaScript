@@ -16,5 +16,6 @@ console.log(firstName.match(regEx)) //search - birinchi to'g'ri bo'lgan qiymatni
 
 const password = 'admin1234!.....'
 
-const date = '2007-04-10'
+// const date = '2007-04-10'
 console.log(password.replace(//g, '*'))
+console.log((date.replace(/g/)))
