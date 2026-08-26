@@ -1,6 +1,6 @@
 'use strict'
 
-localStorage.setItem('sobirjon-theme', 'navy blue')
+localStorage.setItem('sobirjon-theme', 'light')
 
 const theme = localStorage.getItem('sobirjon-theme')
 console.log(theme)
