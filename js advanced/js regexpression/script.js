@@ -8,5 +8,6 @@ const regEx = /b/i
 
 //i - register flag
 //g - global flag
+//m - ko'p qatorli flag
 
 console.log(firstName.match(regEx)) //search - birinchi to'g'ri bo'lgan qiymatni aniqlaydi, match - esa hammasini aniqlab chiqaradi
