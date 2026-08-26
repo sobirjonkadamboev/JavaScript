@@ -1,6 +1,6 @@
 'use strict'
 
-//regEx -> /pattern/f
+/* regEx -> /pattern/f
 
 const firstName = 'Sobirjon'
 
@@ -10,4 +10,4 @@ const regEx = /b/ig
 //g - global flag
 //m - ko'p qatorli flag
 
-console.log(firstName.match(regEx)) //search - birinchi to'g'ri bo'lgan qiymatni aniqlaydi, match - esa hammasini aniqlab chiqaradi
+console.log(firstName.match(regEx)) //search - birinchi to'g'ri bo'lgan qiymatni aniqlaydi, match - esa hammasini aniqlab chiqaradi */
