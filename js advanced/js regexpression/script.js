@@ -4,7 +4,7 @@
 
 const firstName = 'Sobirjon'
 
-const regEx = /b/
+const regEx = /b/i
 
 //i - register flag
 
