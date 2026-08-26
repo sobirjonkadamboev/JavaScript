@@ -12,6 +12,8 @@ if (theme === 'light') {
 }
 
 const form = document.querySelector('form')
-
+form.addEventListener('submit', event => {
+	event.preventDefault()
+})
 // localStorage.clear() - hammasini o'chiradi
 //localStorage.removeItem('item name')
