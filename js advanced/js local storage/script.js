@@ -41,6 +41,8 @@ function getPosts() {
 		const postEl = document.createElement('div')
 		postEl.classList.add('post')
 		postEl.innerHTML = `${index + 1}<h4>heading 4</h4>`
+
+		postParent.append(postEl)
 	})
 }
 // localStorage.clear() - hammasini o'chiradi
