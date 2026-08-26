@@ -8,7 +8,7 @@
 
 */
 const sobirjon = 'Sobirjon'
-const regExP = /a/ig
+const regExP = /b/ig
 
 console.log(regExP.test(sobirjon));
 
