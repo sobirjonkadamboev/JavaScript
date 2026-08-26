@@ -37,4 +37,4 @@ const password = 'admin1234!.....'
 
 // const date = '2007-04-10'
 console.log(password.replace(//g, '*'))
-console.log((date.replace(/g/, '-'))
+console.log((date.replace(/g/, '-')))
