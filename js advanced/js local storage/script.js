@@ -25,6 +25,8 @@ form.addEventListener('submit', event => {
 	const db = JSON.parse(localStorage.getItem('posts'))
 	if (db) {
 		localStorage.setItem('posts', JSON.stringify([...db, object]))
+	} else {
+		localStorage.setItem('posts', [object])
 	}
 })
 // localStorage.clear() - hammasini o'chiradi
