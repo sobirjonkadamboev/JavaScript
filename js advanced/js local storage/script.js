@@ -25,12 +25,15 @@ form.addEventListener('submit', event => {
 	})
 
 	const db = JSON.parse(localStorage.getItem('posts'))
+
 	if (db) {
 		localStorage.setItem('posts', JSON.stringify([...db, object]))
 	} else {
 		localStorage.setItem('posts', JSON.stringify([object]))
 	}
 })
+
+getPosts()
 
 function getPosts() {
 	const posts = JSON.parse(localStorage.getItem('posts'))
