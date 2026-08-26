@@ -31,7 +31,7 @@ form.addEventListener('submit', event => {
 	if (db) {
 		localStorage.setItem('posts', JSON.stringify([...db, object]))
 	} else {
-		localStorage.setItem('posts', JSON.stringify(object))
+		localStorage.setItem('posts', JSON.stringify([object])
 	}
 })
 
