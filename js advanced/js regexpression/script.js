@@ -13,5 +13,5 @@ const regEx = /b/ig
 
 console.log(firstName.match(regEx)) //search - birinchi to'g'ri bo'lgan qiymatni aniqlaydi, match - esa hammasini aniqlab chiqaradi */
 
-const password = 'admin12345678!.....'
+const password = 'admin1234!.....'
 console.log(password.replace(/\./g, '*'))
