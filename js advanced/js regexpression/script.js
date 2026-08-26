@@ -10,7 +10,7 @@
 const sobirjon = 'Sobirjon'
 const regExP = /a/ig
 
-console.log();
+console.log(regExP.test(firstName));
 
 
 
