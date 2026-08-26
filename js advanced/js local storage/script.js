@@ -21,7 +21,6 @@ form.addEventListener('submit', event => {
 	formData.forEach((value, key) => {
 		object[key] = value
 	})
-	console.log(object)
 
 	const posts = []
 	posts.push(object)
