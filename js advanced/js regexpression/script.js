@@ -31,6 +31,9 @@ console.log(date.replace(/-/g, ':')) //bu esa almashtirib beradi
 // \w - words
 // \s - space
 
+// \D - not digits
+// \W - not words
+
 const text = 'sobirjon2006 '
 
 const regEx1 = /\d/gi //shows only digits
