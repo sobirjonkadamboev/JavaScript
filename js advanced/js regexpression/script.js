@@ -2,6 +2,12 @@
 
 /* regEx -> /pattern/f
 
+const name = 'Sobirjon'
+
+const regEx = /o/i
+
+console.log(name.search(regEx)) //nechinchi indexda turganini ko'rsatib beradi
+
 //i - register flag
 //g - global flag
 //m - ko'p qatorli flag
