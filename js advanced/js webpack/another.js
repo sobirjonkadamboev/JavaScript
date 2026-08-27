@@ -4,6 +4,6 @@ function getModule() {
 	}
 
 	this.slider = function () {
-		console.log('Slider')
+		console.log('New Sliders')
 	}
 }
