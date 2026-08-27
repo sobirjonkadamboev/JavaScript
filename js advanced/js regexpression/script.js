@@ -33,7 +33,8 @@ console.log(date.replace(/-/g, ':')) //bu esa almashtirib beradi
 
 const text = 'sobirjon2006 '
 
-const regEx1 = /\d/gi
+const regEx1 = /\d/ig
+const regEx2 = /\w/ig
 
 console.log(text.match(regEx1))
 
