@@ -18,7 +18,7 @@ const password = 'password123'
 
 const password2 = 'pass....'
 
-console.log(password2.replace(/\./g, "*"))
+console.log(password2.replace(/\./g, "*")) // /\ - value sifatida oladi
 console.log(password.replace(/./g, "*"))
 
 */
