@@ -21,6 +21,10 @@ const password2 = 'pass....'
 console.log(password2.replace(/\./g, "*")) // /\ - value sifatida oladi
 console.log(password.replace(/./g, "*"))
 
+const date = '2024-11-15'
+
+console.log(date.replace(/-/g, ':'))
+
 */
 const email = 'sobirjonkadamboev@gmail.com'
 const regEx = '/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/'
