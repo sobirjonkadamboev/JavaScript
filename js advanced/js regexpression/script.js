@@ -4,7 +4,7 @@
 
 const name = 'Sobirjon'
 
-const regEx = /o/i
+const regEx = /o/ig
 
 console.log(name.search(regEx)) //nechinchi indexda turganini ko'rsatib beradi
 
