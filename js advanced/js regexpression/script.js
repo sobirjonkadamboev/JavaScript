@@ -23,6 +23,16 @@ console.log(date.replace(/-/g, ':')) //bu esa almashtirib beradi
 
 */
 
+//i - register flag
+//g - global flag
+//m - ko'p qatorli flag
+
+// \d - digits
+// \w - words
+// \s - space
+
+const text = 'sobirjon2006 '
+
 const email = 'sobirjonkadamboev@gmail.com'
 const regEx = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/
 
