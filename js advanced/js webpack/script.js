@@ -1,1 +1,1 @@
-const tab = 'tabs'
+const modules = require(""./another")
