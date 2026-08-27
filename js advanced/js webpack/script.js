@@ -1,1 +1,1 @@
-const modules = require(""./another")
+const modules = require('./another')
