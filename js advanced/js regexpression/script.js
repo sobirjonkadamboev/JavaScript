@@ -15,7 +15,7 @@ console.log(name.search(regEx)) //nechinchi indexda turganini ko'rsatib beradi
 //m - ko'p qatorli flag
 
 const password = 'password123'
-
+console.log(password.replace(/./g))
 
 */
 const email = 'sobirjonkadamboev@gmail.com'
