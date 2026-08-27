@@ -35,6 +35,7 @@ console.log(date.replace(/-/g, ':')) //bu esa almashtirib beradi
 // \W - not words
 
 // ^ - check if a string starts with
+// $ - check if a string ends with
 
 const text = 'sobirjon2006 '
 
