@@ -7,3 +7,5 @@ function getModule() {
 		console.log('New Sliders')
 	}
 }
+
+module.exports = getModule
