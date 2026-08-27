@@ -1,1 +1,5 @@
-const tab = 3 + 4
+function getModule() {
+	this.tabs = function () {
+		console.log('New Tabs')
+	}
+}
