@@ -14,6 +14,9 @@ console.log(name.search(regEx)) //nechinchi indexda turganini ko'rsatib beradi
 //g - global flag
 //m - ko'p qatorli flag
 
+const password = 'password123'
+
+
 */
 const email = 'sobirjonkadamboev@gmail.com'
 const regEx = '/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/'
