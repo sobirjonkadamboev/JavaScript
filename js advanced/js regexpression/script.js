@@ -33,10 +33,11 @@ console.log(date.replace(/-/g, ':')) //bu esa almashtirib beradi
 
 const text = 'sobirjon2006 '
 
-const regEx1 = /\d/ig
-const regEx2 = /\w/ig
+const regEx1 = /\d/gi
+const regEx2 = /\w/gi
 
 console.log(text.match(regEx1))
+console.log(text.match(regEx2))
 
 const email = 'sobirjonkadamboev@gmail.com'
 const regEx = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/
