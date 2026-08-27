@@ -23,7 +23,7 @@ console.log(password.replace(/./g, "*"))
 
 const date = '2024-11-15'
 
-console.log(date.replace(/-/g, ':'))
+console.log(date.replace(/-/g, ':')) //bu esa almashtirib beradi
 
 */
 const email = 'sobirjonkadamboev@gmail.com'
