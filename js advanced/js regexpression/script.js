@@ -33,8 +33,8 @@ console.log(date.replace(/-/g, ':')) //bu esa almashtirib beradi
 
 const text = 'sobirjon2006 '
 
-const regEx1 = /\d/gi
-const regEx2 = /\w/gi
+const regEx1 = /\d/gi //shows only digits
+const regEx2 = /\w/gi //shows only words
 
 console.log(text.match(regEx1))
 console.log(text.match(regEx2))
