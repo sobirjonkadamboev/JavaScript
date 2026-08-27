@@ -10,10 +10,6 @@ console.log(name.match(regEx))
 
 console.log(name.search(regEx)) //nechinchi indexda turganini ko'rsatib beradi
 
-//i - register flag
-//g - global flag
-//m - ko'p qatorli flag
-
 const password = 'password123'
 
 const password2 = 'pass....'
