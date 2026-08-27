@@ -16,7 +16,9 @@ console.log(name.search(regEx)) //nechinchi indexda turganini ko'rsatib beradi
 
 const password = 'password123'
 
-console.log(password.replace(/\./g, "*"))
+const password2 = 'pass....'
+
+console.log(password2.replace(/\./g, "*"))
 console.log(password.replace(/./g, "*"))
 
 */
