@@ -34,6 +34,8 @@ console.log(date.replace(/-/g, ':')) //bu esa almashtirib beradi
 // \D - not digits
 // \W - not words
 
+// ^ - check if a string starts with
+
 const text = 'sobirjon2006 '
 
 const regEx1 = /\d/gi //shows only digits
