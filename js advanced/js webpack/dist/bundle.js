@@ -22,6 +22,8 @@ const modules = {
 	},
 }
 
+const fName = 'Sobirjon'
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (modules);
 
 

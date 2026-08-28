@@ -8,4 +8,6 @@ const modules = {
 	},
 }
 
+const fName = 'Sobirjon'
+
 export default modules
