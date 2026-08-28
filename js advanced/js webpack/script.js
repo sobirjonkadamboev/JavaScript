@@ -1,4 +1,4 @@
-const modules = require('./another')
+import modules from './another'
 
 const moduleInstance = new modules()
 

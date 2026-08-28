@@ -21,9 +21,10 @@ let __webpack_exports__ = {};
   !*** ./script.js ***!
   \*******************/
 __webpack_require__.r(__webpack_exports__);
-const modules = require('./another')
+Object(function webpackMissingModule() { const e = new Error("Cannot find module './another'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
-const moduleInstance = new modules()
+
+const moduleInstance = new Object(function webpackMissingModule() { const e = new Error("Cannot find module './another'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())()
 
 moduleInstance.slider()
 moduleInstance.tabs
