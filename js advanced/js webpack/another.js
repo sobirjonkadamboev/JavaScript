@@ -8,7 +8,5 @@ const modules = {
 	},
 }
 
-const fName = 'Sobirjon'
-
 export default modules
-export default fName
+export const fName = 'Sobirjon'

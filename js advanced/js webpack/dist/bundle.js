@@ -1,13 +1,31 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./another.js"
 /*!********************!*\
   !*** ./another.js ***!
   \********************/
-() {
+(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module parse failed: Duplicate export 'default' (14:7)\nFile was parsed as module type 'javascript/esm'.\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n  13 | export default modules\n> 14 | export default fName\n     |        ^\n  15 | ");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   fName: () => (/* binding */ fName)
+/* harmony export */ });
+const modules = {
+	getModule() {
+		console.log('New Tabs')
+	},
+
+	slider() {
+		console.log('Slider')
+	},
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (modules);
+const fName = 'Sobirjon'
+
 
 /***/ }
 
@@ -44,6 +62,38 @@ throw new Error("Module parse failed: Duplicate export 'default' (14:7)\nFile wa
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter/value functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			if(Array.isArray(definition)) {
+/******/ 				var i = 0;
+/******/ 				while(i < definition.length) {
+/******/ 					var key = definition[i++];
+/******/ 					var binding = definition[i++];
+/******/ 					if(!__webpack_require__.o(exports, key)) {
+/******/ 						if(binding === 0) {
+/******/ 							Object.defineProperty(exports, key, { enumerable: true, value: definition[i++] });
+/******/ 						} else {
+/******/ 							Object.defineProperty(exports, key, { enumerable: true, get: binding });
+/******/ 						}
+/******/ 					} else if(binding === 0) { i++; }
+/******/ 				}
+/******/ 			} else {
+/******/ 				for(var key in definition) {
+/******/ 					if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 						Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 					}
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
@@ -57,9 +107,8 @@ throw new Error("Module parse failed: Duplicate export 'default' (14:7)\nFile wa
 /******/ 	
 /************************************************************************/
 let __webpack_exports__ = {};
-// This entry needs to be wrapped in an IIFE because it needs to be in strict mode.
+// This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
 (() => {
-"use strict";
 /*!*******************!*\
   !*** ./script.js ***!
   \*******************/
