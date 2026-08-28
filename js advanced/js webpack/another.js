@@ -1,11 +1,11 @@
-function getModule() {
-	this.tabs = function () {
+const modules = {
+	getModule() {
 		console.log('New Tabs')
-	}
+	},
 
-	this.slider = function () {
-		console.log('New Sliders')
-	}
+	slider() {
+		console.log('Slider')
+	},
 }
 
-module.exports = getModule
+export default modules
