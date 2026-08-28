@@ -1,4 +1,4 @@
-import modules from './another'
+import modules from './another.js'
 
 const moduleInstance = new modules()
 
