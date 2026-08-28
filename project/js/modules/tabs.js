@@ -1,5 +1,3 @@
-'use strict'
-
 function tabs() {
 	const tabs = document.querySelectorAll('.tabheader__item'),
 		tabContents = document.querySelectorAll('.tab_content'),
