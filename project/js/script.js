@@ -1,6 +1,8 @@
 'use strict'
 
+import tabs from './modules/tabs'
 window.addEventListener('DOMContentLoaded', () => {
+	tabs()
 	// Loader
 
 	const loaderWrapper = document.querySelector('.loader-wrapper')
