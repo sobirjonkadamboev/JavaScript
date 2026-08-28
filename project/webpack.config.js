@@ -6,7 +6,7 @@ const __dirname = path.dirname(__filename)
 
 export default {
 	mode: 'development',
-	entry: './script.js',
+	entry: './js/script.js',
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'bundle.js',
