@@ -1,3 +1,5 @@
-import modules from './another.js'
+import modules, { fName } from './another.js'
+
+console.log(fName)
 modules.slider()
 modules.getModule()

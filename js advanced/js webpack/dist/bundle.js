@@ -115,6 +115,8 @@ let __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _another_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./another.js */ "./another.js");
 
+
+console.log(_another_js__WEBPACK_IMPORTED_MODULE_0__.fName)
 _another_js__WEBPACK_IMPORTED_MODULE_0__["default"].slider()
 _another_js__WEBPACK_IMPORTED_MODULE_0__["default"].getModule()
 
