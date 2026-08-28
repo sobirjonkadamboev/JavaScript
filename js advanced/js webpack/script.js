@@ -1,6 +1,11 @@
-import modules from './another.js'
+const modules = {
+    getModule() {
+        console.log('New Tabs')
+    },
 
-const moduleInstance = new modules()
+    slider() {
+        console.log('Slider')
+    }
+}
 
-moduleInstance.slider()
-moduleInstance.tabs
+export default modules
