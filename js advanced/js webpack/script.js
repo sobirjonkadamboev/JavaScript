@@ -1,6 +1,6 @@
 import modules from './another.js'
 
-const moduleInstance = modules()
+const moduleInstance = modules
 
 moduleInstance.slider()
 moduleInstance.getModule()
