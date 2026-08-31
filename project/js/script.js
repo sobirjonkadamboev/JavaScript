@@ -7,6 +7,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	const loaderWrapper = document.querySelector('.loader-wrapper')
 
+	setTimeout(() => {
+		loaderWrapper.style.display = 'none'
+	}, 1500)
+
 	// Timer
 
 	const deadline = '2024-02-01'
