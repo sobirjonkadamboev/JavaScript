@@ -318,3 +318,4 @@ window.addEventListener('DOMContentLoaded', () => {
 
 //NPM - node package manager
 //eslint - koddagi xatolarni analiz qilib, tez topishga yordam beradi
+//async - bir narsa bajarilishdan oldin bir nechta ish qilsa bo'ladi
